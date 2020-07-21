@@ -1,1 +1,157 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+* {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background: #fff;
+}
+
+body header nav.navbar {
+  padding: 59px 63px 7px 30px;
+}
+
+body header nav.navbar a.navbar-brand {
+  font-size: 14px;
+  line-height: 1.14;
+  color: #000000;
+}
+
+body header nav.navbar a.navbar-brand p {
+  padding: 0 38px 0 12px;
+}
+
+body header nav.navbar div {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+body header nav.navbar div ul li {
+  padding: 0 11px;
+}
+
+body header nav.navbar div ul li a.nav-link {
+  line-height: 2;
+  color: #000 !important;
+}
+
+body header nav.navbar div ul li:nth-child(1) a.nav-link {
+  border-bottom: 2px solid #ce0000;
+}
+
+body header nav.navbar div ul li:nth-child(2) a.nav-link {
+  color: #7f7f7f !important;
+}
+
+body header nav.navbar div ul li:nth-child(3) a.nav-link {
+  border-bottom: 2px solid #1e9cd8;
+}
+
+body header nav.navbar div ul li:nth-child(4) a.nav-link {
+  border-bottom: 2px solid #4d6360;
+}
+
+body header nav.navbar div ul li:nth-child(5) a.nav-link {
+  border-bottom: 2px solid #d82399;
+}
+
+body header nav.navbar div ul li:nth-child(6) a.nav-link {
+  border-bottom: 2px solid #2943dd;
+}
+
+body header nav.navbar div ul li:nth-child(7) a.nav-link {
+  border-bottom: 2px solid #3c7ce6;
+}
+
+body header nav.navbar div ul li:nth-child(8) a.nav-link {
+  border-bottom: 2px solid #fbac19;
+}
+
+body header nav.navbar div ul li:nth-child(9) {
+  background: #f9da08;
+  border-radius: 16px;
+  padding: 0 16px;
+  margin-left: 24px;
+}
+
+body header nav.navbar div ul li:nth-child(9) a.nav-link {
+  margin-top: 1px;
+}
+
+body header nav.navbar div div:last-of-type {
+  font-size: 12px;
+  line-height: 1.67;
+}
+
+body header nav.navbar div div:last-of-type a {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 0.67;
+  color: #000000;
+}
+
+body main {
+  padding: 0 30px;
+}
+
+body main .owl-carousel .item {
+  background: url("../img/carousel_img_fone.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 76vh;
+}
+
+body main .owl-carousel .owl-dots {
+  position: absolute;
+  left: 104px;
+  bottom: 68px;
+}
+
+body main .owl-carousel .owl-dots .owl-dot span {
+  width: 16px;
+  height: 16px;
+  border: solid 1px #fff;
+  background-color: transparent;
+}
+
+body main .owl-carousel .owl-dots .owl-dot.active span {
+  background-color: #fff;
+}
+
+body main section.production {
+  padding: 129px 0 70px 30px;
+}
+
+body main section.production div div a {
+  border-radius: 30px;
+  background-color: #e6e6e6;
+  width: 159px;
+  height: 60px;
+}
+
+body main section.shares {
+  padding: 70px 0 70px 30px;
+}
+
+body main section.portfolio {
+  padding: 70px 0 70px 30px;
+}
+
+body main section.reviews {
+  padding: 70px 0 70px 30px;
+}
+
+body main section.chatter_block {
+  padding: 70px 0 70px 30px;
+}
+
+body main section.constructor {
+  padding: 70px 0 70px 30px;
+}
+/*# sourceMappingURL=style.css.map */
