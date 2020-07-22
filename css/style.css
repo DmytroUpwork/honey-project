@@ -7,6 +7,24 @@ a:hover {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h4 {
+  padding: 0 0 26px 0;
+  color: #6e6e6e;
+}
+
 body {
   font-family: 'Noto Sans', sans-serif;
   background: #fff;
@@ -105,6 +123,19 @@ body main .owl-carousel .item {
   background-size: cover;
   background-position: center;
   height: 76vh;
+  font-size: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .owl-carousel .item div {
+  color: #fff;
+  line-height: 100px;
+  padding-left: 103px;
 }
 
 body main .owl-carousel .owl-dots {
@@ -124,34 +155,186 @@ body main .owl-carousel .owl-dots .owl-dot.active span {
   background-color: #fff;
 }
 
-body main section.production {
+.row_icon .row {
+  margin: 0;
+}
+
+.row_icon .row div {
+  padding: 0;
+}
+
+.row_icon .row div div {
+  height: 285px;
+  margin: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  padding: 31px 32px;
+}
+
+.row_icon .row div div:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#00000036), to(#00000000));
+  background-image: linear-gradient(to top, #00000036, #00000000);
+}
+
+section.production {
   padding: 129px 0 70px 30px;
 }
 
-body main section.production div div a {
-  border-radius: 30px;
-  background-color: #e6e6e6;
-  width: 159px;
-  height: 60px;
+section.production div div:first-child div form button {
+  border-radius: 40px;
+  border: none;
+  background: #e6e6e6;
+  padding: 19px 28px;
+  margin: 0 18px 25px 0;
+  font-size: 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
-body main section.shares {
+section.production div div:first-child div form button:hover {
+  background: #f9da08;
+}
+
+section.production div div:first-child form.submit_application button {
+  border-radius: 40px;
+  border: none;
+  background: #f9da08;
+  padding: 19px 28px;
+  font-size: 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+section.production div div.row_icon .row div:nth-child(1) div {
+  background: url("../img/internal_img_1.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.production div div.row_icon .row div:nth-child(2) div {
+  background: url("../img/internal_img_2.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.production div div.row_icon .row div:nth-child(3) div {
+  background: url("../img/internal_img_3.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.production div div.row_icon .row div:nth-child(4) div {
+  background: url("../img/internal_img_4.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.production div div.row_icon .row div:nth-child(5) div {
+  background: url("../img/internal_img_5.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.production div div.row_icon .row div:nth-child(6) div {
+  background: url("../img/internal_img_6.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.production div div.row_icon .row div:nth-child(7) div {
+  background: url("../img/internal_img_7.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.production div div.row_icon .row div:nth-child(8) div {
+  background: url("../img/internal_img_8.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.shares {
   padding: 70px 0 70px 30px;
 }
 
-body main section.portfolio {
+section.shares div div.row_icon .row div:nth-child(1) div {
+  background: url("../img/internal_img_1.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.shares div div.row_icon .row div:nth-child(2) div {
+  background: url("../img/internal_img_2.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.portfolio {
   padding: 70px 0 70px 30px;
 }
 
-body main section.reviews {
+section.portfolio div div.row_icon .row div:nth-child(1) div {
+  background: url("../img/portfolio_img_case.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.portfolio div div.row_icon .row div:nth-child(2) div {
+  background: url("../img/portfolio_img_case.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.portfolio div div.row_icon .row div:nth-child(3) div {
+  background: url("../img/portfolio_img_case.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.portfolio div div.row_icon .row div:nth-child(4) div {
+  background: url("../img/portfolio_img_case.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.reviews {
   padding: 70px 0 70px 30px;
 }
 
-body main section.chatter_block {
+section.reviews div div.row_icon .row div:nth-child(1) div {
+  background: url("../img/reviews_internal_1.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.reviews div div.row_icon .row div:nth-child(2) div {
+  background: url("../img/reviews_internal_2.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.reviews div div.row_icon .row div:nth-child(3) div {
+  background: url("../img/reviews_internal_3.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.chatter_block {
   padding: 70px 0 70px 30px;
 }
 
-body main section.constructor {
+section.chatter_block .row div:first-child h4 {
+  width: 85%;
+  line-height: 1.6;
+}
+
+section.chatter_block .row div:last-child h2 {
+  padding: 21px 0 26px 0;
+}
+
+section.chatter_block .row div:last-child h5 {
+  color: #3da100;
+}
+
+section.chatter_block .row div:last-child p {
+  line-height: 1.7;
+  margin-bottom: 34px;
+}
+
+section.constructor {
   padding: 70px 0 70px 30px;
 }
 /*# sourceMappingURL=style.css.map */

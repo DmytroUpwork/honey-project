@@ -5,6 +5,18 @@
 a:hover 
   text-decoration: none
 
+img 
+  width: 100%
+
+h1
+  font-size: 60px
+  margin-bottom: 2.5rem
+h2 
+  font-weight: 700
+h4 
+  padding: 0 0 26px 0
+  color: #6e6e6e
+
 body 
   font-family: 'Noto Sans', sans-serif
   background: #fff
@@ -64,7 +76,6 @@ body
             font-weight: bold
             line-height: 0.67
             color: #000000
-
   main 
     padding: 0 30px
     .owl-carousel 
@@ -73,6 +84,13 @@ body
         background-size: cover
         background-position: center 
         height: 76vh
+        font-size: 80px
+        display: flex
+        align-items: center
+        div
+          color: #fff
+          line-height: 100px
+          padding-left: 103px
       .owl-dots 
         position: absolute
         left: 104px
@@ -86,35 +104,205 @@ body
           &.active 
             span
               background-color: #fff
-    // секция "Что мы производим"
-    section.production
-      padding: 129px 0 70px 30px
+.row_icon
+  .row 
+    margin: 0
+    div
+      padding: 0
+      div  
+        height: 285px
+        margin: 15px
+        border-radius: 10px
+        overflow: hidden
+        position: relative
+        padding: 31px 32px
+        &:after 
+          content: ''
+          position: absolute
+          width: 100%
+          height: 100%
+          top: 0
+          left: 0
+          background-image: linear-gradient(to top, #00000036, #00000000)
+// секция "Что мы производим"
+section.production
+  padding: 129px 0 70px 30px
+  div
+    div:first-child
       div
+        form 
+          button
+            border-radius: 40px
+            border: none
+            background: #e6e6e6
+            padding: 19px 28px
+            margin: 0 18px 25px 0
+            font-size: 20px
+            transition: 0.2s
+            &:hover
+              background: #f9da08
+      form.submit_application
+        button
+          border-radius: 40px
+          border: none
+          background: #f9da08
+          padding: 19px 28px
+          font-size: 20px
+          transition: 0.2s
+          position: absolute
+          bottom: 15px
+          left: 20px
+    div.row_icon 
+      .row 
         div 
-          h2 
+          div 
+          //блок 1-й ==========
+          &:nth-child(1)
+            div 
+              background: url('../img/internal_img_1.jpg') no-repeat
+              background-size: cover
+          //блок 2-й ==========
+          &:nth-child(2)
+            div 
+              background: url('../img/internal_img_2.jpg') no-repeat
+              background-size: cover
+          //блок 3-й ==========
+          &:nth-child(3)
+            div 
+              background: url('../img/internal_img_3.jpg') no-repeat
+              background-size: cover
+          //блок 4-й ==========
+          &:nth-child(4)
+            div 
+              background: url('../img/internal_img_4.jpg') no-repeat
+              background-size: cover
+          //блок 5-й ==========
+          &:nth-child(5)
+            div 
+              background: url('../img/internal_img_5.jpg') no-repeat
+              background-size: cover
+          //блок 6-й ==========
+          &:nth-child(6)
+            div 
+              background: url('../img/internal_img_6.jpg') no-repeat
+              background-size: cover
+          //блок 7-й ==========
+          &:nth-child(7) 
+            div
+              background: url('../img/internal_img_7.jpg') no-repeat
+              background-size: cover
+          //блок 8-й ==========
+          &:nth-child(8) 
+            div
+              background: url('../img/internal_img_8.jpg') no-repeat
+              background-size: cover
+// Секция акции =========
+section.shares
+  padding: 70px 0 70px 30px
+  div
+    div.row_icon 
+      .row 
+        div 
+          div 
+          //блок 1-й ==========
+          &:nth-child(1)
+            div 
+              background: url('../img/internal_img_1.jpg') no-repeat
+              background-size: cover
+          //блок 2-й ==========
+          &:nth-child(2)
+            div 
+              background: url('../img/internal_img_2.jpg') no-repeat
+              background-size: cover
+  
+// секция "Портфолио"
+section.portfolio
+  padding: 70px 0 70px 30px
+  div
+    div.row_icon 
+      .row 
+        div 
+          div 
+          //блок 1-й ==========
+          &:nth-child(1)
+            div 
+              background: url('../img/portfolio_img_case.jpg') no-repeat
+              background-size: cover
+          //блок 2-й ==========
+          &:nth-child(2)
+            div 
+              background: url('../img/portfolio_img_case.jpg') no-repeat
+              background-size: cover
+          //блок 3-й ==========
+          &:nth-child(3)
+            div 
+              background: url('../img/portfolio_img_case.jpg') no-repeat
+              background-size: cover
+          //блок 4-й ==========
+          &:nth-child(4)
+            div 
+              background: url('../img/portfolio_img_case.jpg') no-repeat
+              background-size: cover
+  
+// секция "Отзывы"
+section.reviews
+  padding: 70px 0 70px 30px
+  div
+    div.row_icon 
+      .row 
+        div 
+          div 
+          //блок 1-й ==========
+          &:nth-child(1)
+            div 
+              background: url('../img/reviews_internal_1.jpg') no-repeat
+              background-size: cover
+          //блок 2-й ==========
+          &:nth-child(2)
+            div 
+              background: url('../img/reviews_internal_2.jpg') no-repeat
+              background-size: cover
+          //блок 3-й ==========
+          &:nth-child(3)
+            div 
+              background: url('../img/reviews_internal_3.jpg') no-repeat
+              background-size: cover
+// секция "Блок с болтовней"
+section.chatter_block
+  padding: 70px 0 70px 30px
+  .row 
+    div:first-child 
+      h4 
+        width: 85%
+        line-height: 1.6
+    div:last-child 
+      h2 
+        padding: 21px 0 26px 0
+      h5 
+        color: #3da100
+      p 
+        line-height: 1.7
+        margin-bottom: 34px
+  
+  
 
-          p 
 
-          a
-            border-radius: 30px
-            background-color: #e6e6e6
-            width: 159px
-            height: 60px
-    // секция "Акции"
-    section.shares
-      padding: 70px 0 70px 30px
-      // секция "Портфолио"
-    section.portfolio
-      padding: 70px 0 70px 30px
-      // секция "Отзывы"
-    section.reviews
-      padding: 70px 0 70px 30px
-      // секция "Блок с болтовней"
-    section.chatter_block
-      padding: 70px 0 70px 30px
-      // секция "Конструктор"
-    section.constructor
-      padding: 70px 0 70px 30px
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // секция "Конструктор"
+section.constructor
+  padding: 70px 0 70px 30px
              
 
 
