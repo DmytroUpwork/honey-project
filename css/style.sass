@@ -12,7 +12,7 @@ img
 h1
   font-size: 60px
   margin-bottom: 2.5rem
-h2 
+h2:not(.news_block_h2_footer)
   font-weight: 700
 h4 
   padding: 0 0 26px 0
@@ -73,14 +73,6 @@ body
               margin-left: 24px
               a.nav-link
                 margin-top: 1px
-        div:last-of-type
-          font-size: 12px
-          line-height: 1.67
-          a 
-            font-size: 24px
-            font-weight: bold
-            line-height: 0.67
-            color: #000000
   main 
     padding: 0 30px
     .owl-carousel 
@@ -146,17 +138,6 @@ section.production
             transition: 0.2s
             &:hover
               background: #f9da08
-      form.submit_application
-        button
-          border-radius: 40px
-          border: none
-          background: #f9da08
-          padding: 19px 28px
-          font-size: 20px
-          transition: 0.2s
-          position: absolute
-          bottom: 15px
-          left: 20px
     div.row_icon 
       .row 
         div 
@@ -296,7 +277,7 @@ section.chatter_block
         font-family: 'Open Sans', sans-serif
 // секция "Конструктор"
 section.constructor
-  padding: 70px 0 70px 30px
+  padding: 70px 0 110px 30px
   .row 
     div:first-child 
     div:last-child 
@@ -304,7 +285,87 @@ section.constructor
       img 
         width: 96%
 footer 
-  padding: 0 30px
+  padding: 70px 30px 110px 30px
+  position: relative
+  &:before 
+    content: ''
+    border: solid 1px #aaa
+    position: absolute
+    top: 0
+    width: 97%
+  >.row 
+    >div:first-of-type 
+      padding: 0 55px 0 58px
+      p 
+        font-size: 20px
+        line-height: 33px
+      h2:after 
+        content: ''
+        opacity: 0.5
+        border: solid 1px #000000
+        display: block
+        width: 44.5%
+        margin: 2px 0 17px 2px
+      >strong 
+        font-size: 12px
+  .social_icons_email 
+    div:last-of-type 
+      a 
+        font-family: Myriad Pro
+        font-size: 20px
+        color: #000
+        &:after 
+          content: '' 
+          width: 25%
+          opacity: 0.5
+          border: solid 1px #000
+          display: block
+  .address_map 
+    p 
+      padding-top: 70px
+      font-family: Myriad Pro
+      font-size: 20px;
+
+
+
+
+
+
+.tel_number_1,
+.tel_number_2
+  a 
+    line-height: 0.67
+    color: #000000
+.tel_number_1
+  font-size: 12px
+  line-height: 1.67
+  a 
+    font-size: 24px
+    font-weight: bold
+    line-height: 0.67
+.tel_number_2
+  font-size: 20px
+  line-height: 3.7
+  a 
+    font-size: 60px
+
+
+
+form.submit_application_1, 
+form.submit_application_2
+  button
+    border-radius: 40px
+    border: none
+    background: #f9da08
+    padding: 19px 28px
+    font-size: 20px
+    transition: 0.2s
+form.submit_application_1
+  position: absolute
+  bottom: 15px
+  left: 20px
+form.submit_application_2
+  margin: 9px 0 0 0
 
 
 // спрайт svg ==============

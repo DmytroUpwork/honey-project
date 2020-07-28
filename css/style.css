@@ -17,7 +17,7 @@ h1 {
   margin-bottom: 2.5rem;
 }
 
-h2 {
+h2:not(.news_block_h2_footer) {
   font-weight: 700;
 }
 
@@ -109,18 +109,6 @@ body header nav.navbar div ul li:nth-child(9) a.nav-link {
   margin-top: 1px;
 }
 
-body header nav.navbar div div:last-of-type {
-  font-size: 12px;
-  line-height: 1.67;
-}
-
-body header nav.navbar div div:last-of-type a {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 0.67;
-  color: #000000;
-}
-
 body main {
   padding: 0 30px;
 }
@@ -207,19 +195,6 @@ section.production div div:first-child div form button {
 
 section.production div div:first-child div form button:hover {
   background: #f9da08;
-}
-
-section.production div div:first-child form.submit_application button {
-  border-radius: 40px;
-  border: none;
-  background: #f9da08;
-  padding: 19px 28px;
-  font-size: 20px;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  position: absolute;
-  bottom: 15px;
-  left: 20px;
 }
 
 section.production div div.row_icon .row div:nth-child(1) div {
@@ -351,7 +326,7 @@ section.chatter_block .row div:last-child p {
 }
 
 section.constructor {
-  padding: 70px 0 70px 30px;
+  padding: 70px 0 110px 30px;
 }
 
 section.constructor .row div:last-child {
@@ -363,7 +338,105 @@ section.constructor .row div:last-child img {
 }
 
 footer {
-  padding: 0 30px;
+  padding: 70px 30px 110px 30px;
+  position: relative;
+}
+
+footer:before {
+  content: '';
+  border: solid 1px #aaa;
+  position: absolute;
+  top: 0;
+  width: 97%;
+}
+
+footer > .row > div:first-of-type {
+  padding: 0 55px 0 58px;
+}
+
+footer > .row > div:first-of-type p {
+  font-size: 20px;
+  line-height: 33px;
+}
+
+footer > .row > div:first-of-type h2:after {
+  content: '';
+  opacity: 0.5;
+  border: solid 1px #000000;
+  display: block;
+  width: 44.5%;
+  margin: 2px 0 17px 2px;
+}
+
+footer > .row > div:first-of-type > strong {
+  font-size: 12px;
+}
+
+footer .social_icons_email div:last-of-type a {
+  font-family: Myriad Pro;
+  font-size: 20px;
+  color: #000;
+}
+
+footer .social_icons_email div:last-of-type a:after {
+  content: '';
+  width: 25%;
+  opacity: 0.5;
+  border: solid 1px #000;
+  display: block;
+}
+
+footer .address_map p {
+  padding-top: 70px;
+  font-family: Myriad Pro;
+  font-size: 20px;
+}
+
+.tel_number_1 a,
+.tel_number_2 a {
+  line-height: 0.67;
+  color: #000000;
+}
+
+.tel_number_1 {
+  font-size: 12px;
+  line-height: 1.67;
+}
+
+.tel_number_1 a {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 0.67;
+}
+
+.tel_number_2 {
+  font-size: 20px;
+  line-height: 3.7;
+}
+
+.tel_number_2 a {
+  font-size: 60px;
+}
+
+form.submit_application_1 button,
+form.submit_application_2 button {
+  border-radius: 40px;
+  border: none;
+  background: #f9da08;
+  padding: 19px 28px;
+  font-size: 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+form.submit_application_1 {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+form.submit_application_2 {
+  margin: 9px 0 0 0;
 }
 
 .logo {
