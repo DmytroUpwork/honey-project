@@ -469,6 +469,10 @@ form.submit_application_2 {
   background-color: #D39C74;
 }
 
+.modal-backdrop {
+  background-color: transparent;
+}
+
 .modal.show {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -480,6 +484,7 @@ form.submit_application_2 {
 
 .modal-dialog {
   max-width: 63%;
+  margin: 0 auto;
 }
 
 .modal-dialog .modal-content {
@@ -488,12 +493,14 @@ form.submit_application_2 {
       -ms-flex-direction: row;
           flex-direction: row;
   border-radius: 20px;
+  -webkit-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
   border: none;
   overflow: hidden;
 }
 
 .modal-dialog .modal-content .modal-header img {
-  height: 100%;
+  height: 101%;
 }
 
 .modal-dialog .modal-content .modal-body {
