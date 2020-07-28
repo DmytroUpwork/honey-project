@@ -150,17 +150,20 @@ body main .owl-carousel .owl-dots .owl-dot.active span {
   background-color: #fff;
 }
 
+.row_icon {
+  padding: 0;
+}
+
 .row_icon .row {
   margin: 0;
 }
 
 .row_icon .row div {
-  padding: 0;
+  padding: 15px;
 }
 
 .row_icon .row div div {
   height: 285px;
-  margin: 15px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -466,14 +469,17 @@ form.submit_application_2 {
   background-color: #D39C74;
 }
 
+.modal.show {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .modal-dialog {
   max-width: 63%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 11% auto;
 }
 
 .modal-dialog .modal-content {
@@ -491,7 +497,7 @@ form.submit_application_2 {
 }
 
 .modal-dialog .modal-content .modal-body {
-  padding: 48px 29px 0 19px;
+  padding: 68px 36px 0 24px;
 }
 
 .modal-dialog .modal-content .modal-body p {
@@ -502,10 +508,11 @@ form.submit_application_2 {
   position: absolute;
   top: 15px;
   right: 24px;
+  font-size: 40px;
 }
 
 .modal-dialog .modal-content .modal-body .modal-title {
-  line-height: 24px;
-  padding-bottom: 10px;
+  line-height: 35px;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */

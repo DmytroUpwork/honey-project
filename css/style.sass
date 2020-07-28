@@ -102,13 +102,13 @@ body
             span
               background-color: #fff
 .row_icon
+  padding: 0
   .row 
     margin: 0
     div
-      padding: 0
+      padding: 15px
       div  
         height: 285px
-        margin: 15px
         border-radius: 10px
         overflow: hidden
         position: relative
@@ -396,14 +396,11 @@ form.submit_application_2
 
 
 // стили модального окна ==============
+.modal.show 
+  display: flex!important 
+  align-items: center
 .modal-dialog 
   max-width: 63%
-  position: absolute
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
-  margin: 11% auto
   .modal-content 
     flex-direction: row
     border-radius: 20px
@@ -413,14 +410,15 @@ form.submit_application_2
       img 
         height: 100%
     .modal-body
-      padding: 48px 29px 0 19px
+      padding: 68px 36px 0 24px
       p 
         font-size: 16px
       .close 
         position: absolute
         top: 15px
         right: 24px
+        font-size: 40px
       .modal-title 
-        line-height: 24px
-        padding-bottom: 10px
+        line-height: 35px
+        padding-bottom: 20px
 
