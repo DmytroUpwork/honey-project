@@ -376,6 +376,10 @@ footer > .row > div:first-of-type > strong {
   font-size: 12px;
 }
 
+footer .social_icons_email div:last-of-type {
+  padding: 6px 0 0 7px;
+}
+
 footer .social_icons_email div:last-of-type a {
   font-family: Myriad Pro;
   font-size: 20px;
