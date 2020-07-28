@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap')
 
 * 
   outline: none
@@ -16,10 +17,14 @@ h2
 h4 
   padding: 0 0 26px 0
   color: #6e6e6e
+  overflow-wrap: break-word
+p 
+  font-size: 1.1rem
 
 body 
   font-family: 'Noto Sans', sans-serif
   background: #fff
+  color: #000
   header 
     nav.navbar
       padding: 59px 63px 7px 30px
@@ -276,34 +281,36 @@ section.chatter_block
         width: 85%
         line-height: 1.6
     div:last-child 
+      padding: 0 30px
       h2 
         padding: 21px 0 26px 0
+        font-family: 'Open Sans', sans-serif
+        font-weight: 800
       h5 
         color: #3da100
+        font-family: 'Open Sans', sans-serif
+        font-weight: 700
       p 
         line-height: 1.7
         margin-bottom: 34px
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // секция "Конструктор"
+        font-family: 'Open Sans', sans-serif
+// секция "Конструктор"
 section.constructor
   padding: 70px 0 70px 30px
-             
+  .row 
+    div:first-child 
+    div:last-child 
+      padding: 0 0 0 30px
+      img 
+        width: 96%
+footer 
+  padding: 0 30px
 
 
-  
+// спрайт svg ==============
+.logo 
+  width: 83px
+.social_icon_svg
+  width: 50px
+  height: 50px
+  margin: .5em

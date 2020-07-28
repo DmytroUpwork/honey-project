@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 * {
   outline: none;
 }
@@ -23,11 +24,17 @@ h2 {
 h4 {
   padding: 0 0 26px 0;
   color: #6e6e6e;
+  overflow-wrap: break-word;
+}
+
+p {
+  font-size: 1.1rem;
 }
 
 body {
   font-family: 'Noto Sans', sans-serif;
   background: #fff;
+  color: #000;
 }
 
 body header nav.navbar {
@@ -321,20 +328,51 @@ section.chatter_block .row div:first-child h4 {
   line-height: 1.6;
 }
 
+section.chatter_block .row div:last-child {
+  padding: 0 30px;
+}
+
 section.chatter_block .row div:last-child h2 {
   padding: 21px 0 26px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 section.chatter_block .row div:last-child h5 {
   color: #3da100;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 section.chatter_block .row div:last-child p {
   line-height: 1.7;
   margin-bottom: 34px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section.constructor {
   padding: 70px 0 70px 30px;
+}
+
+section.constructor .row div:last-child {
+  padding: 0 0 0 30px;
+}
+
+section.constructor .row div:last-child img {
+  width: 96%;
+}
+
+footer {
+  padding: 0 30px;
+}
+
+.logo {
+  width: 83px;
+}
+
+.social_icon_svg {
+  width: 50px;
+  height: 50px;
+  margin: .5em;
 }
 /*# sourceMappingURL=style.css.map */
