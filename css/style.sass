@@ -488,8 +488,9 @@ section.constructor
         width: 96%
 // секция новости в блоге 
 section.blog_news 
-  padding: 129px 0 70px 88px
+  padding: 129px 0 54px 88px
   .row 
+    border-bottom: 1px solid #aaa
     >div:first-child
       h4 
         padding: 0 0 49px 0
@@ -498,7 +499,7 @@ section.blog_news
     >div:last-child
       >div
         padding: 18px 0 40px 0
-        border-bottom: 1px solid
+        border-bottom: 1px solid #aaa
         >strong 
           font-size: 12px
         >h2 
@@ -509,10 +510,14 @@ section.blog_news
       >div:last-child 
         padding: 40px 0 40px 0
         border-bottom: none
-
+footer.template_footer 
+  padding: 0 30px 110px 116px
+  >.row  
+    &:before 
+      display: none
 footer 
   padding: 70px 30px 110px 30px
-  >.row 
+  >.row  
     position: relative
     &:before 
       content: ''
@@ -520,6 +525,9 @@ footer
       position: absolute
       top: -70px
       width: 100%
+    
+footer, .template_footer
+  >.row 
     >div:first-of-type 
       padding: 0 55px 0 58px
       p 

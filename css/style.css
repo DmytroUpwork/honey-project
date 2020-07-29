@@ -669,7 +669,11 @@ section.constructor .row div:last-child img {
 }
 
 section.blog_news {
-  padding: 129px 0 70px 88px;
+  padding: 129px 0 54px 88px;
+}
+
+section.blog_news .row {
+  border-bottom: 1px solid #aaa;
 }
 
 section.blog_news .row > div:first-child h4 {
@@ -680,7 +684,7 @@ section.blog_news .row > div:first-child h4 {
 
 section.blog_news .row > div:last-child > div {
   padding: 18px 0 40px 0;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #aaa;
 }
 
 section.blog_news .row > div:last-child > div > strong {
@@ -701,6 +705,14 @@ section.blog_news .row > div:last-child > div:last-child {
   border-bottom: none;
 }
 
+footer.template_footer {
+  padding: 0 30px 110px 116px;
+}
+
+footer.template_footer > .row:before {
+  display: none;
+}
+
 footer {
   padding: 70px 30px 110px 30px;
 }
@@ -717,74 +729,74 @@ footer > .row:before {
   width: 100%;
 }
 
-footer > .row > div:first-of-type {
+footer > .row > div:first-of-type, .template_footer > .row > div:first-of-type {
   padding: 0 55px 0 58px;
 }
 
-footer > .row > div:first-of-type p {
+footer > .row > div:first-of-type p, .template_footer > .row > div:first-of-type p {
   font-size: 20px;
   line-height: 33px;
 }
 
 @media screen and (max-width: 1500px) {
-  footer > .row > div:first-of-type p {
+  footer > .row > div:first-of-type p, .template_footer > .row > div:first-of-type p {
     font-size: 15px;
   }
 }
 
-footer > .row > div:first-of-type h2 span {
+footer > .row > div:first-of-type h2 span, .template_footer > .row > div:first-of-type h2 span {
   border-bottom: solid 1px #0000004a;
 }
 
-footer > .row > div:first-of-type > strong {
+footer > .row > div:first-of-type > strong, .template_footer > .row > div:first-of-type > strong {
   font-size: 12px;
 }
 
-footer .social_icons_email div:last-of-type {
+footer .social_icons_email div:last-of-type, .template_footer .social_icons_email div:last-of-type {
   padding: 6px 0 0 7px;
 }
 
-footer .social_icons_email div:last-of-type a {
+footer .social_icons_email div:last-of-type a, .template_footer .social_icons_email div:last-of-type a {
   font-family: Myriad Pro;
   font-size: 20px;
   color: #000;
 }
 
-footer .social_icons_email div:last-of-type a span {
+footer .social_icons_email div:last-of-type a span, .template_footer .social_icons_email div:last-of-type a span {
   border-bottom: solid 1px #0000004a;
 }
 
 @media screen and (max-width: 1500px) {
-  footer .social_icons_email div:last-of-type a {
+  footer .social_icons_email div:last-of-type a, .template_footer .social_icons_email div:last-of-type a {
     font-size: 15px;
   }
 }
 
-footer .address_map p {
+footer .address_map p, .template_footer .address_map p {
   padding-top: 70px;
   font-family: Myriad Pro;
   font-size: 20px;
 }
 
 @media screen and (max-width: 1500px) {
-  footer .address_map p {
+  footer .address_map p, .template_footer .address_map p {
     font-size: 16px;
   }
 }
 
-footer .address_map iframe {
+footer .address_map iframe, .template_footer .address_map iframe {
   width: 100%;
   height: 547px;
 }
 
-footer .social_icon_svg {
+footer .social_icon_svg, .template_footer .social_icon_svg {
   width: 42px;
   height: 42px;
   margin: .5em;
 }
 
 @media screen and (max-width: 1500px) {
-  footer .social_icon_svg {
+  footer .social_icon_svg, .template_footer .social_icon_svg {
     width: 30px;
     height: 30px;
   }
