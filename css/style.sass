@@ -37,6 +37,7 @@ body
   background: #fff
   color: #000
   overflow-x: hidden
+  
   header 
     nav.navbar
       padding: 59px 63px 7px 30px
@@ -120,6 +121,67 @@ body
           &.active 
             span
               background-color: #fff
+    // картинки главной страницы
+    .home_page
+      div
+        color: #fff
+        height: 277px
+        padding: 32px
+        a 
+          cursor: pointer
+        h3  
+          font-size: 30px
+        &:nth-child(1)
+          div 
+            background: url('../img/home_celebration.jpg') no-repeat
+            background-size: cover
+            background-position: right
+        //блок 2-й ==========
+        &:nth-child(2)
+          div 
+            background: url('../img/home_polygraphy.jpg') no-repeat
+            background-size: cover
+            background-position: right
+        //блок 3-й ==========
+        &:nth-child(3)
+          div 
+            background: url('../img/home_souvenir.jpg') no-repeat
+            background-size: cover
+            background-position: right
+        //блок 4-й ==========
+        &:nth-child(4)
+          div 
+            background: url('../img/home_leading.jpg') no-repeat
+            background-size: cover
+            background-position: right
+        //блок 5-й ==========
+        &:nth-child(5)
+          div 
+            background: url('../img/home_bouquet.jpg') no-repeat
+            background-size: cover
+            background-position: right
+        //блок 6-й ==========
+        &:nth-child(6)
+          div 
+            background: url('../img/home_portrait.jpg') no-repeat
+            background-size: cover
+            background-position: right
+        //блок 7-й ==========
+        &:nth-child(7) 
+          div
+            background: url('../img/home_consultation.jpg') no-repeat
+            background-size: cover
+            background-position: right
+        //блок 8-й ==========
+        &:nth-child(8) 
+          div
+            background: url('../img/home_business_events.jpg') no-repeat
+            background-size: cover
+            background-position: right
+        &:nth-child(9) 
+          div
+            color: #000
+            padding: 24px 32px
 .row_icon
   padding: 0
   .row 
@@ -481,6 +543,7 @@ form.submit_application_2
   right: -370px
   z-index: 9
   transition: 0.5s
+  display: block
   >button 
     position: absolute
     right: 8%

@@ -212,6 +212,73 @@ body main .owl-carousel .owl-dots .owl-dot.active span {
   background-color: #fff;
 }
 
+body main .home_page div {
+  color: #fff;
+  height: 277px;
+  padding: 32px;
+}
+
+body main .home_page div a {
+  cursor: pointer;
+}
+
+body main .home_page div h3 {
+  font-size: 30px;
+}
+
+body main .home_page div:nth-child(1) div {
+  background: url("../img/home_celebration.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+body main .home_page div:nth-child(2) div {
+  background: url("../img/home_polygraphy.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+body main .home_page div:nth-child(3) div {
+  background: url("../img/home_souvenir.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+body main .home_page div:nth-child(4) div {
+  background: url("../img/home_leading.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+body main .home_page div:nth-child(5) div {
+  background: url("../img/home_bouquet.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+body main .home_page div:nth-child(6) div {
+  background: url("../img/home_portrait.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+body main .home_page div:nth-child(7) div {
+  background: url("../img/home_consultation.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+body main .home_page div:nth-child(8) div {
+  background: url("../img/home_business_events.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+body main .home_page div:nth-child(9) div {
+  color: #000;
+  padding: 24px 32px;
+}
+
 .row_icon {
   padding: 0;
 }
@@ -720,6 +787,7 @@ form.submit_application_2 {
   z-index: 9;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  display: block;
 }
 
 .menu_1 > button {
