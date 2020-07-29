@@ -7,12 +7,8 @@ button:focus
   outline: none
 a:hover 
   text-decoration: none
-
 img 
   width: 100%
-
-
-
 h1
   font-size: 60px
   margin-bottom: 2.5rem
@@ -36,7 +32,6 @@ h4
     font-size: 14px
 p 
   font-size: 1.1rem
-
 body 
   font-family: 'Noto Sans', sans-serif
   background: #fff
@@ -45,7 +40,6 @@ body
   header 
     nav.navbar
       padding: 59px 63px 7px 30px
-      
       a.navbar-brand 
         font-size: 14px
         line-height: 1.14
@@ -345,13 +339,9 @@ footer
         line-height: 33px
         @media screen and (max-width: 1500px)
           font-size: 15px
-      h2:after 
-        content: ''
-        opacity: 0.5
-        border: solid 1px #000000
-        display: block
-        width: 48%
-        margin: 2px 0 17px 2px
+      h2
+        span
+          border-bottom: solid 1px #0000004a
       >strong 
         font-size: 12px
   .social_icons_email 
@@ -361,12 +351,8 @@ footer
         font-family: Myriad Pro
         font-size: 20px
         color: #000
-        &:after 
-          content: '' 
-          width: 25%
-          opacity: 0.5
-          border: solid 1px #000
-          display: block
+        span 
+          border-bottom: solid 1px #0000004a
         @media screen and (max-width: 1500px)
           font-size: 15px
   .address_map 
@@ -385,13 +371,7 @@ footer
     margin: .5em
     @media screen and (max-width: 1500px)
       width: 30px
-      height: 30px
-
-
-
-
-
-
+      height: 30px  
 .tel_number_1,
 .tel_number_2
   a 
@@ -414,9 +394,6 @@ footer
     font-size: 60px
     @media screen and (max-width: 1500px)
       font-size: 38px
-
-
-
 form.submit_application_1, 
 form.submit_application_2
   button
@@ -439,16 +416,10 @@ form.submit_application_1
 form.submit_application_2
   margin: 9px 0 0 0
 
-
 // спрайт svg ==============
 .logo 
   width: 58px
   height: 53px
-
-
-
-
-
 
 // полоса прокрутки ============
 ::-webkit-scrollbar 
@@ -457,10 +428,6 @@ form.submit_application_2
 ::-webkit-scrollbar-thumb 
   border-radius: 2px
   background-color: #D39C74
-
-
-
-
 
 // стили модального окна ==============
 .modal-backdrop 
@@ -504,9 +471,6 @@ form.submit_application_2
           font-size: 18px 
           line-height: 25px
 
-
-
-
 // меню выдвигающееся
 .menu_1 
   width: 300px
@@ -535,8 +499,7 @@ form.submit_application_2
     .nav-link
       color: #000
   .box_form 
-    padding: 24px 30px
-      
+    padding: 24px 30px   
   .button_menu 
     width: 30px
     height: 30px
@@ -587,15 +550,11 @@ form.submit_application_2
   p 
     line-height: 16px 
     font-size: 12px
-
 .hidden_menu_1 
   right: 1.5%
-
 .position_menu_button 
   left: -5%!important
   top: 2%!important
-
-
 .navbar_line_active_1, 
 .navbar_line_active_2
   width: 10px!important
@@ -606,15 +565,11 @@ form.submit_application_2
   transform: rotate(45deg) 
 .navbar_line_active_3
   opacity: 0
-
 .navbar_line_mobile_active_1, 
 .navbar_line_mobile_active_2
   position: absolute
-  // width: 10px!important
-  // margin: 0!important
 .navbar_line_mobile_active_1 
   transform: rotate(-45deg)
-  
   top: 50%
 .navbar_line_mobile_active_2
   transform: rotate(45deg) 

@@ -473,13 +473,8 @@ footer > .row > div:first-of-type p {
   }
 }
 
-footer > .row > div:first-of-type h2:after {
-  content: '';
-  opacity: 0.5;
-  border: solid 1px #000000;
-  display: block;
-  width: 48%;
-  margin: 2px 0 17px 2px;
+footer > .row > div:first-of-type h2 span {
+  border-bottom: solid 1px #0000004a;
 }
 
 footer > .row > div:first-of-type > strong {
@@ -496,12 +491,8 @@ footer .social_icons_email div:last-of-type a {
   color: #000;
 }
 
-footer .social_icons_email div:last-of-type a:after {
-  content: '';
-  width: 25%;
-  opacity: 0.5;
-  border: solid 1px #000;
-  display: block;
+footer .social_icons_email div:last-of-type a span {
+  border-bottom: solid 1px #0000004a;
 }
 
 @media screen and (max-width: 1500px) {
