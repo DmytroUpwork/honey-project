@@ -32,15 +32,17 @@ h4
     font-size: 14px
 p 
   font-size: 1.1rem
-body 
+html, body
   font-family: 'Noto Sans', sans-serif
   background: #fff
   color: #000
   overflow-x: hidden
+  position: relative
   
   header 
     nav.navbar
       padding: 59px 63px 7px 30px
+      justify-content: space-between
       a.navbar-brand 
         font-size: 14px
         line-height: 1.14
@@ -89,6 +91,8 @@ body
                 margin-top: 1px
           @media screen and (max-width: 1500px)
             display: none
+
+
   main 
     padding: 0 30px
     .owl-carousel 
@@ -482,14 +486,14 @@ section.constructor
         width: 96%
 footer 
   padding: 70px 30px 110px 30px
-  position: relative
-  &:before 
-    content: ''
-    border: solid 1px #aaa
-    position: absolute
-    top: 0
-    width: 97%
   >.row 
+    position: relative
+    &:before 
+      content: ''
+      border: solid 1px #aaa
+      position: absolute
+      top: -70px
+      width: 100%
     >div:first-of-type 
       padding: 0 55px 0 58px
       p 
@@ -659,7 +663,7 @@ form.submit_application_2
       color: #000
   .box_form 
     padding: 24px 30px   
-  .button_menu 
+  .button_menu
     width: 30px
     height: 30px
     border: solid 1px #bfbfbf
@@ -677,6 +681,8 @@ form.submit_application_2
       display: block
       width: 16px
       margin: 1.5px 0
+  // .button_menu_home 
+  //   left: -192%
   h3 
     margin-bottom: 20px
     font-size: 24px
