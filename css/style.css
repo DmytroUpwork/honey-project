@@ -35,6 +35,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
   background: #fff;
   color: #000;
+  overflow-x: hidden;
 }
 
 body header nav.navbar {
@@ -536,9 +537,33 @@ form.submit_application_2 {
   top: 43px;
   right: -18%;
   z-index: 9;
-  padding: 24px 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.menu_1 > button {
+  position: absolute;
+  right: 8%;
+  top: 2%;
+}
+
+.menu_1 > button span {
+  background-color: red;
+}
+
+.menu_1 .navbar-nav {
+  font-size: 20px;
+  line-height: 46px;
+  border-bottom: 1px solid #000;
+  padding: 24px 30px;
+}
+
+.menu_1 .navbar-nav .nav-link {
+  color: #000;
+}
+
+.menu_1 .box_form {
+  padding: 24px 30px;
 }
 
 .menu_1 .button_menu {
@@ -548,7 +573,8 @@ form.submit_application_2 {
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
-  left: -103px;
+  left: -35%;
+  top: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -623,6 +649,7 @@ form.submit_application_2 {
 
 .position_menu_button {
   left: -5% !important;
+  top: 2% !important;
 }
 
 .navbar_line_active_1,
