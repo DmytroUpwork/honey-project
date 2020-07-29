@@ -25,6 +25,7 @@ $(document).ready(function () {
 
 });
 
+// меню выпадающее ==============================
 let $navbar_menu_toggler = document.querySelector(".button_menu"),
   $navbar_menu_collapse = document.querySelector(".menu_1"),
   $navbar_menu_mobile_toggler = document.querySelector(".navbar-toggler"),
@@ -46,4 +47,20 @@ function navbar_button_menu_mobile_line(event) {
   $navbar_button_menu_mobile_line[0].classList.toggle("navbar_line_mobile_active_1");
   $navbar_button_menu_mobile_line[2].classList.toggle("navbar_line_mobile_active_2");
   $navbar_button_menu_mobile_line[1].classList.toggle("navbar_line_mobile_active_3");
+};
+
+// пагинация страниц ==========================
+window.onload = function () {
+  var paginationPage = parseInt($(".cdp").attr("actpage"), 10);
+  $(".cdp_i").on("click", function () {
+    var go = $(this).attr("href").replace("#!", "");
+    if (go === "+1") {
+      paginationPage++;
+    } else if (go === "-1") {
+      paginationPage--;
+    } else {
+      paginationPage = parseInt(go, 10);
+    }
+    $(".cdp").attr("actpage", paginationPage);
+  });
 };

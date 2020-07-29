@@ -679,7 +679,7 @@ section.blog_news .row > div:first-child h4 {
 }
 
 section.blog_news .row > div:last-child > div {
-  padding: 18px 0 30px 0;
+  padding: 18px 0 40px 0;
   border-bottom: 1px solid;
 }
 
@@ -690,6 +690,14 @@ section.blog_news .row > div:last-child > div > strong {
 section.blog_news .row > div:last-child > div > h2 {
   margin: 13px 0 30px 0;
   font-family: Myriad Pro;
+}
+
+section.blog_news .row > div:last-child > div img {
+  padding: 0 0 29px 0;
+}
+
+section.blog_news .row > div:last-child > div:last-child {
+  padding: 40px 0 40px 0;
 }
 
 footer {
