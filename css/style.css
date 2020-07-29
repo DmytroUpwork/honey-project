@@ -698,6 +698,7 @@ section.blog_news .row > div:last-child > div img {
 
 section.blog_news .row > div:last-child > div:last-child {
   padding: 40px 0 40px 0;
+  border-bottom: none;
 }
 
 footer {

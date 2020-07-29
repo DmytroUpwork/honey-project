@@ -26,28 +26,25 @@
 
 .cdp {
   position: relative;
-  text-align: center;
+  text-align: left;
   font-size: 0;
   z-index: 6;
-  margin: 50px 0;
-  -webkit-animation: cdp-in 500ms ease both;
-          animation: cdp-in 500ms ease both;
-  animation-timeout: 200ms;
 }
 
 .cdp_i {
   font-size: 14px;
+  background: #e6e6e6;
   text-decoration: none;
   -webkit-transition: background 250ms;
   transition: background 250ms;
   display: inline-block;
   text-transform: uppercase;
-  margin: 0 3px 6px;
-  height: 38px;
-  min-width: 38px;
+  text-align: center;
+  height: 60px;
+  min-width: 60px;
   border-radius: 38px;
   border: 2px solid #fff;
-  line-height: 38px;
+  line-height: 56px;
   padding: 0;
   color: #000;
   font-weight: 700;
@@ -75,6 +72,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="1"] .cdp_i:nth-child(-1):not(:first-child):not(:nth-child(2)):after {
@@ -115,6 +113,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -131,6 +130,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="2"] .cdp_i:nth-child(0):not(:first-child):not(:nth-child(2)):after {
@@ -171,6 +171,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -187,6 +188,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="3"] .cdp_i:nth-child(1):not(:first-child):not(:nth-child(2)):after {
@@ -227,6 +229,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -243,6 +246,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="4"] .cdp_i:nth-child(2):not(:first-child):not(:nth-child(2)):after {
@@ -283,6 +287,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -299,6 +304,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="5"] .cdp_i:nth-child(3):not(:first-child):not(:nth-child(2)):after {
@@ -339,6 +345,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -355,6 +362,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="6"] .cdp_i:nth-child(4):not(:first-child):not(:nth-child(2)):after {
@@ -395,6 +403,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -411,6 +420,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="7"] .cdp_i:nth-child(5):not(:first-child):not(:nth-child(2)):after {
@@ -451,6 +461,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -467,6 +478,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="8"] .cdp_i:nth-child(6):not(:first-child):not(:nth-child(2)):after {
@@ -507,6 +519,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -523,6 +536,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="9"] .cdp_i:nth-child(7):not(:first-child):not(:nth-child(2)):after {
@@ -563,6 +577,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -579,6 +594,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="10"] .cdp_i:nth-child(8):not(:first-child):not(:nth-child(2)):after {
@@ -619,6 +635,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -635,6 +652,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="11"] .cdp_i:nth-child(9):not(:first-child):not(:nth-child(2)):after {
@@ -675,6 +693,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -691,6 +710,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="12"] .cdp_i:nth-child(10):not(:first-child):not(:nth-child(2)):after {
@@ -731,6 +751,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -747,6 +768,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="13"] .cdp_i:nth-child(11):not(:first-child):not(:nth-child(2)):after {
@@ -787,6 +809,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -803,6 +826,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="14"] .cdp_i:nth-child(12):not(:first-child):not(:nth-child(2)):after {
@@ -843,6 +867,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -859,6 +884,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="15"] .cdp_i:nth-child(13):not(:first-child):not(:nth-child(2)):after {
@@ -899,6 +925,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -915,6 +942,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="16"] .cdp_i:nth-child(14):not(:first-child):not(:nth-child(2)):after {
@@ -955,6 +983,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -971,6 +1000,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="17"] .cdp_i:nth-child(15):not(:first-child):not(:nth-child(2)):after {
@@ -1011,6 +1041,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1027,6 +1058,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="18"] .cdp_i:nth-child(16):not(:first-child):not(:nth-child(2)):after {
@@ -1067,6 +1099,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1083,6 +1116,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="19"] .cdp_i:nth-child(17):not(:first-child):not(:nth-child(2)):after {
@@ -1123,6 +1157,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1139,6 +1174,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="20"] .cdp_i:nth-child(18):not(:first-child):not(:nth-child(2)):after {
@@ -1179,6 +1215,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1195,6 +1232,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="21"] .cdp_i:nth-child(19):not(:first-child):not(:nth-child(2)):after {
@@ -1235,6 +1273,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1251,6 +1290,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="22"] .cdp_i:nth-child(20):not(:first-child):not(:nth-child(2)):after {
@@ -1291,6 +1331,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1307,6 +1348,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="23"] .cdp_i:nth-child(21):not(:first-child):not(:nth-child(2)):after {
@@ -1347,6 +1389,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1363,6 +1406,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="24"] .cdp_i:nth-child(22):not(:first-child):not(:nth-child(2)):after {
@@ -1403,6 +1447,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1419,6 +1464,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="25"] .cdp_i:nth-child(23):not(:first-child):not(:nth-child(2)):after {
@@ -1459,6 +1505,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1475,6 +1522,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="26"] .cdp_i:nth-child(24):not(:first-child):not(:nth-child(2)):after {
@@ -1515,6 +1563,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1531,6 +1580,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="27"] .cdp_i:nth-child(25):not(:first-child):not(:nth-child(2)):after {
@@ -1571,6 +1621,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1587,6 +1638,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="28"] .cdp_i:nth-child(26):not(:first-child):not(:nth-child(2)):after {
@@ -1627,6 +1679,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1643,6 +1696,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="29"] .cdp_i:nth-child(27):not(:first-child):not(:nth-child(2)):after {
@@ -1683,6 +1737,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1699,6 +1754,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="30"] .cdp_i:nth-child(28):not(:first-child):not(:nth-child(2)):after {
@@ -1739,6 +1795,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1755,6 +1812,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="31"] .cdp_i:nth-child(29):not(:first-child):not(:nth-child(2)):after {
@@ -1795,6 +1853,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1811,6 +1870,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="32"] .cdp_i:nth-child(30):not(:first-child):not(:nth-child(2)):after {
@@ -1851,6 +1911,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1867,6 +1928,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="33"] .cdp_i:nth-child(31):not(:first-child):not(:nth-child(2)):after {
@@ -1907,6 +1969,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1923,6 +1986,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="34"] .cdp_i:nth-child(32):not(:first-child):not(:nth-child(2)):after {
@@ -1963,6 +2027,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -1979,6 +2044,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="35"] .cdp_i:nth-child(33):not(:first-child):not(:nth-child(2)):after {
@@ -2019,6 +2085,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2035,6 +2102,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="36"] .cdp_i:nth-child(34):not(:first-child):not(:nth-child(2)):after {
@@ -2075,6 +2143,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2091,6 +2160,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="37"] .cdp_i:nth-child(35):not(:first-child):not(:nth-child(2)):after {
@@ -2131,6 +2201,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2147,6 +2218,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="38"] .cdp_i:nth-child(36):not(:first-child):not(:nth-child(2)):after {
@@ -2187,6 +2259,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2203,6 +2276,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="39"] .cdp_i:nth-child(37):not(:first-child):not(:nth-child(2)):after {
@@ -2243,6 +2317,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2259,6 +2334,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="40"] .cdp_i:nth-child(38):not(:first-child):not(:nth-child(2)):after {
@@ -2299,6 +2375,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2315,6 +2392,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="41"] .cdp_i:nth-child(39):not(:first-child):not(:nth-child(2)):after {
@@ -2355,6 +2433,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2371,6 +2450,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="42"] .cdp_i:nth-child(40):not(:first-child):not(:nth-child(2)):after {
@@ -2411,6 +2491,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2427,6 +2508,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="43"] .cdp_i:nth-child(41):not(:first-child):not(:nth-child(2)):after {
@@ -2467,6 +2549,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2483,6 +2566,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="44"] .cdp_i:nth-child(42):not(:first-child):not(:nth-child(2)):after {
@@ -2523,6 +2607,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2539,6 +2624,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="45"] .cdp_i:nth-child(43):not(:first-child):not(:nth-child(2)):after {
@@ -2579,6 +2665,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2595,6 +2682,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="46"] .cdp_i:nth-child(44):not(:first-child):not(:nth-child(2)):after {
@@ -2635,6 +2723,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2651,6 +2740,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="47"] .cdp_i:nth-child(45):not(:first-child):not(:nth-child(2)):after {
@@ -2691,6 +2781,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2707,6 +2798,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="48"] .cdp_i:nth-child(46):not(:first-child):not(:nth-child(2)):after {
@@ -2747,6 +2839,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2763,6 +2856,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="49"] .cdp_i:nth-child(47):not(:first-child):not(:nth-child(2)):after {
@@ -2803,6 +2897,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2819,6 +2914,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="50"] .cdp_i:nth-child(48):not(:first-child):not(:nth-child(2)):after {
@@ -2859,6 +2955,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2875,6 +2972,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="51"] .cdp_i:nth-child(49):not(:first-child):not(:nth-child(2)):after {
@@ -2915,6 +3013,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2931,6 +3030,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="52"] .cdp_i:nth-child(50):not(:first-child):not(:nth-child(2)):after {
@@ -2971,6 +3071,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -2987,6 +3088,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="53"] .cdp_i:nth-child(51):not(:first-child):not(:nth-child(2)):after {
@@ -3027,6 +3129,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3043,6 +3146,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="54"] .cdp_i:nth-child(52):not(:first-child):not(:nth-child(2)):after {
@@ -3083,6 +3187,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3099,6 +3204,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="55"] .cdp_i:nth-child(53):not(:first-child):not(:nth-child(2)):after {
@@ -3139,6 +3245,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3155,6 +3262,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="56"] .cdp_i:nth-child(54):not(:first-child):not(:nth-child(2)):after {
@@ -3195,6 +3303,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3211,6 +3320,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="57"] .cdp_i:nth-child(55):not(:first-child):not(:nth-child(2)):after {
@@ -3251,6 +3361,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3267,6 +3378,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="58"] .cdp_i:nth-child(56):not(:first-child):not(:nth-child(2)):after {
@@ -3307,6 +3419,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3323,6 +3436,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="59"] .cdp_i:nth-child(57):not(:first-child):not(:nth-child(2)):after {
@@ -3363,6 +3477,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3379,6 +3494,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="60"] .cdp_i:nth-child(58):not(:first-child):not(:nth-child(2)):after {
@@ -3419,6 +3535,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3435,6 +3552,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="61"] .cdp_i:nth-child(59):not(:first-child):not(:nth-child(2)):after {
@@ -3475,6 +3593,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3491,6 +3610,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="62"] .cdp_i:nth-child(60):not(:first-child):not(:nth-child(2)):after {
@@ -3531,6 +3651,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3547,6 +3668,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="63"] .cdp_i:nth-child(61):not(:first-child):not(:nth-child(2)):after {
@@ -3587,6 +3709,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3603,6 +3726,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="64"] .cdp_i:nth-child(62):not(:first-child):not(:nth-child(2)):after {
@@ -3643,6 +3767,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3659,6 +3784,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="65"] .cdp_i:nth-child(63):not(:first-child):not(:nth-child(2)):after {
@@ -3699,6 +3825,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3715,6 +3842,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="66"] .cdp_i:nth-child(64):not(:first-child):not(:nth-child(2)):after {
@@ -3755,6 +3883,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3771,6 +3900,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="67"] .cdp_i:nth-child(65):not(:first-child):not(:nth-child(2)):after {
@@ -3811,6 +3941,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3827,6 +3958,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="68"] .cdp_i:nth-child(66):not(:first-child):not(:nth-child(2)):after {
@@ -3867,6 +3999,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3883,6 +4016,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="69"] .cdp_i:nth-child(67):not(:first-child):not(:nth-child(2)):after {
@@ -3923,6 +4057,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3939,6 +4074,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="70"] .cdp_i:nth-child(68):not(:first-child):not(:nth-child(2)):after {
@@ -3979,6 +4115,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -3995,6 +4132,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="71"] .cdp_i:nth-child(69):not(:first-child):not(:nth-child(2)):after {
@@ -4035,6 +4173,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -4051,6 +4190,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="72"] .cdp_i:nth-child(70):not(:first-child):not(:nth-child(2)):after {
@@ -4091,6 +4231,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -4107,6 +4248,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="73"] .cdp_i:nth-child(71):not(:first-child):not(:nth-child(2)):after {
@@ -4147,6 +4289,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -4163,6 +4306,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="74"] .cdp_i:nth-child(72):not(:first-child):not(:nth-child(2)):after {
@@ -4203,6 +4347,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -4219,6 +4364,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="75"] .cdp_i:nth-child(73):not(:first-child):not(:nth-child(2)):after {
@@ -4259,6 +4405,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -4275,6 +4422,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="76"] .cdp_i:nth-child(74):not(:first-child):not(:nth-child(2)):after {
@@ -4315,6 +4463,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -4331,6 +4480,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="77"] .cdp_i:nth-child(75):not(:first-child):not(:nth-child(2)):after {
@@ -4371,6 +4521,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -4387,6 +4538,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="78"] .cdp_i:nth-child(76):not(:first-child):not(:nth-child(2)):after {
@@ -4427,6 +4579,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -4443,6 +4596,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="79"] .cdp_i:nth-child(77):not(:first-child):not(:nth-child(2)):after {
@@ -4483,6 +4637,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
@@ -4499,6 +4654,7 @@
   color: transparent;
   border-color: transparent;
   width: 50px;
+  background: transparent;
 }
 
 .cdp[actpage="80"] .cdp_i:nth-child(78):not(:first-child):not(:nth-child(2)):after {
@@ -4539,6 +4695,7 @@
   pointer-events: none;
   color: transparent;
   border-color: transparent;
+  background: transparent;
   width: 50px;
 }
 
