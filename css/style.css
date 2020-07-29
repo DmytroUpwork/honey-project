@@ -79,24 +79,28 @@ html, body {
   position: relative;
 }
 
-html header nav.navbar, body header nav.navbar {
+body {
+  height: 100vh;
+}
+
+body header nav.navbar {
   padding: 59px 63px 7px 30px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-html header nav.navbar a.navbar-brand, body header nav.navbar a.navbar-brand {
+body header nav.navbar a.navbar-brand {
   font-size: 14px;
   line-height: 1.14;
   color: #000000;
 }
 
-html header nav.navbar a.navbar-brand p, body header nav.navbar a.navbar-brand p {
+body header nav.navbar a.navbar-brand p {
   padding: 0 38px 0 12px;
 }
 
-html header nav.navbar div, body header nav.navbar div {
+body header nav.navbar div {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
@@ -105,69 +109,69 @@ html header nav.navbar div, body header nav.navbar div {
           justify-content: flex-end;
 }
 
-html header nav.navbar div ul li, body header nav.navbar div ul li {
+body header nav.navbar div ul li {
   padding: 0 11px;
 }
 
-html header nav.navbar div ul li a.nav-link, body header nav.navbar div ul li a.nav-link {
+body header nav.navbar div ul li a.nav-link {
   line-height: 2;
   color: #000 !important;
 }
 
-html header nav.navbar div ul li:nth-child(1) a.nav-link, body header nav.navbar div ul li:nth-child(1) a.nav-link {
+body header nav.navbar div ul li:nth-child(1) a.nav-link {
   border-bottom: 2px solid #ce0000;
 }
 
-html header nav.navbar div ul li:nth-child(2) a.nav-link, body header nav.navbar div ul li:nth-child(2) a.nav-link {
+body header nav.navbar div ul li:nth-child(2) a.nav-link {
   color: #7f7f7f !important;
 }
 
-html header nav.navbar div ul li:nth-child(3) a.nav-link, body header nav.navbar div ul li:nth-child(3) a.nav-link {
+body header nav.navbar div ul li:nth-child(3) a.nav-link {
   border-bottom: 2px solid #1e9cd8;
 }
 
-html header nav.navbar div ul li:nth-child(4) a.nav-link, body header nav.navbar div ul li:nth-child(4) a.nav-link {
+body header nav.navbar div ul li:nth-child(4) a.nav-link {
   border-bottom: 2px solid #4d6360;
 }
 
-html header nav.navbar div ul li:nth-child(5) a.nav-link, body header nav.navbar div ul li:nth-child(5) a.nav-link {
+body header nav.navbar div ul li:nth-child(5) a.nav-link {
   border-bottom: 2px solid #d82399;
 }
 
-html header nav.navbar div ul li:nth-child(6) a.nav-link, body header nav.navbar div ul li:nth-child(6) a.nav-link {
+body header nav.navbar div ul li:nth-child(6) a.nav-link {
   border-bottom: 2px solid #2943dd;
 }
 
-html header nav.navbar div ul li:nth-child(7) a.nav-link, body header nav.navbar div ul li:nth-child(7) a.nav-link {
+body header nav.navbar div ul li:nth-child(7) a.nav-link {
   border-bottom: 2px solid #3c7ce6;
 }
 
-html header nav.navbar div ul li:nth-child(8) a.nav-link, body header nav.navbar div ul li:nth-child(8) a.nav-link {
+body header nav.navbar div ul li:nth-child(8) a.nav-link {
   border-bottom: 2px solid #fbac19;
 }
 
-html header nav.navbar div ul li:nth-child(9), body header nav.navbar div ul li:nth-child(9) {
+body header nav.navbar div ul li:nth-child(9) {
   background: #f9da08;
   border-radius: 16px;
   padding: 0 16px;
   margin-left: 24px;
 }
 
-html header nav.navbar div ul li:nth-child(9) a.nav-link, body header nav.navbar div ul li:nth-child(9) a.nav-link {
+body header nav.navbar div ul li:nth-child(9) a.nav-link {
   margin-top: 1px;
 }
 
 @media screen and (max-width: 1500px) {
-  html header nav.navbar div ul, body header nav.navbar div ul {
+  body header nav.navbar div ul {
     display: none;
   }
 }
 
-html main, body main {
+body main {
   padding: 0 30px;
 }
 
-html main .owl-carousel .item, body main .owl-carousel .item {
+body main .owl-carousel .item {
   background: url("../img/carousel_img_fone.jpg") no-repeat;
   background-size: cover;
   background-position: center;
@@ -182,63 +186,63 @@ html main .owl-carousel .item, body main .owl-carousel .item {
 }
 
 @media screen and (max-width: 1500px) {
-  html main .owl-carousel .item, body main .owl-carousel .item {
+  body main .owl-carousel .item {
     font-size: 60px;
   }
 }
 
-html main .owl-carousel .item div, body main .owl-carousel .item div {
+body main .owl-carousel .item div {
   color: #fff;
   line-height: 100px;
   padding-left: 103px;
 }
 
 @media screen and (max-width: 1500px) {
-  html main .owl-carousel .item div, body main .owl-carousel .item div {
+  body main .owl-carousel .item div {
     line-height: 71px;
   }
 }
 
-html main .owl-carousel .owl-dots, body main .owl-carousel .owl-dots {
+body main .owl-carousel .owl-dots {
   position: absolute;
   left: 104px;
   bottom: 68px;
 }
 
-html main .owl-carousel .owl-dots .owl-dot span, body main .owl-carousel .owl-dots .owl-dot span {
+body main .owl-carousel .owl-dots .owl-dot span {
   width: 16px;
   height: 16px;
   border: solid 1px #fff;
   background-color: transparent;
 }
 
-html main .owl-carousel .owl-dots .owl-dot.active span, body main .owl-carousel .owl-dots .owl-dot.active span {
+body main .owl-carousel .owl-dots .owl-dot.active span {
   background-color: #fff;
 }
 
-html main .home_page div, body main .home_page div {
+body main .home_page div {
   color: #fff;
   height: 277px;
   padding: 32px;
 }
 
 @media screen and (max-width: 1500px) {
-  html main .home_page div, body main .home_page div {
+  body main .home_page div {
     padding: 28px;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  html main .home_page div, body main .home_page div {
+  body main .home_page div {
     padding: 18px;
   }
 }
 
-html main .home_page div a, body main .home_page div a {
+body main .home_page div a {
   cursor: pointer;
 }
 
-html main .home_page div a div div.icon_in_box_home, body main .home_page div a div div.icon_in_box_home {
+body main .home_page div a div div.icon_in_box_home {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -247,7 +251,7 @@ html main .home_page div a div div.icon_in_box_home, body main .home_page div a 
   right: 7%;
 }
 
-html main .home_page div a div div.icon_in_box_home img, body main .home_page div a div div.icon_in_box_home img {
+body main .home_page div a div div.icon_in_box_home img {
   width: 30px;
   position: absolute;
   top: 0;
@@ -257,177 +261,177 @@ html main .home_page div a div div.icon_in_box_home img, body main .home_page di
   margin: auto;
 }
 
-html main .home_page div:nth-child(1) a div div, body main .home_page div:nth-child(1) a div div {
+body main .home_page div:nth-child(1) a div div {
   background-color: #ce0000;
 }
 
-html main .home_page div:nth-child(2) a div div, body main .home_page div:nth-child(2) a div div {
+body main .home_page div:nth-child(2) a div div {
   background-color: #000;
 }
 
-html main .home_page div:nth-child(3) a div div, body main .home_page div:nth-child(3) a div div {
+body main .home_page div:nth-child(3) a div div {
   background-color: #1e9cd8;
 }
 
-html main .home_page div:nth-child(4) a div div, body main .home_page div:nth-child(4) a div div {
+body main .home_page div:nth-child(4) a div div {
   background-color: blue;
   overflow: hidden;
 }
 
-html main .home_page div:nth-child(4) a div div img, body main .home_page div:nth-child(4) a div div img {
+body main .home_page div:nth-child(4) a div div img {
   width: 100%;
 }
 
-html main .home_page div:nth-child(5) a div div, body main .home_page div:nth-child(5) a div div {
+body main .home_page div:nth-child(5) a div div {
   background-color: #a64785;
 }
 
-html main .home_page div:nth-child(6) a div div, body main .home_page div:nth-child(6) a div div {
+body main .home_page div:nth-child(6) a div div {
   background-color: #ffcc00;
 }
 
-html main .home_page div:nth-child(7) a div div, body main .home_page div:nth-child(7) a div div {
+body main .home_page div:nth-child(7) a div div {
   background-color: #2e3192;
 }
 
-html main .home_page div:nth-child(8) a div div, body main .home_page div:nth-child(8) a div div {
+body main .home_page div:nth-child(8) a div div {
   background-color: #fbac19;
 }
 
-html main .home_page div h3, body main .home_page div h3 {
+body main .home_page div h3 {
   font-size: 30px;
   width: 66%;
 }
 
 @media screen and (max-width: 1600px) {
-  html main .home_page div h3, body main .home_page div h3 {
+  body main .home_page div h3 {
     font-size: 26px;
     width: 56%;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  html main .home_page div h3, body main .home_page div h3 {
+  body main .home_page div h3 {
     font-size: 23px;
   }
 }
 
-html main .home_page div:nth-child(1) div:not(.icon_in_box_home), body main .home_page div:nth-child(1) div:not(.icon_in_box_home) {
+body main .home_page div:nth-child(1) div:not(.icon_in_box_home) {
   background: url("../img/home_celebration.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
 @media screen and (max-width: 1100px) {
-  html main .home_page div:nth-child(1) div:not(.icon_in_box_home), body main .home_page div:nth-child(1) div:not(.icon_in_box_home) {
+  body main .home_page div:nth-child(1) div:not(.icon_in_box_home) {
     background-position: center;
   }
 }
 
-html main .home_page div:nth-child(2) div:not(.icon_in_box_home), body main .home_page div:nth-child(2) div:not(.icon_in_box_home) {
+body main .home_page div:nth-child(2) div:not(.icon_in_box_home) {
   background: url("../img/home_polygraphy.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
 @media screen and (max-width: 1100px) {
-  html main .home_page div:nth-child(2) div:not(.icon_in_box_home), body main .home_page div:nth-child(2) div:not(.icon_in_box_home) {
+  body main .home_page div:nth-child(2) div:not(.icon_in_box_home) {
     background-position: center;
   }
 }
 
-html main .home_page div:nth-child(3) div:not(.icon_in_box_home), body main .home_page div:nth-child(3) div:not(.icon_in_box_home) {
+body main .home_page div:nth-child(3) div:not(.icon_in_box_home) {
   background: url("../img/home_souvenir.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
 @media screen and (max-width: 1100px) {
-  html main .home_page div:nth-child(3) div:not(.icon_in_box_home), body main .home_page div:nth-child(3) div:not(.icon_in_box_home) {
+  body main .home_page div:nth-child(3) div:not(.icon_in_box_home) {
     background-position: center;
   }
 }
 
-html main .home_page div:nth-child(4) div:not(.icon_in_box_home), body main .home_page div:nth-child(4) div:not(.icon_in_box_home) {
+body main .home_page div:nth-child(4) div:not(.icon_in_box_home) {
   background: url("../img/home_leading.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
 @media screen and (max-width: 1100px) {
-  html main .home_page div:nth-child(4) div:not(.icon_in_box_home), body main .home_page div:nth-child(4) div:not(.icon_in_box_home) {
+  body main .home_page div:nth-child(4) div:not(.icon_in_box_home) {
     background-position: center;
   }
 }
 
-html main .home_page div:nth-child(5) div:not(.icon_in_box_home), body main .home_page div:nth-child(5) div:not(.icon_in_box_home) {
+body main .home_page div:nth-child(5) div:not(.icon_in_box_home) {
   background: url("../img/home_bouquet.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
 @media screen and (max-width: 1100px) {
-  html main .home_page div:nth-child(5) div:not(.icon_in_box_home), body main .home_page div:nth-child(5) div:not(.icon_in_box_home) {
+  body main .home_page div:nth-child(5) div:not(.icon_in_box_home) {
     background-position: center;
   }
 }
 
-html main .home_page div:nth-child(6) div:not(.icon_in_box_home), body main .home_page div:nth-child(6) div:not(.icon_in_box_home) {
+body main .home_page div:nth-child(6) div:not(.icon_in_box_home) {
   background: url("../img/home_portrait.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
 @media screen and (max-width: 1100px) {
-  html main .home_page div:nth-child(6) div:not(.icon_in_box_home), body main .home_page div:nth-child(6) div:not(.icon_in_box_home) {
+  body main .home_page div:nth-child(6) div:not(.icon_in_box_home) {
     background-position: center;
   }
 }
 
-html main .home_page div:nth-child(7) div:not(.icon_in_box_home), body main .home_page div:nth-child(7) div:not(.icon_in_box_home) {
+body main .home_page div:nth-child(7) div:not(.icon_in_box_home) {
   background: url("../img/home_consultation.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
 @media screen and (max-width: 1100px) {
-  html main .home_page div:nth-child(7) div:not(.icon_in_box_home), body main .home_page div:nth-child(7) div:not(.icon_in_box_home) {
+  body main .home_page div:nth-child(7) div:not(.icon_in_box_home) {
     background-position: center;
   }
 }
 
-html main .home_page div:nth-child(8) div:not(.icon_in_box_home), body main .home_page div:nth-child(8) div:not(.icon_in_box_home) {
+body main .home_page div:nth-child(8) div:not(.icon_in_box_home) {
   background: url("../img/home_business_events.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
 @media screen and (max-width: 1100px) {
-  html main .home_page div:nth-child(8) div:not(.icon_in_box_home), body main .home_page div:nth-child(8) div:not(.icon_in_box_home) {
+  body main .home_page div:nth-child(8) div:not(.icon_in_box_home) {
     background-position: center;
   }
 }
 
-html main .home_page div:nth-child(9) div, body main .home_page div:nth-child(9) div {
+body main .home_page div:nth-child(9) div {
   color: #000;
   background-color: #dfdfdf;
 }
 
-html main .home_page div:nth-child(9) div h5, body main .home_page div:nth-child(9) div h5 {
+body main .home_page div:nth-child(9) div h5 {
   font-size: 15px;
 }
 
 @media screen and (max-width: 1200px) {
-  html main .home_page div:nth-child(9) div h5, body main .home_page div:nth-child(9) div h5 {
+  body main .home_page div:nth-child(9) div h5 {
     font-size: 12px;
   }
 }
 
-html main .home_page div:nth-child(9) div > strong, body main .home_page div:nth-child(9) div > strong {
+body main .home_page div:nth-child(9) div > strong {
   font-size: 10px;
 }
 
-html main .home_page div:nth-child(9) div p, body main .home_page div:nth-child(9) div p {
+body main .home_page div:nth-child(9) div p {
   font-size: 14px;
 }
 
@@ -488,7 +492,7 @@ section.production {
   padding: 129px 0 70px 30px;
 }
 
-section.production div div:first-child div form button {
+section.production div div:first-child div form button, section.blog_news div div:first-child div form button {
   border-radius: 40px;
   border: none;
   background: #e6e6e6;
@@ -499,67 +503,67 @@ section.production div div:first-child div form button {
   transition: 0.2s;
 }
 
-section.production div div:first-child div form button:hover {
+section.production div div:first-child div form button:hover, section.blog_news div div:first-child div form button:hover {
   background: #f9da08;
 }
 
 @media screen and (max-width: 1500px) {
-  section.production div div:first-child div form button {
+  section.production div div:first-child div form button, section.blog_news div div:first-child div form button {
     font-size: 14px;
     padding: 12px 23px;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  section.production div div:first-child div form button {
+  section.production div div:first-child div form button, section.blog_news div div:first-child div form button {
     font-size: 12px;
     padding: 8px 19px;
   }
 }
 
 @media screen and (max-width: 1100px) {
-  section.production div div:first-child div form button {
+  section.production div div:first-child div form button, section.blog_news div div:first-child div form button {
     font-size: 10px;
     padding: 6px 17px;
   }
 }
 
-section.production div div.row_icon .row div:nth-child(1) div {
+section.production div div.row_icon .row div:nth-child(1) div, section.blog_news div div.row_icon .row div:nth-child(1) div {
   background: url("../img/internal_img_1.jpg") no-repeat;
   background-size: cover;
 }
 
-section.production div div.row_icon .row div:nth-child(2) div {
+section.production div div.row_icon .row div:nth-child(2) div, section.blog_news div div.row_icon .row div:nth-child(2) div {
   background: url("../img/internal_img_2.jpg") no-repeat;
   background-size: cover;
 }
 
-section.production div div.row_icon .row div:nth-child(3) div {
+section.production div div.row_icon .row div:nth-child(3) div, section.blog_news div div.row_icon .row div:nth-child(3) div {
   background: url("../img/internal_img_3.jpg") no-repeat;
   background-size: cover;
 }
 
-section.production div div.row_icon .row div:nth-child(4) div {
+section.production div div.row_icon .row div:nth-child(4) div, section.blog_news div div.row_icon .row div:nth-child(4) div {
   background: url("../img/internal_img_4.jpg") no-repeat;
   background-size: cover;
 }
 
-section.production div div.row_icon .row div:nth-child(5) div {
+section.production div div.row_icon .row div:nth-child(5) div, section.blog_news div div.row_icon .row div:nth-child(5) div {
   background: url("../img/internal_img_5.jpg") no-repeat;
   background-size: cover;
 }
 
-section.production div div.row_icon .row div:nth-child(6) div {
+section.production div div.row_icon .row div:nth-child(6) div, section.blog_news div div.row_icon .row div:nth-child(6) div {
   background: url("../img/internal_img_6.jpg") no-repeat;
   background-size: cover;
 }
 
-section.production div div.row_icon .row div:nth-child(7) div {
+section.production div div.row_icon .row div:nth-child(7) div, section.blog_news div div.row_icon .row div:nth-child(7) div {
   background: url("../img/internal_img_7.jpg") no-repeat;
   background-size: cover;
 }
 
-section.production div div.row_icon .row div:nth-child(8) div {
+section.production div div.row_icon .row div:nth-child(8) div, section.blog_news div div.row_icon .row div:nth-child(8) div {
   background: url("../img/internal_img_8.jpg") no-repeat;
   background-size: cover;
 }
@@ -662,6 +666,30 @@ section.constructor .row div:last-child {
 
 section.constructor .row div:last-child img {
   width: 96%;
+}
+
+section.blog_news {
+  padding: 129px 0 70px 88px;
+}
+
+section.blog_news .row > div:first-child h4 {
+  padding: 0 0 49px 0;
+  line-height: 1.5;
+  width: 90%;
+}
+
+section.blog_news .row > div:last-child > div {
+  padding: 18px 0 30px 0;
+  border-bottom: 1px solid;
+}
+
+section.blog_news .row > div:last-child > div > strong {
+  font-size: 12px;
+}
+
+section.blog_news .row > div:last-child > div > h2 {
+  margin: 13px 0 30px 0;
+  font-family: Myriad Pro;
 }
 
 footer {

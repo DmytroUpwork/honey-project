@@ -38,7 +38,8 @@ html, body
   color: #000
   overflow-x: hidden
   position: relative
-  
+body 
+  height: 100vh
   header 
     nav.navbar
       padding: 59px 63px 7px 30px
@@ -315,6 +316,7 @@ html, body
 // секция "Что мы производим"
 section.production
   padding: 129px 0 70px 30px
+section.production, section.blog_news
   div
     div:first-child
       div
@@ -484,6 +486,25 @@ section.constructor
       padding: 0 0 0 30px
       img 
         width: 96%
+// секция новости в блоге 
+section.blog_news 
+  padding: 129px 0 70px 88px
+  .row 
+    >div:first-child
+      h4 
+        padding: 0 0 49px 0
+        line-height: 1.5
+        width: 90%
+    >div:last-child
+      >div
+        padding: 18px 0 30px 0
+        border-bottom: 1px solid
+        >strong 
+          font-size: 12px
+        >h2 
+          margin: 13px 0 30px 0
+          font-family: Myriad Pro
+
 footer 
   padding: 70px 30px 110px 30px
   >.row 
