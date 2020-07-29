@@ -218,65 +218,213 @@ body main .home_page div {
   padding: 32px;
 }
 
+@media screen and (max-width: 1500px) {
+  body main .home_page div {
+    padding: 28px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body main .home_page div {
+    padding: 18px;
+  }
+}
+
 body main .home_page div a {
   cursor: pointer;
 }
 
-body main .home_page div h3 {
-  font-size: 30px;
+body main .home_page div a div div.icon_in_box_home {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 12%;
+  right: 7%;
 }
 
-body main .home_page div:nth-child(1) div {
+body main .home_page div a div div.icon_in_box_home img {
+  width: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+body main .home_page div:nth-child(1) a div div {
+  background-color: #ce0000;
+}
+
+body main .home_page div:nth-child(2) a div div {
+  background-color: #000;
+}
+
+body main .home_page div:nth-child(3) a div div {
+  background-color: #1e9cd8;
+}
+
+body main .home_page div:nth-child(4) a div div {
+  background-color: blue;
+  overflow: hidden;
+}
+
+body main .home_page div:nth-child(4) a div div img {
+  width: 100%;
+}
+
+body main .home_page div:nth-child(5) a div div {
+  background-color: #a64785;
+}
+
+body main .home_page div:nth-child(6) a div div {
+  background-color: #ffcc00;
+}
+
+body main .home_page div:nth-child(7) a div div {
+  background-color: #2e3192;
+}
+
+body main .home_page div:nth-child(8) a div div {
+  background-color: #fbac19;
+}
+
+body main .home_page div h3 {
+  font-size: 30px;
+  width: 66%;
+}
+
+@media screen and (max-width: 1600px) {
+  body main .home_page div h3 {
+    font-size: 26px;
+    width: 56%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body main .home_page div h3 {
+    font-size: 23px;
+  }
+}
+
+body main .home_page div:nth-child(1) div:not(.icon_in_box_home) {
   background: url("../img/home_celebration.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
-body main .home_page div:nth-child(2) div {
+@media screen and (max-width: 1100px) {
+  body main .home_page div:nth-child(1) div:not(.icon_in_box_home) {
+    background-position: center;
+  }
+}
+
+body main .home_page div:nth-child(2) div:not(.icon_in_box_home) {
   background: url("../img/home_polygraphy.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
-body main .home_page div:nth-child(3) div {
+@media screen and (max-width: 1100px) {
+  body main .home_page div:nth-child(2) div:not(.icon_in_box_home) {
+    background-position: center;
+  }
+}
+
+body main .home_page div:nth-child(3) div:not(.icon_in_box_home) {
   background: url("../img/home_souvenir.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
-body main .home_page div:nth-child(4) div {
+@media screen and (max-width: 1100px) {
+  body main .home_page div:nth-child(3) div:not(.icon_in_box_home) {
+    background-position: center;
+  }
+}
+
+body main .home_page div:nth-child(4) div:not(.icon_in_box_home) {
   background: url("../img/home_leading.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
-body main .home_page div:nth-child(5) div {
+@media screen and (max-width: 1100px) {
+  body main .home_page div:nth-child(4) div:not(.icon_in_box_home) {
+    background-position: center;
+  }
+}
+
+body main .home_page div:nth-child(5) div:not(.icon_in_box_home) {
   background: url("../img/home_bouquet.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
-body main .home_page div:nth-child(6) div {
+@media screen and (max-width: 1100px) {
+  body main .home_page div:nth-child(5) div:not(.icon_in_box_home) {
+    background-position: center;
+  }
+}
+
+body main .home_page div:nth-child(6) div:not(.icon_in_box_home) {
   background: url("../img/home_portrait.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
-body main .home_page div:nth-child(7) div {
+@media screen and (max-width: 1100px) {
+  body main .home_page div:nth-child(6) div:not(.icon_in_box_home) {
+    background-position: center;
+  }
+}
+
+body main .home_page div:nth-child(7) div:not(.icon_in_box_home) {
   background: url("../img/home_consultation.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
-body main .home_page div:nth-child(8) div {
+@media screen and (max-width: 1100px) {
+  body main .home_page div:nth-child(7) div:not(.icon_in_box_home) {
+    background-position: center;
+  }
+}
+
+body main .home_page div:nth-child(8) div:not(.icon_in_box_home) {
   background: url("../img/home_business_events.jpg") no-repeat;
   background-size: cover;
   background-position: right;
 }
 
+@media screen and (max-width: 1100px) {
+  body main .home_page div:nth-child(8) div:not(.icon_in_box_home) {
+    background-position: center;
+  }
+}
+
 body main .home_page div:nth-child(9) div {
   color: #000;
-  padding: 24px 32px;
+  background-color: #dfdfdf;
+}
+
+body main .home_page div:nth-child(9) div h5 {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  body main .home_page div:nth-child(9) div h5 {
+    font-size: 12px;
+  }
+}
+
+body main .home_page div:nth-child(9) div > strong {
+  font-size: 10px;
+}
+
+body main .home_page div:nth-child(9) div p {
+  font-size: 14px;
 }
 
 .row_icon {
