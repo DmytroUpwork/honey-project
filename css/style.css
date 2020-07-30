@@ -116,6 +116,12 @@ body header nav.navbar div ul li {
 body header nav.navbar div ul li a.nav-link {
   line-height: 2;
   color: #000 !important;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body header nav.navbar div ul li a.nav-link:hover {
+  color: #ff9800 !important;
 }
 
 body header nav.navbar div ul li:nth-child(1) a.nav-link {
@@ -157,8 +163,18 @@ body header nav.navbar div ul li:nth-child(9) {
   margin-left: 24px;
 }
 
+body header nav.navbar div ul li:nth-child(9):hover {
+  background: #fbac19;
+}
+
+body header nav.navbar div ul li:nth-child(9):hover a.nav-link {
+  color: #fff !important;
+}
+
 body header nav.navbar div ul li:nth-child(9) a.nav-link {
   margin-top: 1px;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width: 1500px) {
@@ -274,6 +290,26 @@ body main .home_page div {
   color: #fff;
   height: 277px;
   padding: 32px;
+  overflow: hidden;
+}
+
+body main .home_page div div:not(.block_news) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body main .home_page div div:not(.block_news):hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+@media screen and (max-width: 1100px) {
+  body main .home_page div div:not(.block_news) {
+    background-position: center;
+  }
 }
 
 @media screen and (max-width: 1500px) {
@@ -366,188 +402,36 @@ body main .home_page div h3 {
   }
 }
 
-body main .home_page div:nth-child(1) {
-  overflow: hidden;
-}
-
 body main .home_page div:nth-child(1) div:not(.icon_in_box_home) {
-  background: url("../img/home_celebration.jpg") no-repeat;
-  background-size: cover;
-  background-position: right;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main .home_page div:nth-child(1) div:not(.icon_in_box_home):hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-@media screen and (max-width: 1100px) {
-  body main .home_page div:nth-child(1) div:not(.icon_in_box_home) {
-    background-position: center;
-  }
-}
-
-body main .home_page div:nth-child(2) {
-  overflow: hidden;
+  background-image: url("../img/home_celebration.jpg");
 }
 
 body main .home_page div:nth-child(2) div:not(.icon_in_box_home) {
-  background: url("../img/home_polygraphy.jpg") no-repeat;
-  background-size: cover;
-  background-position: right;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main .home_page div:nth-child(2) div:not(.icon_in_box_home):hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-@media screen and (max-width: 1100px) {
-  body main .home_page div:nth-child(2) div:not(.icon_in_box_home) {
-    background-position: center;
-  }
-}
-
-body main .home_page div:nth-child(3) {
-  overflow: hidden;
+  background-image: url("../img/home_polygraphy.jpg");
 }
 
 body main .home_page div:nth-child(3) div:not(.icon_in_box_home) {
-  background: url("../img/home_souvenir.jpg") no-repeat;
-  background-size: cover;
-  background-position: right;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main .home_page div:nth-child(3) div:not(.icon_in_box_home):hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-@media screen and (max-width: 1100px) {
-  body main .home_page div:nth-child(3) div:not(.icon_in_box_home) {
-    background-position: center;
-  }
-}
-
-body main .home_page div:nth-child(4) {
-  overflow: hidden;
+  background-image: url("../img/home_souvenir.jpg");
 }
 
 body main .home_page div:nth-child(4) div:not(.icon_in_box_home) {
-  background: url("../img/home_leading.jpg") no-repeat;
-  background-size: cover;
-  background-position: right;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main .home_page div:nth-child(4) div:not(.icon_in_box_home):hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-@media screen and (max-width: 1100px) {
-  body main .home_page div:nth-child(4) div:not(.icon_in_box_home) {
-    background-position: center;
-  }
-}
-
-body main .home_page div:nth-child(5) {
-  overflow: hidden;
+  background-image: url("../img/home_leading.jpg");
 }
 
 body main .home_page div:nth-child(5) div:not(.icon_in_box_home) {
-  background: url("../img/home_bouquet.jpg") no-repeat;
-  background-size: cover;
-  background-position: right;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main .home_page div:nth-child(5) div:not(.icon_in_box_home):hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-@media screen and (max-width: 1100px) {
-  body main .home_page div:nth-child(5) div:not(.icon_in_box_home) {
-    background-position: center;
-  }
-}
-
-body main .home_page div:nth-child(6) {
-  overflow: hidden;
+  background-image: url("../img/home_bouquet.jpg");
 }
 
 body main .home_page div:nth-child(6) div:not(.icon_in_box_home) {
-  background: url("../img/home_portrait.jpg") no-repeat;
-  background-size: cover;
-  background-position: right;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main .home_page div:nth-child(6) div:not(.icon_in_box_home):hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-@media screen and (max-width: 1100px) {
-  body main .home_page div:nth-child(6) div:not(.icon_in_box_home) {
-    background-position: center;
-  }
-}
-
-body main .home_page div:nth-child(7) {
-  overflow: hidden;
+  background-image: url("../img/home_portrait.jpg");
 }
 
 body main .home_page div:nth-child(7) div:not(.icon_in_box_home) {
-  background: url("../img/home_consultation.jpg") no-repeat;
-  background-size: cover;
-  background-position: right;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main .home_page div:nth-child(7) div:not(.icon_in_box_home):hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-@media screen and (max-width: 1100px) {
-  body main .home_page div:nth-child(7) div:not(.icon_in_box_home) {
-    background-position: center;
-  }
-}
-
-body main .home_page div:nth-child(8) {
-  overflow: hidden;
+  background-image: url("../img/home_consultation.jpg");
 }
 
 body main .home_page div:nth-child(8) div:not(.icon_in_box_home) {
-  background: url("../img/home_business_events.jpg") no-repeat;
-  background-size: cover;
-  background-position: right;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main .home_page div:nth-child(8) div:not(.icon_in_box_home):hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-@media screen and (max-width: 1100px) {
-  body main .home_page div:nth-child(8) div:not(.icon_in_box_home) {
-    background-position: center;
-  }
+  background-image: url("../img/home_business_events.jpg");
 }
 
 body main .home_page div:nth-child(9) div {
@@ -589,6 +473,9 @@ body main .home_page div:nth-child(9) div p {
 
 .row_icon .row div {
   padding: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .row_icon .row div div {
@@ -598,6 +485,13 @@ body main .home_page div:nth-child(9) div p {
   position: relative;
   padding: 31px 32px;
   cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.row_icon .row div div:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .row_icon .row div div:after {
@@ -686,51 +580,35 @@ section.production div div:first-child div form button:hover, section.blog_news 
 }
 
 section.production div div.row_icon .row div:nth-child(1) div, section.blog_news div div.row_icon .row div:nth-child(1) div {
-  background: url("../img/internal_img_1.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_1.jpg");
 }
 
 section.production div div.row_icon .row div:nth-child(2) div, section.blog_news div div.row_icon .row div:nth-child(2) div {
-  background: url("../img/internal_img_2.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_2.jpg");
 }
 
 section.production div div.row_icon .row div:nth-child(3) div, section.blog_news div div.row_icon .row div:nth-child(3) div {
-  background: url("../img/internal_img_3.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_3.jpg");
 }
 
 section.production div div.row_icon .row div:nth-child(4) div, section.blog_news div div.row_icon .row div:nth-child(4) div {
-  background: url("../img/internal_img_4.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_4.jpg");
 }
 
 section.production div div.row_icon .row div:nth-child(5) div, section.blog_news div div.row_icon .row div:nth-child(5) div {
-  background: url("../img/internal_img_5.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_5.jpg");
 }
 
 section.production div div.row_icon .row div:nth-child(6) div, section.blog_news div div.row_icon .row div:nth-child(6) div {
-  background: url("../img/internal_img_6.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_6.jpg");
 }
 
 section.production div div.row_icon .row div:nth-child(7) div, section.blog_news div div.row_icon .row div:nth-child(7) div {
-  background: url("../img/internal_img_7.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_7.jpg");
 }
 
 section.production div div.row_icon .row div:nth-child(8) div, section.blog_news div div.row_icon .row div:nth-child(8) div {
-  background: url("../img/internal_img_8.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_8.jpg");
 }
 
 section.shares {
@@ -744,15 +622,11 @@ section.shares {
 }
 
 section.shares div div.row_icon .row div:nth-child(1) div {
-  background: url("../img/internal_img_1.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_1.jpg");
 }
 
 section.shares div div.row_icon .row div:nth-child(2) div {
-  background: url("../img/internal_img_2.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/internal_img_2.jpg");
 }
 
 section.portfolio {
@@ -766,27 +640,19 @@ section.portfolio {
 }
 
 section.portfolio div div.row_icon .row div:nth-child(1) div {
-  background: url("../img/portfolio_img_case.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/portfolio_img_case.jpg");
 }
 
 section.portfolio div div.row_icon .row div:nth-child(2) div {
-  background: url("../img/portfolio_img_case.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/portfolio_img_case.jpg");
 }
 
 section.portfolio div div.row_icon .row div:nth-child(3) div {
-  background: url("../img/portfolio_img_case.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/portfolio_img_case.jpg");
 }
 
 section.portfolio div div.row_icon .row div:nth-child(4) div {
-  background: url("../img/portfolio_img_case.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/portfolio_img_case.jpg");
 }
 
 section.reviews {
@@ -800,21 +666,15 @@ section.reviews {
 }
 
 section.reviews div div.row_icon .row div:nth-child(1) div {
-  background: url("../img/reviews_internal_1.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/reviews_internal_1.jpg");
 }
 
 section.reviews div div.row_icon .row div:nth-child(2) div {
-  background: url("../img/reviews_internal_2.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/reviews_internal_2.jpg");
 }
 
 section.reviews div div.row_icon .row div:nth-child(3) div {
-  background: url("../img/reviews_internal_3.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/reviews_internal_3.jpg");
 }
 
 section.chatter_block {

@@ -59,6 +59,9 @@ body
             a.nav-link
               line-height: 2
               color: #000!important
+              transition: 0.2s
+              &:hover 
+                color: #ff9800!important
             &:nth-child(1) 
               a.nav-link
                 border-bottom: 2px solid#ce0000
@@ -88,8 +91,14 @@ body
               border-radius: 16px
               padding: 0 16px
               margin-left: 24px
+              &:hover 
+                background: #fbac19
+                a.nav-link 
+                  color: #fff!important
               a.nav-link
                 margin-top: 1px
+                width: 100%
+                height: 100%
           @media screen and (max-width: 1500px)
             display: none
 
@@ -151,6 +160,17 @@ body
         color: #fff
         height: 277px
         padding: 32px
+        overflow: hidden
+        div:not(.block_news) 
+          background-repeat: no-repeat
+          background-size: cover
+          background-position: right
+          transition: 1s
+          &:hover 
+            transform: scale(1.05)
+          @media screen and (max-width: 1100px)
+            background-position: center
+          
         @media screen and (max-width: 1500px)
           padding: 28px
         @media screen and (max-width: 1200px)
@@ -225,103 +245,38 @@ body
             width: 56%
           @media screen and (max-width: 1200px)
             font-size: 23px
-        
-        
+            
         &:nth-child(1)
-          overflow: hidden
           div:not(.icon_in_box_home)
-            background: url('../img/home_celebration.jpg') no-repeat
-            background-size: cover
-            background-position: right
-            transition: 1s
-            &:hover 
-              transform: scale(1.05)
-            @media screen and (max-width: 1100px)
-              background-position: center
+            background-image: url('../img/home_celebration.jpg')
         //блок 2-й ==========
         &:nth-child(2)
-          overflow: hidden
           div:not(.icon_in_box_home)
-            background: url('../img/home_polygraphy.jpg') no-repeat
-            background-size: cover
-            background-position: right
-            transition: 1s
-            &:hover 
-              transform: scale(1.05)
-            @media screen and (max-width: 1100px)
-              background-position: center
+            background-image: url('../img/home_polygraphy.jpg')
         //блок 3-й ==========
         &:nth-child(3)
-          overflow: hidden
           div:not(.icon_in_box_home)
-            background: url('../img/home_souvenir.jpg') no-repeat
-            background-size: cover
-            background-position: right
-            transition: 1s
-            &:hover 
-              transform: scale(1.05)
-            @media screen and (max-width: 1100px)
-              background-position: center
+            background-image: url('../img/home_souvenir.jpg')
         //блок 4-й ==========
         &:nth-child(4)
-          overflow: hidden
           div:not(.icon_in_box_home)
-            background: url('../img/home_leading.jpg') no-repeat
-            background-size: cover
-            background-position: right
-            transition: 1s
-            &:hover 
-              transform: scale(1.05)
-            @media screen and (max-width: 1100px)
-              background-position: center
+            background-image: url('../img/home_leading.jpg')
         //блок 5-й ==========
         &:nth-child(5)
-          overflow: hidden
           div:not(.icon_in_box_home)
-            background: url('../img/home_bouquet.jpg') no-repeat
-            background-size: cover
-            background-position: right
-            transition: 1s
-            &:hover 
-              transform: scale(1.05)
-            @media screen and (max-width: 1100px)
-              background-position: center
+            background-image: url('../img/home_bouquet.jpg')
         //блок 6-й ==========
         &:nth-child(6)
-          overflow: hidden
           div:not(.icon_in_box_home)
-            background: url('../img/home_portrait.jpg') no-repeat
-            background-size: cover
-            background-position: right
-            transition: 1s
-            &:hover 
-              transform: scale(1.05)
-            @media screen and (max-width: 1100px)
-              background-position: center
+            background-image: url('../img/home_portrait.jpg')
         //блок 7-й ==========
         &:nth-child(7) 
-          overflow: hidden
           div:not(.icon_in_box_home)
-            background: url('../img/home_consultation.jpg') no-repeat
-            background-size: cover
-            background-position: right
-            transition: 1s
-            &:hover 
-              transform: scale(1.05)
-            @media screen and (max-width: 1100px)
-              background-position: center
+            background-image: url('../img/home_consultation.jpg')
         //блок 8-й ==========
         &:nth-child(8) 
-          overflow: hidden
           div:not(.icon_in_box_home)
-            background: url('../img/home_business_events.jpg') no-repeat
-            background-size: cover
-            background-position: right
-            transition: 1s
-            &:hover 
-              transform: scale(1.05)
-            @media screen and (max-width: 1100px)
-              background-position: center
+            background-image: url('../img/home_business_events.jpg')
         &:nth-child(9) 
           div
             color: #000
@@ -343,6 +298,9 @@ body
     margin: 0
     div
       padding: 15px
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
       div  
         height: 285px
         border-radius: 10px
@@ -350,6 +308,9 @@ body
         position: relative
         padding: 31px 32px
         cursor: pointer
+        transition: 1s
+        &:hover 
+          transform: scale(1.02)
         &:after 
           content: ''
           position: absolute
@@ -402,55 +363,38 @@ section.production, section.blog_news
     div.row_icon 
       .row 
         div 
-          div 
           //блок 1-й ==========
           &:nth-child(1)
             div 
-              background: url('../img/internal_img_1.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/internal_img_1.jpg')
           //блок 2-й ==========
           &:nth-child(2)
             div 
-              background: url('../img/internal_img_2.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/internal_img_2.jpg')
           //блок 3-й ==========
           &:nth-child(3)
             div 
-              background: url('../img/internal_img_3.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/internal_img_3.jpg')
           //блок 4-й ==========
           &:nth-child(4)
             div 
-              background: url('../img/internal_img_4.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/internal_img_4.jpg')
           //блок 5-й ==========
           &:nth-child(5)
             div 
-              background: url('../img/internal_img_5.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/internal_img_5.jpg')
           //блок 6-й ==========
           &:nth-child(6)
             div 
-              background: url('../img/internal_img_6.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/internal_img_6.jpg')
           //блок 7-й ==========
           &:nth-child(7) 
             div
-              background: url('../img/internal_img_7.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/internal_img_7.jpg')
           //блок 8-й ==========
           &:nth-child(8) 
             div
-              background: url('../img/internal_img_8.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/internal_img_8.jpg')
 // Секция акции =========
 section.shares
   padding: 70px 0 70px 30px
@@ -460,20 +404,14 @@ section.shares
     div.row_icon 
       .row 
         div 
-          div 
           //блок 1-й ==========
           &:nth-child(1)
             div 
-              background: url('../img/internal_img_1.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/internal_img_1.jpg')
           //блок 2-й ==========
           &:nth-child(2)
             div 
-              background: url('../img/internal_img_2.jpg') no-repeat
-              background-size: cover
-              background-position: center 
-  
+              background-image: url('../img/internal_img_2.jpg')
 // секция "Портфолио"
 section.portfolio
   padding: 70px 0 70px 30px
@@ -483,32 +421,22 @@ section.portfolio
     div.row_icon 
       .row 
         div 
-          div 
           //блок 1-й ==========
           &:nth-child(1)
             div 
-              background: url('../img/portfolio_img_case.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/portfolio_img_case.jpg')
           //блок 2-й ==========
           &:nth-child(2)
             div 
-              background: url('../img/portfolio_img_case.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/portfolio_img_case.jpg')
           //блок 3-й ==========
           &:nth-child(3)
             div 
-              background: url('../img/portfolio_img_case.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/portfolio_img_case.jpg')
           //блок 4-й ==========
           &:nth-child(4)
             div 
-              background: url('../img/portfolio_img_case.jpg') no-repeat
-              background-size: cover
-              background-position: center 
-  
+              background-image: url('../img/portfolio_img_case.jpg')
 // секция "Отзывы"
 section.reviews
   padding: 70px 0 70px 30px
@@ -518,25 +446,18 @@ section.reviews
     div.row_icon 
       .row 
         div 
-          div 
           //блок 1-й ==========
           &:nth-child(1)
             div 
-              background: url('../img/reviews_internal_1.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/reviews_internal_1.jpg')
           //блок 2-й ==========
           &:nth-child(2)
             div 
-              background: url('../img/reviews_internal_2.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/reviews_internal_2.jpg')
           //блок 3-й ==========
           &:nth-child(3)
             div 
-              background: url('../img/reviews_internal_3.jpg') no-repeat
-              background-size: cover
-              background-position: center 
+              background-image: url('../img/reviews_internal_3.jpg')
 // секция "Блок с болтовней"
 section.chatter_block
   padding: 70px 0 70px 30px
