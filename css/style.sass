@@ -42,7 +42,7 @@ body
   height: 100vh
   header 
     nav.navbar
-      padding: 59px 63px 7px 30px
+      padding: 59px 75px 7px 30px
       justify-content: space-between
       a.navbar-brand 
         font-size: 14px
@@ -331,12 +331,15 @@ section.production, section.blog_news
             transition: 0.2s
             &:hover
               background: #f9da08
-            @media screen and (max-width: 1500px)
+            @media screen and (max-width: 1680px)
               font-size: 14px
               padding: 12px 23px
-            @media screen and (max-width: 1200px)
+            @media screen and (max-width: 1480px)
               font-size: 12px
               padding: 8px 19px
+            @media screen and (max-width: 1330px)
+              padding: 8px 14px
+              margin: 0 10px 19px 0
             @media screen and (max-width: 1100px)
               font-size: 10px
               padding: 6px 17px
@@ -488,10 +491,15 @@ section.constructor
         width: 96%
 // секция новости в блоге 
 section.blog_news 
-  padding: 129px 0 54px 88px
+  padding: 129px 0 54px 0
+  @media screen and ( max-width: 1200px )
+    padding: 52px 0 40px 0
   .row 
     border-bottom: 1px solid #aaa
     >div:first-child
+      padding-left: 88px
+      @media screen and ( max-width: 1200px )
+        padding-left: 15px
       h4 
         padding: 0 0 49px 0
         line-height: 1.5
@@ -500,6 +508,10 @@ section.blog_news
       >div
         padding: 18px 0 40px 0
         border-bottom: 1px solid #aaa
+        @media screen and ( max-width: 1500px )
+          padding: 10px 0 40px 0
+        @media screen and ( max-width: 1200px )
+          padding: 75px 0 40px 0
         >strong 
           font-size: 12px
         >h2 
@@ -511,7 +523,9 @@ section.blog_news
         padding: 40px 0 40px 0
         border-bottom: none
 footer.template_footer 
-  padding: 0 30px 110px 116px
+  padding: 0 30px 110px 30px
+  @media screen and ( max-width: 1200px )
+    padding: 0 30px 30px 30px
   >.row  
     &:before 
       display: none
@@ -628,9 +642,6 @@ form.submit_application_2
 // стили модального окна ==============
 .modal-backdrop 
   background-color: transparent
-.modal.show 
-  display: flex!important 
-  align-items: center
 .modal-dialog 
   max-width: 63%
   margin: 0 auto
@@ -644,7 +655,7 @@ form.submit_application_2
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3)
     border: none
     overflow: hidden
-    @media screen and (max-width: 592px)
+    @media screen and (max-width: 768px)
       flex-direction: column
     .modal-header 
       img 

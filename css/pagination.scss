@@ -47,6 +47,15 @@
       display: inline-block;
     }
   }
+@media screen and (max-width: 1500px) {
+  .cdp_i {
+    height: 40px;
+    min-width: 40px;
+    line-height: 36px;
+    font-size: 12px;
+  }
+}
+  
 
   &_i:hover {
     background-color: #f9da08;
@@ -100,8 +109,11 @@
     .cdp_i:nth-child(#{$i + 3}):not(:last-child) {
       display: inline-block;
     }
+    .cdp_i:nth-child(#{$i + 4}):not(:last-child) {
+      display: inline-block;
+    }
     // 3 next
-    .cdp_i:nth-child(#{$i + 4}):not(:last-child):not(:nth-last-child(2)) {
+    .cdp_i:nth-child(#{$i + 5}):not(:last-child):not(:nth-last-child(2)) {
       display: inline-block;
       pointer-events: none;
       color: transparent;
@@ -117,3 +129,20 @@
     }
   }
 }
+
+@media screen and (max-width: 1500px) {
+
+  @for $i from 1 through 80 {
+    .cdp[actpage="#{$i}"] {
+      .cdp_i:nth-child(#{$i - 2}):not(:first-child):not(:nth-child(2)):after {
+        font-size: 23px;
+      }
+      .cdp_i:nth-child(#{$i + 5}):not(:last-child):not(:nth-last-child(2)):after {
+        font-size: 23px;
+      }
+    }
+  }
+  
+}
+
+
