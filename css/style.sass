@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap')
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap')
+@font-face 
+  font-family: 'Web font'
+  src: url('libs/ofont.ru_Myriad Pro.ttf') format('ttf')
+  font-weight: normal
+  font-style: normal
+
 
 * 
   outline: none
@@ -13,12 +18,14 @@ img
 h1
   font-size: 60px
   margin-bottom: 2.5rem
+  @media screen and (max-width: 1845px)
+    font-size: 46px
   @media screen and (max-width: 1500px)
-    font-size: 45px
-  @media screen and (max-width: 1200px)
-    font-size: 39px
+    font-size: 40px
+  @media screen and (max-width: 1345px)
+    font-size: 34px
   @media screen and (max-width: 1100px)
-    font-size: 35px
+    font-size: 31px
 h2:not(.news_block_h2_footer)
   font-weight: 700
 h4 
@@ -26,13 +33,21 @@ h4
   color: #6e6e6e
   overflow-wrap: break-word
   @media screen and (max-width: 1500px)
-    font-size: 20px
-  @media screen and (max-width: 1200px)
     font-size: 16px
+  @media screen and (max-width: 1200px)
+    font-size: 12px
   @media screen and (max-width: 1100px)
-    font-size: 14px
+    font-size: 10px
 p 
   font-size: 1.1rem
+  font-family: 'Open Sans', sans-serif
+  @media screen and (max-width: 1500px)
+    font-size: 13px
+  @media screen and (max-width: 1200px)
+    font-size: 11px
+  @media screen and (max-width: 1100px)
+    font-size: 9px
+    
 html, body
   font-family: 'Noto Sans', sans-serif
   background: #fff
@@ -53,6 +68,8 @@ body
           padding: 0 38px 0 12px
           font-family: 'Noto Sans', sans-serif
           font-weight: 700
+          font-size: 14px
+            
       div
         align-items: baseline
         justify-content: flex-end
@@ -63,6 +80,9 @@ body
               line-height: 2
               color: #000!important
               transition: 0.2s
+              
+              @media screen and ( max-width: 1700px ) and (min-width: 1500px)
+                font-size: 0.8vw
               &:hover 
                 color: #ff9800!important
             &:nth-child(1) 
@@ -136,6 +156,7 @@ body
         font-size: 80px
         display: flex
         align-items: center
+        position: relative
         @media screen and (max-width: 1500px)
           font-size: 60px
         @media screen and (max-width: 1200px)
@@ -144,7 +165,36 @@ body
           font-size: 40px
         @media screen and (max-width: 500px)
           font-size: 30px
-        div
+        div:first-of-type 
+          width: 150px
+          height: 150px
+          background-color: #fff
+          text-align: center
+          display: block
+          position: absolute 
+          border-radius: 50%
+          top: 68px
+          left: 97px
+          @media screen and ( max-width: 1600px)
+            width: 116px
+            height: 116px
+          @media screen and ( max-width: 1200px)
+            width: 97px
+            height: 97px
+          @media screen and ( max-width: 992px)
+            width: 89px
+            height: 89px
+            left: 30px
+          @media screen and ( max-width: 500px)
+            width: 75px
+            height: 75px
+          img 
+            display: inline-block
+            width: 75%
+            padding-top: 13px
+            @media screen and ( max-width: 500px)
+              padding-top: 23px
+        div:last-of-type
           color: #fff
           line-height: 100px
           padding-left: 103px
@@ -350,9 +400,9 @@ body
           padding: 19px
 // секция "Что мы производим"
 section.production
-  padding: 129px 0 70px 30px
+  padding: 124px 0 70px 30px
   @media screen and (max-width: 992px)
-    padding: 129px 0 70px 0
+    padding: 124px 0 70px 0
 section.production, section.blog_news
   div
     div:first-child
@@ -362,24 +412,24 @@ section.production, section.blog_news
             border-radius: 40px
             border: none
             background: #e6e6e6
-            padding: 19px 28px
+            padding: 18px 28px
             margin: 0 18px 25px 0
             font-size: 20px
             transition: 0.2s
             &:hover
               background: #f9da08
-            @media screen and (max-width: 1680px)
+            @media screen and (max-width: 1805px)
               font-size: 14px
-              padding: 12px 23px
+              padding: 11px 23px
             @media screen and (max-width: 1480px)
               font-size: 12px
-              padding: 8px 19px
+              padding: 7px 19px
             @media screen and (max-width: 1330px)
-              padding: 8px 14px
+              padding: 7px 14px
               margin: 0 10px 19px 0
             @media screen and (max-width: 1100px)
               font-size: 10px
-              padding: 6px 17px
+              padding: 5px 17px
     div.row_icon 
       .row 
         div 
@@ -417,9 +467,9 @@ section.production, section.blog_news
               background-image: url('../img/internal_img_8.jpg')
 // Секция акции =========
 section.shares
-  padding: 70px 0 70px 30px
+  padding: 65px 0 65px 30px
   @media screen and (max-width: 992px)
-    padding: 70px 0 70px 0
+    padding: 65px 0 65px 0
   div
     div.row_icon 
       .row 
@@ -434,9 +484,9 @@ section.shares
               background-image: url('../img/internal_img_2.jpg')
 // секция "Портфолио"
 section.portfolio
-  padding: 70px 0 70px 30px
+  padding: 65px 0 65px 30px
   @media screen and (max-width: 992px)
-    padding: 70px 0 70px 0
+    padding: 65px 0 65px 0
   div
     div.row_icon 
       .row 
@@ -459,9 +509,9 @@ section.portfolio
               background-image: url('../img/portfolio_img_case.jpg')
 // секция "Отзывы"
 section.reviews
-  padding: 70px 0 70px 30px
+  padding: 65px 0 65px 30px
   @media screen and (max-width: 992px)
-    padding: 70px 0 70px 0
+    padding: 65px 0 65px 0
   div
     div.row_icon 
       .row 
@@ -480,9 +530,9 @@ section.reviews
               background-image: url('../img/reviews_internal_3.jpg')
 // секция "Блок с болтовней"
 section.chatter_block
-  padding: 70px 0 70px 30px
+  padding: 65px 0 65px 30px
   @media screen and (max-width: 992px)
-    padding: 70px 0 70px 0
+    padding: 65px 0 65px 0
   .row 
     div:first-child 
       h4 
@@ -506,9 +556,9 @@ section.chatter_block
         font-family: 'Open Sans', sans-serif
 // секция "Конструктор"
 section.constructor
-  padding: 70px 0 110px 30px
+  padding: 65px 0 105px 30px
   @media screen and (max-width: 992px)
-    padding: 70px 0 110px 0
+    padding: 65px 0 105px 0
   .row 
     div:first-child 
     div:last-child 
@@ -517,9 +567,9 @@ section.constructor
         width: 96%
 // секция новости в блоге 
 section.blog_news 
-  padding: 129px 0 54px 0
+  padding: 124px 0 54px 0
   @media screen and ( max-width: 1200px )
-    padding: 52px 0 40px 0
+    padding: 48px 0 40px 0
   .row 
     border-bottom: 1px solid #aaa
     >div:first-child
@@ -532,10 +582,13 @@ section.blog_news
         width: 90%
     >div:last-child
       >div
-        padding: 18px 0 40px 0
+        padding: 16px 0 40px 0
         border-bottom: 1px solid #aaa
+        >p  
+          font-weight: 600
+
         @media screen and ( max-width: 1500px )
-          padding: 10px 0 40px 0
+          padding: 8px 0 40px 0
         @media screen and ( max-width: 1200px )
           padding: 75px 0 40px 0
         >strong 
@@ -556,7 +609,7 @@ footer.template_footer
     &:before 
       display: none
 footer 
-  padding: 70px 30px 110px 30px
+  padding: 65px 30px 110px 30px
   @media screen and (max-width: 992px)
     padding: 70px 15px 27px 15px
   >.row  
@@ -652,7 +705,7 @@ form.submit_application_2
       background: #ff98009e
     @media screen and (max-width: 1500px)
       font-size: 14px
-      padding: 12px 23px
+      padding: 8px 23px
 form.submit_application_1
   position: absolute
   bottom: 15px
@@ -679,20 +732,20 @@ form.submit_application_2
 // сдвиг main при открытии меню
 .main_transform
   width: 82%
-  // transform: scale(0.83, 0.94)
-  // transform: scaleX(0.83)
-  // transform-origin: left
-  // transition: 0.5s
-  // @media screen and ( max-width: 1200px )
-  //   transform: scale(0.75)
-
-
-
-
-// .main_transform_home 
-//   transform: scaleX(0.83)
-//   transform-origin: left
-//   transition: 0.5s
+  @media screen and ( max-width: 1500px )
+    width: 79%
+  @media screen and ( max-width: 1300px )
+    width: 75%
+  @media screen and ( max-width: 1154px )
+    width: 73%
+  @media screen and ( max-width: 1060px )
+    width: 71%
+  @media screen and ( max-width: 982px )
+    width: 68%
+  @media screen and ( max-width: 913px )
+    width: 64%
+  @media screen and ( max-width: 828px )
+    width: 100%
 
 
 
@@ -785,7 +838,7 @@ form.submit_application_2
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2)
   background-color: #f3f3f3
   position: absolute
-  top: 43px
+  top: 10px
   right: -370px
   z-index: 9
   transition: 0.5s
@@ -830,8 +883,6 @@ form.submit_application_2
       display: block
       width: 16px
       margin: 1.5px 0
-  // .button_menu_home 
-  //   left: -192%
   h3 
     margin-bottom: 20px
     font-size: 24px
@@ -841,7 +892,7 @@ form.submit_application_2
       border: none
       background: #fd852f
       color: #000
-      padding: 14px
+      padding: 12px
       width: 100%
       font-size: 16px
       transition: 0.2s
