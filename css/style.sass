@@ -228,66 +228,98 @@ body
         
         
         &:nth-child(1)
+          overflow: hidden
           div:not(.icon_in_box_home)
             background: url('../img/home_celebration.jpg') no-repeat
             background-size: cover
             background-position: right
+            transition: 1s
+            &:hover 
+              transform: scale(1.05)
             @media screen and (max-width: 1100px)
               background-position: center
         //блок 2-й ==========
         &:nth-child(2)
+          overflow: hidden
           div:not(.icon_in_box_home)
             background: url('../img/home_polygraphy.jpg') no-repeat
             background-size: cover
             background-position: right
+            transition: 1s
+            &:hover 
+              transform: scale(1.05)
             @media screen and (max-width: 1100px)
               background-position: center
         //блок 3-й ==========
         &:nth-child(3)
+          overflow: hidden
           div:not(.icon_in_box_home)
             background: url('../img/home_souvenir.jpg') no-repeat
             background-size: cover
             background-position: right
+            transition: 1s
+            &:hover 
+              transform: scale(1.05)
             @media screen and (max-width: 1100px)
               background-position: center
         //блок 4-й ==========
         &:nth-child(4)
+          overflow: hidden
           div:not(.icon_in_box_home)
             background: url('../img/home_leading.jpg') no-repeat
             background-size: cover
             background-position: right
+            transition: 1s
+            &:hover 
+              transform: scale(1.05)
             @media screen and (max-width: 1100px)
               background-position: center
         //блок 5-й ==========
         &:nth-child(5)
+          overflow: hidden
           div:not(.icon_in_box_home)
             background: url('../img/home_bouquet.jpg') no-repeat
             background-size: cover
             background-position: right
+            transition: 1s
+            &:hover 
+              transform: scale(1.05)
             @media screen and (max-width: 1100px)
               background-position: center
         //блок 6-й ==========
         &:nth-child(6)
+          overflow: hidden
           div:not(.icon_in_box_home)
             background: url('../img/home_portrait.jpg') no-repeat
             background-size: cover
             background-position: right
+            transition: 1s
+            &:hover 
+              transform: scale(1.05)
             @media screen and (max-width: 1100px)
               background-position: center
         //блок 7-й ==========
         &:nth-child(7) 
+          overflow: hidden
           div:not(.icon_in_box_home)
             background: url('../img/home_consultation.jpg') no-repeat
             background-size: cover
             background-position: right
+            transition: 1s
+            &:hover 
+              transform: scale(1.05)
             @media screen and (max-width: 1100px)
               background-position: center
         //блок 8-й ==========
         &:nth-child(8) 
+          overflow: hidden
           div:not(.icon_in_box_home)
             background: url('../img/home_business_events.jpg') no-repeat
             background-size: cover
             background-position: right
+            transition: 1s
+            &:hover 
+              transform: scale(1.05)
             @media screen and (max-width: 1100px)
               background-position: center
         &:nth-child(9) 
@@ -674,6 +706,8 @@ form.submit_application_2
     padding: 19px 28px
     font-size: 20px
     transition: 0.2s
+    &:hover 
+      background: #ff98009e
     @media screen and (max-width: 1500px)
       font-size: 14px
       padding: 12px 23px
@@ -769,6 +803,9 @@ form.submit_application_2
     padding: 24px 30px
     .nav-link
       color: #000
+      transition: 0.2s
+      &:hover 
+        color: #FF5722
   .box_form 
     padding: 24px 30px   
   .button_menu
@@ -804,6 +841,8 @@ form.submit_application_2
       width: 100%
       font-size: 16px
       transition: 0.2s
+      &:hover 
+        background: #fdd02f
     .form-check 
       label 
         font-size: 12px
@@ -815,6 +854,7 @@ form.submit_application_2
         width: 20px
         height: 24px
         margin: .5em
+        // fill: red
   .orange_img_menu 
     margin: 100px 0 37px 0
     svg
