@@ -171,6 +171,12 @@ body main {
   padding: 0 30px;
 }
 
+@media screen and (max-width: 992px) {
+  body main {
+    padding: 0 15px;
+  }
+}
+
 body main .owl-carousel .item {
   background: url("../img/carousel_img_fone.jpg") no-repeat;
   background-size: cover;
@@ -191,6 +197,24 @@ body main .owl-carousel .item {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  body main .owl-carousel .item {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body main .owl-carousel .item {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body main .owl-carousel .item {
+    font-size: 30px;
+  }
+}
+
 body main .owl-carousel .item div {
   color: #fff;
   line-height: 100px;
@@ -203,10 +227,36 @@ body main .owl-carousel .item div {
   }
 }
 
+@media screen and (max-width: 992px) {
+  body main .owl-carousel .item div {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body main .owl-carousel .item div {
+    padding-left: 30px;
+    line-height: 68px;
+  }
+}
+
 body main .owl-carousel .owl-dots {
   position: absolute;
   left: 104px;
   bottom: 68px;
+}
+
+@media screen and (max-width: 992px) {
+  body main .owl-carousel .owl-dots {
+    left: 60px;
+    bottom: 36px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body main .owl-carousel .owl-dots {
+    left: 30px;
+  }
 }
 
 body main .owl-carousel .owl-dots .owl-dot span {
@@ -435,6 +485,12 @@ body main .home_page div:nth-child(9) div p {
   font-size: 14px;
 }
 
+@media screen and (max-width: 365px) {
+  body main .home_page div:nth-child(9) div p {
+    font-size: 13px;
+  }
+}
+
 .row_icon {
   padding: 0;
 }
@@ -492,6 +548,12 @@ section.production {
   padding: 129px 0 70px 30px;
 }
 
+@media screen and (max-width: 992px) {
+  section.production {
+    padding: 129px 0 70px 0;
+  }
+}
+
 section.production div div:first-child div form button, section.blog_news div div:first-child div form button {
   border-radius: 40px;
   border: none;
@@ -538,102 +600,143 @@ section.production div div:first-child div form button:hover, section.blog_news 
 section.production div div.row_icon .row div:nth-child(1) div, section.blog_news div div.row_icon .row div:nth-child(1) div {
   background: url("../img/internal_img_1.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.production div div.row_icon .row div:nth-child(2) div, section.blog_news div div.row_icon .row div:nth-child(2) div {
   background: url("../img/internal_img_2.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.production div div.row_icon .row div:nth-child(3) div, section.blog_news div div.row_icon .row div:nth-child(3) div {
   background: url("../img/internal_img_3.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.production div div.row_icon .row div:nth-child(4) div, section.blog_news div div.row_icon .row div:nth-child(4) div {
   background: url("../img/internal_img_4.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.production div div.row_icon .row div:nth-child(5) div, section.blog_news div div.row_icon .row div:nth-child(5) div {
   background: url("../img/internal_img_5.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.production div div.row_icon .row div:nth-child(6) div, section.blog_news div div.row_icon .row div:nth-child(6) div {
   background: url("../img/internal_img_6.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.production div div.row_icon .row div:nth-child(7) div, section.blog_news div div.row_icon .row div:nth-child(7) div {
   background: url("../img/internal_img_7.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.production div div.row_icon .row div:nth-child(8) div, section.blog_news div div.row_icon .row div:nth-child(8) div {
   background: url("../img/internal_img_8.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.shares {
   padding: 70px 0 70px 30px;
 }
 
+@media screen and (max-width: 992px) {
+  section.shares {
+    padding: 70px 0 70px 0;
+  }
+}
+
 section.shares div div.row_icon .row div:nth-child(1) div {
   background: url("../img/internal_img_1.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.shares div div.row_icon .row div:nth-child(2) div {
   background: url("../img/internal_img_2.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.portfolio {
   padding: 70px 0 70px 30px;
 }
 
+@media screen and (max-width: 992px) {
+  section.portfolio {
+    padding: 70px 0 70px 0;
+  }
+}
+
 section.portfolio div div.row_icon .row div:nth-child(1) div {
   background: url("../img/portfolio_img_case.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.portfolio div div.row_icon .row div:nth-child(2) div {
   background: url("../img/portfolio_img_case.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.portfolio div div.row_icon .row div:nth-child(3) div {
   background: url("../img/portfolio_img_case.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.portfolio div div.row_icon .row div:nth-child(4) div {
   background: url("../img/portfolio_img_case.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.reviews {
   padding: 70px 0 70px 30px;
 }
 
+@media screen and (max-width: 992px) {
+  section.reviews {
+    padding: 70px 0 70px 0;
+  }
+}
+
 section.reviews div div.row_icon .row div:nth-child(1) div {
   background: url("../img/reviews_internal_1.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.reviews div div.row_icon .row div:nth-child(2) div {
   background: url("../img/reviews_internal_2.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.reviews div div.row_icon .row div:nth-child(3) div {
   background: url("../img/reviews_internal_3.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 section.chatter_block {
   padding: 70px 0 70px 30px;
+}
+
+@media screen and (max-width: 992px) {
+  section.chatter_block {
+    padding: 70px 0 70px 0;
+  }
 }
 
 section.chatter_block .row div:first-child h4 {
@@ -643,6 +746,12 @@ section.chatter_block .row div:first-child h4 {
 
 section.chatter_block .row div:last-child {
   padding: 0 30px;
+}
+
+@media screen and (max-width: 992px) {
+  section.chatter_block .row div:last-child {
+    padding: 0 15px;
+  }
 }
 
 section.chatter_block .row div:last-child h2 {
@@ -665,6 +774,12 @@ section.chatter_block .row div:last-child p {
 
 section.constructor {
   padding: 70px 0 110px 30px;
+}
+
+@media screen and (max-width: 992px) {
+  section.constructor {
+    padding: 70px 0 110px 0;
+  }
 }
 
 section.constructor .row div:last-child {
@@ -758,6 +873,12 @@ footer {
   padding: 70px 30px 110px 30px;
 }
 
+@media screen and (max-width: 992px) {
+  footer {
+    padding: 70px 15px 27px 15px;
+  }
+}
+
 footer > .row {
   position: relative;
 }
@@ -772,6 +893,12 @@ footer > .row:before {
 
 footer > .row > div:first-of-type, .template_footer > .row > div:first-of-type {
   padding: 0 55px 0 58px;
+}
+
+@media screen and (max-width: 992px) {
+  footer > .row > div:first-of-type, .template_footer > .row > div:first-of-type {
+    padding: 0 15px;
+  }
 }
 
 footer > .row > div:first-of-type p, .template_footer > .row > div:first-of-type p {
@@ -854,6 +981,12 @@ footer .social_icon_svg, .template_footer .social_icon_svg {
   line-height: 1.67;
 }
 
+@media screen and (max-width: 488px) {
+  .tel_number_1 {
+    padding-top: 20px;
+  }
+}
+
 .tel_number_1 a {
   font-size: 24px;
   font-weight: bold;
@@ -879,6 +1012,12 @@ footer .social_icon_svg, .template_footer .social_icon_svg {
 @media screen and (max-width: 1500px) {
   .tel_number_2 a {
     font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .tel_number_2 a {
+    font-size: 31px;
   }
 }
 
@@ -916,6 +1055,12 @@ form.submit_application_1 {
 
 form.submit_application_2 {
   margin: 9px 0 0 0;
+}
+
+@media screen and (max-width: 992px) {
+  form.submit_application_2 {
+    margin: 9px 0 55px 0;
+  }
 }
 
 .logo {
@@ -1062,7 +1207,7 @@ form.submit_application_2 {
   border-radius: 50%;
   position: absolute;
   left: -43%;
-  top: 2%;
+  top: 2.3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

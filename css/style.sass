@@ -96,6 +96,8 @@ body
 
   main 
     padding: 0 30px
+    @media screen and (max-width: 992px)
+      padding: 0 15px
     .owl-carousel 
       .item
         background: url('../img/carousel_img_fone.jpg') no-repeat
@@ -107,16 +109,33 @@ body
         align-items: center
         @media screen and (max-width: 1500px)
           font-size: 60px
+        @media screen and (max-width: 1200px)
+          font-size: 48px
+        @media screen and (max-width: 992px)
+          font-size: 40px
+        @media screen and (max-width: 500px)
+          font-size: 30px
         div
           color: #fff
           line-height: 100px
           padding-left: 103px
           @media screen and (max-width: 1500px)
             line-height: 71px
+          @media screen and (max-width: 992px)
+            padding-left: 60px
+          @media screen and (max-width: 992px)
+            padding-left: 30px
+            line-height: 68px
       .owl-dots 
         position: absolute
         left: 104px
         bottom: 68px
+        @media screen and (max-width: 992px)
+          left: 60px
+          bottom: 36px
+        @media screen and (max-width: 992px)
+          left: 30px
+        
         .owl-dot
           span 
             width: 16px
@@ -283,6 +302,9 @@ body
               font-size: 10px
             p 
               font-size: 14px
+              @media screen and ( max-width: 365px )
+                font-size: 13px
+                
 .row_icon
   padding: 0
   .row 
@@ -316,6 +338,8 @@ body
 // секция "Что мы производим"
 section.production
   padding: 129px 0 70px 30px
+  @media screen and (max-width: 992px)
+    padding: 129px 0 70px 0
 section.production, section.blog_news
   div
     div:first-child
@@ -352,44 +376,54 @@ section.production, section.blog_news
             div 
               background: url('../img/internal_img_1.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 2-й ==========
           &:nth-child(2)
             div 
               background: url('../img/internal_img_2.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 3-й ==========
           &:nth-child(3)
             div 
               background: url('../img/internal_img_3.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 4-й ==========
           &:nth-child(4)
             div 
               background: url('../img/internal_img_4.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 5-й ==========
           &:nth-child(5)
             div 
               background: url('../img/internal_img_5.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 6-й ==========
           &:nth-child(6)
             div 
               background: url('../img/internal_img_6.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 7-й ==========
           &:nth-child(7) 
             div
               background: url('../img/internal_img_7.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 8-й ==========
           &:nth-child(8) 
             div
               background: url('../img/internal_img_8.jpg') no-repeat
               background-size: cover
+              background-position: center 
 // Секция акции =========
 section.shares
   padding: 70px 0 70px 30px
+  @media screen and (max-width: 992px)
+    padding: 70px 0 70px 0
   div
     div.row_icon 
       .row 
@@ -400,15 +434,19 @@ section.shares
             div 
               background: url('../img/internal_img_1.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 2-й ==========
           &:nth-child(2)
             div 
               background: url('../img/internal_img_2.jpg') no-repeat
               background-size: cover
+              background-position: center 
   
 // секция "Портфолио"
 section.portfolio
   padding: 70px 0 70px 30px
+  @media screen and (max-width: 992px)
+    padding: 70px 0 70px 0
   div
     div.row_icon 
       .row 
@@ -419,25 +457,31 @@ section.portfolio
             div 
               background: url('../img/portfolio_img_case.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 2-й ==========
           &:nth-child(2)
             div 
               background: url('../img/portfolio_img_case.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 3-й ==========
           &:nth-child(3)
             div 
               background: url('../img/portfolio_img_case.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 4-й ==========
           &:nth-child(4)
             div 
               background: url('../img/portfolio_img_case.jpg') no-repeat
               background-size: cover
+              background-position: center 
   
 // секция "Отзывы"
 section.reviews
   padding: 70px 0 70px 30px
+  @media screen and (max-width: 992px)
+    padding: 70px 0 70px 0
   div
     div.row_icon 
       .row 
@@ -448,19 +492,24 @@ section.reviews
             div 
               background: url('../img/reviews_internal_1.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 2-й ==========
           &:nth-child(2)
             div 
               background: url('../img/reviews_internal_2.jpg') no-repeat
               background-size: cover
+              background-position: center 
           //блок 3-й ==========
           &:nth-child(3)
             div 
               background: url('../img/reviews_internal_3.jpg') no-repeat
               background-size: cover
+              background-position: center 
 // секция "Блок с болтовней"
 section.chatter_block
   padding: 70px 0 70px 30px
+  @media screen and (max-width: 992px)
+    padding: 70px 0 70px 0
   .row 
     div:first-child 
       h4 
@@ -468,6 +517,8 @@ section.chatter_block
         line-height: 1.6
     div:last-child 
       padding: 0 30px
+      @media screen and (max-width: 992px)
+        padding: 0 15px
       h2 
         padding: 21px 0 26px 0
         font-family: 'Open Sans', sans-serif
@@ -483,6 +534,8 @@ section.chatter_block
 // секция "Конструктор"
 section.constructor
   padding: 70px 0 110px 30px
+  @media screen and (max-width: 992px)
+    padding: 70px 0 110px 0
   .row 
     div:first-child 
     div:last-child 
@@ -531,6 +584,8 @@ footer.template_footer
       display: none
 footer 
   padding: 70px 30px 110px 30px
+  @media screen and (max-width: 992px)
+    padding: 70px 15px 27px 15px
   >.row  
     position: relative
     &:before 
@@ -544,6 +599,8 @@ footer, .template_footer
   >.row 
     >div:first-of-type 
       padding: 0 55px 0 58px
+      @media screen and (max-width: 992px)
+        padding: 0 15px
       p 
         font-size: 20px
         line-height: 33px
@@ -590,6 +647,8 @@ footer, .template_footer
 .tel_number_1
   font-size: 12px
   line-height: 1.67
+  @media screen and ( max-width: 488px )
+    padding-top: 20px
   a 
     font-size: 24px
     font-weight: bold
@@ -604,6 +663,8 @@ footer, .template_footer
     font-size: 60px
     @media screen and (max-width: 1500px)
       font-size: 38px
+    @media screen and (max-width: 420px)
+      font-size: 31px
 form.submit_application_1, 
 form.submit_application_2
   button
@@ -625,6 +686,8 @@ form.submit_application_1
     margin: 20px 0
 form.submit_application_2
   margin: 9px 0 0 0
+  @media screen and (max-width: 992px)
+    margin: 9px 0 55px 0
 
 // спрайт svg ==============
 .logo 
@@ -716,7 +779,7 @@ form.submit_application_2
     border-radius: 50%
     position: absolute
     left: -43%
-    top: 2%
+    top: 2.3%
     display: flex
     flex-direction: column
     justify-content: center
