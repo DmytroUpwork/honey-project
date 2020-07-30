@@ -1024,12 +1024,7 @@ form.submit_application_2 {
 }
 
 .main_transform {
-  -webkit-transform: scaleX(0.83);
-          transform: scaleX(0.83);
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  width: 82%;
 }
 
 .logo {
