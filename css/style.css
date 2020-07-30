@@ -1250,18 +1250,18 @@ form.submit_application_2 {
 
 .navbar_line_active_1,
 .navbar_line_active_2 {
-  width: 10px !important;
+  width: 10.5px !important;
   margin: 0 !important;
 }
 
 .navbar_line_active_1 {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .navbar_line_active_2 {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .navbar_line_active_3 {
