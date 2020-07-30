@@ -27,9 +27,14 @@ $(document).ready(function () {
 
 // меню выпадающее ==============================
 let $navbar_menu_toggler = document.querySelector(".button_menu"),
+  $main_transform_collapse = document.querySelector("main"),
+  $nav_transform_collapse = document.querySelector("nav"),
+  $footer_transform_collapse = document.querySelector("footer"),
   $navbar_menu_collapse = document.querySelector(".menu_1"),
   $navbar_menu_mobile_toggler = document.querySelector(".navbar-toggler"),
-  $navbar_button_menu_mobile_line = document.querySelectorAll(".navbar-toggler span"),
+  $navbar_button_menu_mobile_line = document.querySelectorAll(
+    ".navbar-toggler span"
+  ),
   $navbar_button_line = document.querySelectorAll(".button_menu span");
 
 $navbar_menu_toggler.onclick = menu_mobile_toggler;
@@ -41,6 +46,9 @@ function menu_mobile_toggler(event) {
   $navbar_button_line[0].classList.toggle("navbar_line_active_1");
   $navbar_button_line[2].classList.toggle("navbar_line_active_2");
   $navbar_button_line[1].classList.toggle("navbar_line_active_3");
+  $main_transform_collapse.classList.toggle("main_transform");
+  $nav_transform_collapse.classList.toggle("main_transform");
+  $footer_transform_collapse.classList.toggle("main_transform");
 };
 
 function navbar_button_menu_mobile_line(event) {
