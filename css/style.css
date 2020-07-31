@@ -120,7 +120,11 @@ p {
   }
 }
 
-html, body {
+html {
+  overflow-x: visible;
+}
+
+body {
   font-family: 'Noto Sans', sans-serif;
   background: #fff;
   color: #000;
@@ -1014,7 +1018,7 @@ footer > .row {
 
 footer > .row:before {
   content: '';
-  border: solid 1px #aaa;
+  border-bottom: solid 1px #aaa;
   position: absolute;
   top: -70px;
   width: 100%;

@@ -49,14 +49,14 @@ p
     font-size: 9px
   @media screen and (max-width: 736px) 
     font-size: 12px   
-html, body
+html 
+  overflow-x: visible
+body 
   font-family: 'Noto Sans', sans-serif
   background: #fff
   color: #000
   overflow-x: hidden
   position: relative
-body 
-  // height: 100vh
   header 
     nav.navbar
       padding: 6px 75px 7px 30px
@@ -617,7 +617,7 @@ footer
     position: relative
     &:before 
       content: ''
-      border: solid 1px #aaa
+      border-bottom: solid 1px #aaa
       position: absolute
       top: -70px
       width: 100%
