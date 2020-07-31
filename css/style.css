@@ -173,7 +173,8 @@ body header nav.navbar div ul li a.nav-link {
 }
 
 body header nav.navbar div ul li a.nav-link:hover {
-  color: #ff9800 !important;
+  color: #7f7f7f !important;
+  border-bottom: 2px solid transparent !important;
 }
 
 body header nav.navbar div ul li:nth-child(1) a.nav-link {
@@ -181,7 +182,7 @@ body header nav.navbar div ul li:nth-child(1) a.nav-link {
 }
 
 body header nav.navbar div ul li:nth-child(2) a.nav-link {
-  color: #7f7f7f !important;
+  border-bottom: 2px solid #4d6360;
 }
 
 body header nav.navbar div ul li:nth-child(3) a.nav-link {
@@ -594,6 +595,11 @@ body main .home_page div:nth-child(9) div p {
   body main .home_page div:nth-child(9) div p {
     font-size: 13px;
   }
+}
+
+.active_link {
+  color: #7f7f7f !important;
+  border-bottom: 2px solid transparent !important;
 }
 
 .row_icon {

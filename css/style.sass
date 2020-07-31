@@ -49,6 +49,7 @@ p
     font-size: 9px
   @media screen and (max-width: 736px) 
     font-size: 12px   
+
 html 
   overflow-x: visible
 body 
@@ -81,17 +82,15 @@ body
               line-height: 2
               color: #000!important
               transition: 0.2s
-              
-              // @media screen and ( max-width: 1700px ) and (min-width: 1500px)
-              //   font-size: 0.8vw
               &:hover 
-                color: #ff9800!important
+                color: #7f7f7f!important
+                border-bottom: 2px solid transparent!important
             &:nth-child(1) 
               a.nav-link
                 border-bottom: 2px solid#ce0000
             &:nth-child(2) 
               a.nav-link
-                color: #7f7f7f!important
+                border-bottom: 2px solid #4d6360
             &:nth-child(3) 
               a.nav-link
                 border-bottom: 2px solid #1e9cd8
@@ -349,7 +348,10 @@ body
             p 
               font-size: 14px
               @media screen and ( max-width: 365px )
-                font-size: 13px          
+                font-size: 13px    
+.active_link
+  color: #7f7f7f!important
+  border-bottom: 2px solid transparent!important
 .row_icon
   padding: 0
   .row 

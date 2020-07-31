@@ -1,7 +1,4 @@
 $(document).ready(function () {
-
-
-
   //owl carousel ===================================================
   $(".owl-carousel").owlCarousel({
     loop: true,
@@ -20,9 +17,6 @@ $(document).ready(function () {
       },
     },
   });
-
-
-
 });
 
 // меню выпадающее ==============================
@@ -32,7 +26,9 @@ let $navbar_menu_toggler = document.querySelector(".button_menu"),
   $footer_transform_collapse = document.querySelector("footer"),
   $navbar_menu_collapse = document.querySelector(".menu_1"),
   $navbar_menu_mobile_toggler = document.querySelector(".navbar-toggler"),
-  $navbar_button_menu_mobile_line = document.querySelectorAll(".navbar-toggler span"),
+  $navbar_button_menu_mobile_line = document.querySelectorAll(
+    ".navbar-toggler span"
+  ),
   $navbar_link_menu = document.querySelectorAll("a.link_transform_menu"),
   $navbar_button_line = document.querySelectorAll(".button_menu span");
 
@@ -54,10 +50,16 @@ $navbar_menu_toggler.addEventListener("click", function (event) {
 });
 
 function navbar_button_menu_mobile_line(event) {
-  $navbar_button_menu_mobile_line[0].classList.toggle("navbar_line_mobile_active_1");
-  $navbar_button_menu_mobile_line[2].classList.toggle("navbar_line_mobile_active_2");
-  $navbar_button_menu_mobile_line[1].classList.toggle("navbar_line_mobile_active_3");
-};
+  $navbar_button_menu_mobile_line[0].classList.toggle(
+    "navbar_line_mobile_active_1"
+  );
+  $navbar_button_menu_mobile_line[2].classList.toggle(
+    "navbar_line_mobile_active_2"
+  );
+  $navbar_button_menu_mobile_line[1].classList.toggle(
+    "navbar_line_mobile_active_3"
+  );
+}
 
 // пагинация страниц ==========================
 window.onload = function () {
@@ -73,4 +75,10 @@ window.onload = function () {
     }
     $(".cdp").attr("actpage", paginationPage);
   });
+
+  let $navbar_link_menu = document.querySelectorAll("a.link_transform_menu");
+  for (var i = 0; $navbar_link_menu.length; i++) {
+    if (window.location == $navbar_link_menu[i].href)
+      $navbar_link_menu[i].classList.add("active_link");
+  }
 };
