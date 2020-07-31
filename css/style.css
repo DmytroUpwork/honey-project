@@ -172,12 +172,6 @@ body header nav.navbar div ul li a.nav-link {
   transition: 0.2s;
 }
 
-@media screen and (max-width: 1700px) and (min-width: 1500px) {
-  body header nav.navbar div ul li a.nav-link {
-    font-size: 0.8vw;
-  }
-}
-
 body header nav.navbar div ul li a.nav-link:hover {
   color: #ff9800 !important;
 }
@@ -1240,6 +1234,10 @@ form.submit_application_2 {
   .main_transform {
     width: 100%;
   }
+}
+
+.link_transform {
+  font-size: 11px;
 }
 
 .logo {

@@ -32,15 +32,17 @@ let $navbar_menu_toggler = document.querySelector(".button_menu"),
   $footer_transform_collapse = document.querySelector("footer"),
   $navbar_menu_collapse = document.querySelector(".menu_1"),
   $navbar_menu_mobile_toggler = document.querySelector(".navbar-toggler"),
-  $navbar_button_menu_mobile_line = document.querySelectorAll(
-    ".navbar-toggler span"
-  ),
+  $navbar_button_menu_mobile_line = document.querySelectorAll(".navbar-toggler span"),
+  $navbar_link_menu = document.querySelectorAll("a.nav-link"),
   $navbar_button_line = document.querySelectorAll(".button_menu span");
 
-$navbar_menu_toggler.onclick = menu_mobile_toggler;
 $navbar_menu_mobile_toggler.onclick = navbar_button_menu_mobile_line;
 
-function menu_mobile_toggler(event) {
+$navbar_menu_toggler.addEventListener("click", function (event) {
+  event.preventDefault();
+  $navbar_link_menu.forEach((el) => {
+    el.classList.toggle("link_transform");
+  });
   $navbar_menu_collapse.classList.toggle("hidden_menu_1");
   $navbar_menu_toggler.classList.toggle("position_menu_button");
   $navbar_button_line[0].classList.toggle("navbar_line_active_1");
@@ -49,7 +51,7 @@ function menu_mobile_toggler(event) {
   $main_transform_collapse.classList.toggle("main_transform");
   $nav_transform_collapse.classList.toggle("main_transform");
   $footer_transform_collapse.classList.toggle("main_transform");
-};
+});
 
 function navbar_button_menu_mobile_line(event) {
   $navbar_button_menu_mobile_line[0].classList.toggle("navbar_line_mobile_active_1");
