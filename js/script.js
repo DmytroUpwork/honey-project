@@ -76,9 +76,9 @@ window.onload = function () {
     $(".cdp").attr("actpage", paginationPage);
   });
 
-  let $navbar_link_menu = document.querySelectorAll("a.link_transform_menu");
-  for (var i = 0; $navbar_link_menu.length; i++) {
-    if (window.location == $navbar_link_menu[i].href)
-      $navbar_link_menu[i].classList.add("active_link");
-  }
+  // let $navbar_link_menu = document.querySelectorAll("a.link_transform_menu");
+  // for (var i = 0; $navbar_link_menu.length; i++) {
+  //   if (window.location == $navbar_link_menu[i].href)
+  //     $navbar_link_menu[i].classList.add("active_link");
+  // }
 };
