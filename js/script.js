@@ -33,7 +33,7 @@ let $navbar_menu_toggler = document.querySelector(".button_menu"),
   $navbar_menu_collapse = document.querySelector(".menu_1"),
   $navbar_menu_mobile_toggler = document.querySelector(".navbar-toggler"),
   $navbar_button_menu_mobile_line = document.querySelectorAll(".navbar-toggler span"),
-  $navbar_link_menu = document.querySelectorAll("a.nav-link"),
+  $navbar_link_menu = document.querySelectorAll("a.link_transform_menu"),
   $navbar_button_line = document.querySelectorAll(".button_menu span");
 
 $navbar_menu_mobile_toggler.onclick = navbar_button_menu_mobile_line;
