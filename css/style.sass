@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap')
-@font-face 
-  font-family: 'Web font'
-  src: url('libs/ofont.ru_Myriad Pro.ttf') format('ttf')
-  font-weight: normal
-  font-style: normal
-
 
 * 
   outline: none
@@ -26,8 +20,12 @@ h1
     font-size: 34px
   @media screen and (max-width: 1100px)
     font-size: 31px
+  @media screen and (max-width: 736px)
+    margin-bottom: .5rem
 h2:not(.news_block_h2_footer)
   font-weight: 700
+  @media screen and (max-width: 736px) 
+    font-size: 1.3rem
 h4 
   padding: 0 0 26px 0
   color: #6e6e6e
@@ -38,6 +36,8 @@ h4
     font-size: 12px
   @media screen and (max-width: 1100px)
     font-size: 10px
+  @media screen and (max-width: 736px) 
+    font-size: 16px
 p 
   font-size: 1.1rem
   font-family: 'Open Sans', sans-serif
@@ -47,7 +47,8 @@ p
     font-size: 11px
   @media screen and (max-width: 1100px)
     font-size: 9px
-    
+  @media screen and (max-width: 736px) 
+    font-size: 12px   
 html, body
   font-family: 'Noto Sans', sans-serif
   background: #fff
@@ -55,7 +56,7 @@ html, body
   overflow-x: hidden
   position: relative
 body 
-  height: 100vh
+  // height: 100vh
   header 
     nav.navbar
       padding: 6px 75px 7px 30px
@@ -124,23 +125,6 @@ body
                 height: 100%
           @media screen and (max-width: 1500px)
             display: none
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   main 
     padding: 0 30px
     transition: 0.5s
@@ -175,6 +159,8 @@ body
           border-radius: 50%
           top: 68px
           left: 97px
+          @media screen and ( max-width: 1600px) and (max-height: 768px)
+            top: 48px
           @media screen and ( max-width: 1600px)
             width: 116px
             height: 116px
@@ -188,10 +174,14 @@ body
           @media screen and ( max-width: 500px)
             width: 75px
             height: 75px
+          @media screen and ( max-width: 736px ) and (max-height: 460px)
+            display: none
           img 
             display: inline-block
             width: 75%
             padding-top: 13px
+            @media screen and ( max-width: 1600px) and (min-width: 1500px)
+              padding-bottom: 32px
             @media screen and ( max-width: 500px)
               padding-top: 23px
         div:last-of-type
@@ -214,7 +204,8 @@ body
           bottom: 36px
         @media screen and (max-width: 992px)
           left: 30px
-        
+        @media screen and ( max-width: 736px ) and (max-height: 460px)
+          bottom: 20px
         .owl-dot
           span 
             width: 16px
@@ -305,8 +296,7 @@ body
           a 
             div 
               div
-                background-color: #fbac19
-              
+                background-color: #fbac19             
         h3  
           font-size: 30px
           width: 66%
@@ -314,8 +304,7 @@ body
             font-size: 26px
             width: 56%
           @media screen and (max-width: 1200px)
-            font-size: 23px
-            
+            font-size: 23px           
         &:nth-child(1)
           div:not(.icon_in_box_home)
             background-image: url('../img/home_celebration.jpg')
@@ -360,8 +349,7 @@ body
             p 
               font-size: 14px
               @media screen and ( max-width: 365px )
-                font-size: 13px
-                
+                font-size: 13px          
 .row_icon
   padding: 0
   .row 
@@ -403,6 +391,8 @@ section.production
   padding: 124px 0 70px 30px
   @media screen and (max-width: 992px)
     padding: 124px 0 70px 0
+  @media screen and (max-width: 736px)
+    padding: 52px 0 0 0
 section.production, section.blog_news
   div
     div:first-child
@@ -470,6 +460,8 @@ section.shares
   padding: 65px 0 65px 30px
   @media screen and (max-width: 992px)
     padding: 65px 0 65px 0
+  @media screen and (max-width: 736px)
+    padding: 52px 0 0 0
   div
     div.row_icon 
       .row 
@@ -487,6 +479,8 @@ section.portfolio
   padding: 65px 0 65px 30px
   @media screen and (max-width: 992px)
     padding: 65px 0 65px 0
+  @media screen and (max-width: 736px)
+    padding: 52px 0 0 0
   div
     div.row_icon 
       .row 
@@ -512,6 +506,8 @@ section.reviews
   padding: 65px 0 65px 30px
   @media screen and (max-width: 992px)
     padding: 65px 0 65px 0
+  @media screen and (max-width: 736px)
+    padding: 52px 0 0 0
   div
     div.row_icon 
       .row 
@@ -533,6 +529,8 @@ section.chatter_block
   padding: 65px 0 65px 30px
   @media screen and (max-width: 992px)
     padding: 65px 0 65px 0
+  @media screen and (max-width: 736px)
+    padding: 52px 0 0 0
   .row 
     div:first-child 
       h4 
@@ -559,6 +557,8 @@ section.constructor
   padding: 65px 0 105px 30px
   @media screen and (max-width: 992px)
     padding: 65px 0 105px 0
+  @media screen and (max-width: 736px)
+    padding: 52px 0 52px 0
   .row 
     div:first-child 
     div:last-child 
@@ -586,9 +586,10 @@ section.blog_news
         border-bottom: 1px solid #aaa
         >p  
           font-weight: 600
-
+        @media screen and ( max-width: 1845px )
+          padding: 9px 0 40px 0
         @media screen and ( max-width: 1500px )
-          padding: 8px 0 40px 0
+          padding: 7px 0 40px 0
         @media screen and ( max-width: 1200px )
           padding: 75px 0 40px 0
         >strong 
@@ -620,7 +621,6 @@ footer
       position: absolute
       top: -70px
       width: 100%
-    
 footer, .template_footer
   >.row 
     >div:first-of-type 
@@ -717,23 +717,13 @@ form.submit_application_2
   margin: 9px 0 0 0
   @media screen and (max-width: 992px)
     margin: 9px 0 55px 0
-
-
-
-
-
-
-
-
-
-
-
-
 // сдвиг main при открытии меню
 .main_transform
-  width: 82%
+  width: 83%
+  @media screen and ( max-width: 1600px )
+    width: 81%
   @media screen and ( max-width: 1500px )
-    width: 79%
+    width: 77%
   @media screen and ( max-width: 1300px )
     width: 75%
   @media screen and ( max-width: 1154px )
@@ -741,34 +731,11 @@ form.submit_application_2
   @media screen and ( max-width: 1060px )
     width: 71%
   @media screen and ( max-width: 982px )
-    width: 68%
-  @media screen and ( max-width: 913px )
-    width: 64%
-  @media screen and ( max-width: 828px )
     width: 100%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // спрайт svg ==============
 .logo 
   width: 58px
   height: 53px
-
 // полоса прокрутки ============
 ::-webkit-scrollbar 
   width: 2px
@@ -776,7 +743,6 @@ form.submit_application_2
 ::-webkit-scrollbar-thumb 
   border-radius: 2px
   background-color: #D39C74
-
 // стили модального окна ==============
 .modal-backdrop 
   background-color: transparent
@@ -815,23 +781,6 @@ form.submit_application_2
         @media screen and (max-width: 992px)
           font-size: 18px 
           line-height: 25px
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // меню выдвигающееся
 .menu_1 
   width: 300px
@@ -943,11 +892,3 @@ form.submit_application_2
   bottom: 0
 .navbar_line_mobile_active_3
   opacity: 0
-      
-    
-  
-
-  
-
-
-
