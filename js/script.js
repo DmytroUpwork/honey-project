@@ -23,13 +23,18 @@ $(document).ready(function () {
 let $navbar_menu_toggler = document.querySelector(".button_menu"),
   $main_transform_collapse = document.querySelector("main"),
   $nav_transform_collapse = document.querySelector("nav"),
-  $footer_transform_collapse = document.querySelector("footer"),
+  $footer_transform_collapse = document.querySelectorAll("footer"),
   $navbar_menu_collapse = document.querySelector(".menu_1"),
   $navbar_menu_mobile_toggler = document.querySelector(".navbar-toggler"),
+  $div_news_padding = document.querySelectorAll(
+    "section.blog_news .row > div:first-child"
+  ),
   $navbar_button_menu_mobile_line = document.querySelectorAll(
     ".navbar-toggler span"
   ),
+  $tel_transform = document.querySelectorAll(".tel_number_2 a"),
   $navbar_link_menu = document.querySelectorAll("a.link_transform_menu"),
+  $form_button_transform = document.querySelectorAll(".blog_news form button"),
   $navbar_button_line = document.querySelectorAll(".button_menu span");
 
 $navbar_menu_mobile_toggler.onclick = navbar_button_menu_mobile_line;
@@ -39,14 +44,36 @@ $navbar_menu_toggler.addEventListener("click", function (event) {
   $navbar_link_menu.forEach((el) => {
     el.classList.toggle("link_transform");
   });
+
+  $form_button_transform.forEach((el) => {
+    el.classList.toggle("button_transform");
+  });
+
+  $div_news_padding.forEach((el) => {
+    el.classList.toggle("active_news_padding");
+  });
+
+  $tel_transform.forEach((el) => {
+    el.classList.toggle("tel_size_transform");
+  });
+
+  $footer_transform_collapse.forEach((el) => {
+    el.classList.toggle("main_transform");
+  });
+
+  // $div_news_padding.classList.toggle("active_news_padding");
+
+  // $tel_transform.classList.toggle("tel_size_transform");
   $navbar_menu_collapse.classList.toggle("hidden_menu_1");
   $navbar_menu_toggler.classList.toggle("position_menu_button");
   $navbar_button_line[0].classList.toggle("navbar_line_active_1");
   $navbar_button_line[2].classList.toggle("navbar_line_active_2");
   $navbar_button_line[1].classList.toggle("navbar_line_active_3");
   $main_transform_collapse.classList.toggle("main_transform");
+  // $main_transform_collapse.style = "padding-right : 0";
+  // $nav_transform_collapse.style = "padding-right : 25px";
   $nav_transform_collapse.classList.toggle("main_transform");
-  $footer_transform_collapse.classList.toggle("main_transform");
+  // $footer_transform_collapse.classList.toggle("main_transform");
 });
 
 function navbar_button_menu_mobile_line(event) {
