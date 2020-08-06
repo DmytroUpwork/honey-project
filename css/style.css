@@ -1122,13 +1122,18 @@ footer > .row > div:first-of-type, .template_footer > .row > div:first-of-type {
 
 footer > .row > div:first-of-type p, .template_footer > .row > div:first-of-type p {
   font-size: 20px;
-  line-height: 33px;
+  line-height: 27px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 @media screen and (max-width: 1500px) {
   footer > .row > div:first-of-type p, .template_footer > .row > div:first-of-type p {
     font-size: 15px;
   }
+}
+
+footer > .row > div:first-of-type h2, .template_footer > .row > div:first-of-type h2 {
+  margin-bottom: 18px;
 }
 
 footer > .row > div:first-of-type h2 span, .template_footer > .row > div:first-of-type h2 span {
@@ -1143,6 +1148,12 @@ footer > .row > div:first-of-type h2 span, .template_footer > .row > div:first-o
 
 footer > .row > div:first-of-type > strong, .template_footer > .row > div:first-of-type > strong {
   font-size: 12px;
+  text-shadow: 0px 0px 0px #000;
+}
+
+footer > .row > div:first-of-type h5, .template_footer > .row > div:first-of-type h5 {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 footer .social_icons_email div:last-of-type, .template_footer .social_icons_email div:last-of-type {
