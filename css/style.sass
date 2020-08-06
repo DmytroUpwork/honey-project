@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap')
+@import url(//db.onlinewebfonts.com/c/3dd6e9888191722420f62dd54664bc94?family=Myriad+Pro)
 
 * 
   outline: none
@@ -10,8 +11,12 @@ a:hover
 img 
   width: 100%
 h1
-  font-size: 60px
+  font-size: 61px
   margin-bottom: 27px
+  font-family: 'Open Sans', sans-serif
+  font-weight: 600
+  text-shadow: 2px 0px 0px #000
+  letter-spacing: 1px
   @media screen and (max-width: 1845px)
     font-size: 46px
   @media screen and (max-width: 1500px)
@@ -29,7 +34,12 @@ h2:not(.news_block_h2_footer)
 h4 
   padding: 0 0 26px 0
   color: #6e6e6e
+  text-shadow: 1px 0px 0px #6e6e6e
   overflow-wrap: break-word
+  font-size: 25px
+  letter-spacing: -0.3px
+  font-weight: 300
+  font-family: 'Open Sans', sans-serif
   @media screen and (max-width: 1500px)
     font-size: 16px
   @media screen and (max-width: 1200px)
@@ -53,9 +63,9 @@ p
 html 
   overflow-x: visible
 body 
-  font-family: 'Noto Sans', sans-serif
+  font-family: 'Open Sans', sans-serif
   background: #fff
-  color: #000
+  // color: #000
   overflow-x: hidden
   position: relative
   header 
@@ -72,9 +82,10 @@ body
           height: 53px
         p 
           padding: 0 38px 0 12px
-          font-family: 'Noto Sans', sans-serif
-          font-weight: 700
-          font-size: 14px
+          font-family: 'Open Sans', sans-serif
+          font-weight: 600
+          font-size: 14.7px
+          letter-spacing: -0.6px
             
       div
         align-items: baseline
@@ -84,11 +95,15 @@ body
             padding: 0 11px
             a.nav-link
               line-height: 2
-              color: #000!important
+              color: #000
               transition: 0.2s
+              font-family: 'Open Sans', sans-serif
+              font-weight: 600
+              .active_link 
+                color: #7f7f7f
               &:hover 
-                color: #7f7f7f!important
-                border-bottom: 2px solid transparent!important
+                color: #7f7f7f
+                border-bottom: 2px solid transparent
             &:nth-child(1) 
               a.nav-link
                 border-bottom: 2px solid#ce0000
@@ -114,7 +129,7 @@ body
               a.nav-link
                 border-bottom: 2px solid #fbac19
             &:nth-child(9)
-              background: #f9da08
+              background: #f7e22d
               border-radius: 16px
               padding: 0 16px
               margin-left: 24px
@@ -216,92 +231,83 @@ body
             height: 16px
             border: solid 1px #fff
             background-color: transparent
+            margin: 5px 5.3px
           &.active 
             span
               background-color: #fff
+              
     // картинки главной страницы
     .home_page
-      div
+      >div
         color: #fff
         height: 277px
-        padding: 24px 24px 24px 30px
         overflow: hidden
-        &:nth-child(1)          
-          div:not(.icon_in_box_home)
-            background-image: url('../img/home_celebration.jpg')
+        
+        &:nth-child(1)   
+          a       
+            >div
+              
+              background-image: url('../img/home_celebration.jpg')
         //блок 2-й ==========
         &:nth-child(2)
-          div:not(.icon_in_box_home)
-            background-image: url('../img/home_polygraphy.jpg')
+          a       
+            >div
+              background-image: url('../img/home_polygraphy.jpg')
         //блок 3-й ==========
         &:nth-child(3)
-          div:not(.icon_in_box_home)
-            background-image: url('../img/home_souvenir.jpg')
+          a       
+            >div
+              background-image: url('../img/home_souvenir.jpg')
         //блок 4-й ==========
         &:nth-child(4)
-          div:not(.icon_in_box_home)
-            background-image: url('../img/home_leading.jpg')
+          a       
+            >div
+              background-image: url('../img/home_leading.jpg')
         //блок 5-й ==========
         &:nth-child(5)
-          div:not(.icon_in_box_home)
-            background-image: url('../img/home_bouquet.jpg')
+          a       
+            >div
+              background-image: url('../img/home_bouquet.jpg')
         //блок 6-й ==========
         &:nth-child(6)
-          div:not(.icon_in_box_home)
-            background-image: url('../img/home_portrait.jpg')
+          a       
+            >div
+              background-image: url('../img/home_portrait.jpg')
         //блок 7-й ==========
         &:nth-child(7) 
-          div:not(.icon_in_box_home)
-            background-image: url('../img/home_consultation.jpg')
+          a       
+            >div
+              background-image: url('../img/home_consultation.jpg')
         //блок 8-й ==========
         &:nth-child(8) 
-          div:not(.icon_in_box_home)
-            background-image: url('../img/home_business_events.jpg')
-            background-position: bottom
+          a       
+            >div
+              background-image: url('../img/home_business_events.jpg')
+              background-position: bottom right
         &:nth-child(9) 
           div
             color: #000
             background-color: #dfdfdf
-            // текстовый скролл ===========================================
-            // .scroll_text
-            //   height: 100px
-            //   overflow-y: scroll
-            //   background-image: none
-            //   padding: 0             
-            //   &:after
-            //     display: none
-            //   &:hover 
-            //     transform: none
-            //   @media screen and ( max-width: 992px )
-            //     margin: 60px 15px
-            //   .force-overflow
-            //     min-height: auto
-            //     background-image: none
-            //     padding: 0
-            //     &:after
-            //       display: none
-                  
-                p 
-                  font-size: 16px
-                  letter-spacing: 0.9px
-                  color: rgba(31, 31, 36, 0.9)
-                  line-height: 21px
-                .training_center
-                  text-indent: 30px
             h5 
               font-size: 15px
               @media screen and (max-width: 1200px)
                 font-size: 12px
             >strong 
               font-size: 10px
-            p 
-              font-size: 15px
-              @media screen and ( max-width: 365px )
-                font-size: 13px    
+            p
+              margin-top: 14px
+              line-height: 21px
+              font-family: 'Open Sans', sans-serif
+              font-weight: 600
+              @media screen and ( max-width: 620px )
+                font-size: 14px   
         div:not(.block_news) 
           background-repeat: no-repeat
+          background-position-x: right
           background-size: cover
           transition: 1s
+          width: 100.19%
+          height: 100.2%
           &:after
             content: ''
             position: absolute
@@ -320,10 +326,15 @@ body
         @media screen and (max-width: 1200px)
           padding: 18px
         a
-          cursor: pointer
-          div
+          cursor: pointer 
+
+          >div
+            height: 100%
+            padding: 24px 24px 24px 30px
             div.icon_in_box_home 
               position: absolute
+              z-index: 3
+              overflow: hidden
               width: 50px
               height: 50px
               border-radius: 50%
@@ -338,10 +349,7 @@ body
                 bottom: 0
                 margin: auto
                 z-index: 1
-        & a 
-          div 
-            div
-              z-index: 3
+              
         &:nth-child(1) 
           a 
             div 
@@ -395,27 +403,37 @@ body
                   width: 24px  
                           
         h3 
-          font-size: 30px          
+          font-size: 30px                   
           line-height: 40px
           opacity: 0.8
           letter-spacing: 0.5px
           z-index: 1
           position: relative
+          margin-bottom: 15px
           @media screen and (max-width: 1600px)
             font-size: 26px            
           @media screen and (max-width: 1200px)
             font-size: 23px  
         h3:not(.news_block_h2_footer)
           width: 61%
+          color: #fff 
           @media screen and (max-width: 1600px)
             width: 56%
-.active_link
-  color: #7f7f7f!important
-  border-bottom: 2px solid transparent!important
+
+section 
+  >.row 
+    >div:first-of-type 
+      max-width: 31.5%  
+      flex: 0 0 31.5%
+    // >div:last-of-type 
+    //   margin-right: -35px
+            
+
 .row_icon
   padding: 0
+  
   .row 
-    margin: 0
+    margin: 0 -38px 0 0
     div
       padding: 15px
       background-repeat: no-repeat
@@ -450,11 +468,15 @@ body
           padding: 19px
 // секция "Что мы производим"
 section.production
-  padding: 124px 0 50px 30px
+  padding: 124px 0 50px 57px
   @media screen and (max-width: 992px)
     padding: 124px 0 70px 0
   @media screen and (max-width: 736px)
     padding: 52px 0 0 0
+  >.row 
+    >div:first-of-type
+      div 
+        margin-left: -10px
 section.production, section.blog_news
   div
     div:first-child
@@ -466,8 +488,10 @@ section.production, section.blog_news
             background: #e6e6e6
             padding: 13px 28px
             margin: 0 18px 25px 0
-            font-size: 20px
+            font-size: 21px
             transition: 0.2s
+            font-weight: 700
+            letter-spacing: -0.3px
             &:hover
               background: #f9da08
             @media screen and (max-width: 1805px)
@@ -519,7 +543,7 @@ section.production, section.blog_news
               background-image: url('../img/internal_img_8.jpg')
 // Секция акции =========
 section.shares
-  padding: 50px 0 50px 30px
+  padding: 50px 0 50px 57px
   @media screen and (max-width: 992px)
     padding: 65px 0 65px 0
   @media screen and (max-width: 736px)
@@ -538,7 +562,7 @@ section.shares
               background-image: url('../img/internal_img_2.jpg')
 // секция "Портфолио"
 section.portfolio
-  padding: 50px 0 50px 30px
+  padding: 50px 0 50px 57px
   @media screen and (max-width: 992px)
     padding: 65px 0 65px 0
   @media screen and (max-width: 736px)
@@ -565,7 +589,7 @@ section.portfolio
               background-image: url('../img/portfolio_img_case.jpg')
 // секция "Отзывы"
 section.reviews
-  padding: 50px 0 50px 30px
+  padding: 50px 0 50px 57px
   @media screen and (max-width: 992px)
     padding: 65px 0 65px 0
   @media screen and (max-width: 736px)
@@ -588,7 +612,7 @@ section.reviews
               background-image: url('../img/reviews_internal_3.jpg')
 // секция "Блок с болтовней"
 section.chatter_block
-  padding: 50px 0 50px 30px
+  padding: 50px 0 50px 57px
   @media screen and (max-width: 992px)
     padding: 65px 0 65px 0
   @media screen and (max-width: 736px)
@@ -599,24 +623,29 @@ section.chatter_block
         width: 85%
         line-height: 1.6
     div:last-child 
-      padding: 0 30px
+      padding: 0 0 0 16px
       @media screen and (max-width: 992px)
         padding: 0 15px
       h2 
         padding: 21px 0 26px 0
         font-family: 'Open Sans', sans-serif
         font-weight: 800
+        font-size: 35px
+        letter-spacing: -0.8px
       h5 
         color: #3da100
         font-family: 'Open Sans', sans-serif
-        font-weight: 700
+        font-weight: 600
+        letter-spacing: -0.9px
       p 
         line-height: 1.7
         margin-bottom: 34px
         font-family: 'Open Sans', sans-serif
+        font-size: 17.9px
+        letter-spacing: -0.1px
 // секция "Конструктор"
 section.constructor
-  padding: 45px 0 105px 30px
+  padding: 45px 0 105px 57px
   @media screen and (max-width: 992px)
     padding: 65px 0 105px 0
   @media screen and (max-width: 736px)
@@ -624,9 +653,9 @@ section.constructor
   .row 
     div:first-child 
     div:last-child 
-      padding: 0 0 0 30px
-      img 
-        width: 96%
+      padding: 0 0 0 15px
+      // img 
+      //   width: 96%
 // секция новости в блоге 
 section.blog_news 
   padding: 124px 0 54px 0
@@ -674,7 +703,7 @@ footer.template_footer
     &:before 
       display: none
 footer 
-  padding: 65px 30px 110px 30px
+  padding: 65px 30px 110px 47px
   @media screen and (max-width: 992px)
     padding: 70px 15px 27px 15px
   >.row  
@@ -699,19 +728,48 @@ footer, .template_footer
       h2
         span
           border-bottom: solid 1px #0000004a
+          color: #000
+          font-size: 40.99px
+          font-weight: 500
+          letter-spacing: -0.6px
+          font-family: 'Noto Sans', sans-serif
+          text-shadow: 0px 0px 0px #000000
+          // font-size: 40.8px
+          // font-weight: 600
+          // letter-spacing: -0.6px
       >strong 
         font-size: 12px
   .social_icons_email 
     div:last-of-type 
-      padding: 6px 0 0 7px
+      padding: 19px 0 0 0
       a 
         font-family: Myriad Pro
         font-size: 20px
         color: #000
         span 
-          border-bottom: solid 1px #0000004a
+          &:after 
+            content: '' 
+            border-bottom: solid 1px #000
+            display: block
+            width: 148px
         @media screen and (max-width: 1500px)
           font-size: 15px
+    div
+      a 
+        .social_icon_svg
+          width: 35px
+          height: 42px
+          margin: 0 27px 0 0
+
+        &:first-of-type
+          .social_icon_svg
+            width: 42px
+        &:nth-child(2)
+          .social_icon_svg
+            width: 42px
+          // @media screen and (max-width: 1500px)
+          //   width: 30px
+          //   height: 30px
   .address_map 
     p 
       padding-top: 70px
@@ -722,13 +780,7 @@ footer, .template_footer
     iframe 
       width: 100%
       height: 547px
-  .social_icon_svg
-    width: 42px
-    height: 42px
-    margin: .5em
-    @media screen and (max-width: 1500px)
-      width: 30px
-      height: 30px  
+    
 .tel_number_1,
 .tel_number_2
   a 
@@ -744,9 +796,36 @@ footer, .template_footer
     font-weight: bold
     line-height: 0.67
     padding-top: 16px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tel_number_2
   font-size: 20px
+  font-weight: 500
+  // text-shadow: 0px 0px 0px #000
   line-height: 3.7
+  font-family: 'Myriad Pro'
+  
   @media screen and (max-width: 1500px)
     font-size: 14px
     padding-top: 9px
@@ -763,8 +842,10 @@ form.submit_application_2
     border: none
     background: #f9da08
     padding: 13px 28px
-    font-size: 20px
+    font-size: 21px
     transition: 0.2s
+    font-weight: 700
+    letter-spacing: -0.5px
     &:hover 
       background: #ff98009e
     @media screen and (max-width: 1500px)
@@ -781,29 +862,6 @@ form.submit_application_2
   margin: 9px 0 0 0
   @media screen and (max-width: 992px)
     margin: 9px 0 55px 0
-
-
-
-
-
-
-
-// сдвиг main при открытии меню
-.main_transform
-  width: calc( 100% - 335px )
-  @media screen and ( max-width: 982px )
-    width: 100%
-
-
-
-
-
-
-
-
-.link_transform
-  font-size: 16px
-  // font-size: 11px
 
 // полоса прокрутки ============
 ::-webkit-scrollbar 
@@ -873,6 +931,9 @@ form.submit_application_2
     position: absolute
     right: 8%
     top: 2%
+    display: none
+    @media screen and ( max-width: 1500px )
+      display: block
     span 
       border-bottom: 2px solid #000
       display: block
@@ -897,6 +958,7 @@ form.submit_application_2
         margin-bottom: 4px
   textarea.form-control 
     min-height: 95px
+    resize: none
   .button_menu
     width: 30px
     height: 30px
@@ -904,6 +966,7 @@ form.submit_application_2
     background-color: #fff
     border-radius: 50%
     position: absolute
+    padding-right: 1px
     left: -127px
     top: 15px
     display: flex
@@ -925,29 +988,29 @@ form.submit_application_2
       border: none
       background: #ecd73d
       color: #000
-      padding: 7px
+      font-family: 'Open Sans', sans-serif
+      font-weight: 600
+      padding: 8px
       width: 100%
-      font-size: 16px
+      font-size: 16.3px
       transition: 0.2s
+      letter-spacing: -0.5px
       &:hover 
-        background: #fdd02f
+        background: #ef9819
     .form-check 
       label 
-        font-size: 12px
-        margin: 4px 0 20px 0
+        margin: 3px 0 20px 0
+        line-height: 1.4
+        color: #000
         font-family: 'Open Sans', sans-serif
         font-weight: 600
-        line-height: 15px
-
-
-
-
+        font-size: 13px
   .social_icon_svg 
     margin-bottom: 12px
     a 
       svg 
-        width: 20px
-        height: 24px
+        width: 18px
+        height: 19px
         margin: .5em
   .orange_img_menu 
     margin: 118px 0 37px 0
@@ -955,43 +1018,29 @@ form.submit_application_2
       width: 50px
       height: 50px
   p 
-    line-height: 16px 
-    font-size: 12px
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    line-height: 1.4
+    color: #000
+    font-family: 'Open Sans', sans-serif
+    font-weight: 600
+    font-size: 13px
 // Добавление активных классов элементам при клике =====
 .hidden_menu_1 
-  right: 33px
+  right: 54px
+  // right: 33px
 .position_menu_button 
   left: -5%!important
   top: 2%!important
 .navbar_line_active_1, 
 .navbar_line_active_2
-  width: 10.5px!important
+  width: 9.1px!important
   margin: 0!important
+  @media screen and ( max-width: 1600px )
+    width: 10.6px!important
+    
 .navbar_line_active_1 
-  transform: rotate(45deg)
+  transform: rotate(-45deg)
 .navbar_line_active_2
-  transform: rotate(-45deg) 
+  transform: rotate(45deg) 
 .navbar_line_active_3
   opacity: 0
 .navbar_line_mobile_active_1, 
@@ -1008,6 +1057,28 @@ form.submit_application_2
 .button_transform 
   font-size: 11px!important
 .tel_size_transform 
-  font-size: 36px!important
+  font-size: 61px!important
 .active_news_padding 
   padding-left: 0!important
+.active_link
+  color: #7f7f7f!important
+  border-bottom: 2px solid transparent!important
+.p_transform
+  font-size: 14px!important
+  @media screen and ( max-width: 1600px )
+    font-size: 12px!important
+  @media only screen and (max-width: 1418px) and (min-width: 1200px)
+    font-size: 10px!important
+// сдвиг main при открытии меню
+.nav_transform 
+  width: calc( 100% - 357px )
+  padding-right: 25px!important
+.main_transform
+  width: calc( 100% - 357px )
+  padding-right: 0
+  @media screen and ( max-width: 982px )
+    width: 100%
+.link_transform
+  font-size: 17px
+  letter-spacing: -1px
+  // font-size: 11px

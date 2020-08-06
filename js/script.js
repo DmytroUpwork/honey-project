@@ -26,6 +26,7 @@ let $navbar_menu_toggler = document.querySelector(".button_menu"),
   $footer_transform_collapse = document.querySelectorAll("footer"),
   $navbar_menu_collapse = document.querySelector(".menu_1"),
   $navbar_menu_mobile_toggler = document.querySelector(".navbar-toggler"),
+  $blog_news_p = document.querySelectorAll(".block_news p"),
   $div_news_padding = document.querySelectorAll(
     "section.blog_news .row > div:first-child"
   ),
@@ -57,6 +58,12 @@ $navbar_menu_toggler.addEventListener("click", function (event) {
     el.classList.toggle("tel_size_transform");
   });
 
+  $blog_news_p.forEach((el) => {
+    el.classList.toggle("p_transform");
+  });
+
+  // $blog_news_p.classList.toggle("p_transform");
+
   $footer_transform_collapse.forEach((el) => {
     el.classList.toggle("main_transform");
   });
@@ -70,9 +77,11 @@ $navbar_menu_toggler.addEventListener("click", function (event) {
   $navbar_button_line[2].classList.toggle("navbar_line_active_2");
   $navbar_button_line[1].classList.toggle("navbar_line_active_3");
   $main_transform_collapse.classList.toggle("main_transform");
+  $nav_transform_collapse.classList.toggle("nav_transform");
+  
   // $main_transform_collapse.style = "padding-right : 0";
   // $nav_transform_collapse.style = "padding-right : 25px";
-  $nav_transform_collapse.classList.toggle("main_transform");
+  
   // $footer_transform_collapse.classList.toggle("main_transform");
 });
 
