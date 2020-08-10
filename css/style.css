@@ -77,6 +77,12 @@ h4 {
   font-family: 'Open Sans', sans-serif;
 }
 
+@media screen and (max-width: 1920px) {
+  h4 {
+    font-size: 20px;
+  }
+}
+
 p {
   font-size: 1.1rem;
 }
@@ -171,7 +177,7 @@ body header nav.navbar div ul li a.nav-link .active_link {
 
 body header nav.navbar div ul li a.nav-link:hover {
   color: #7f7f7f;
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid transparent !important;
 }
 
 body header nav.navbar div ul li:nth-child(1) a.nav-link {
@@ -227,6 +233,10 @@ body header nav.navbar div ul li:nth-child(9) a.nav-link {
   height: 100%;
 }
 
+body header nav.navbar div ul li:nth-child(9) a.nav-link:hover {
+  border-bottom: none !important;
+}
+
 @media screen and (max-width: 1500px) {
   body header nav.navbar div ul {
     display: none;
@@ -234,7 +244,7 @@ body header nav.navbar div ul li:nth-child(9) a.nav-link {
 }
 
 body main {
-  padding: 0 30px 0 30px;
+  padding: 0 24px 0 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   display: block;
@@ -423,39 +433,68 @@ body main .home_page > div {
   color: #fff;
   height: 277px;
   overflow: hidden;
+  position: relative;
 }
 
-body main .home_page > div:nth-child(1) a > div {
-  background-image: url("../img/home_celebration.jpg");
+body main .home_page > div:nth-child(2) a > div:after, body main .home_page > div:nth-child(3) a > div:after, body main .home_page > div:nth-child(6) a > div:after, body main .home_page > div:nth-child(8) a > div:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0000004f;
+  z-index: 1;
 }
 
-body main .home_page > div:nth-child(2) a > div {
-  background-image: url("../img/home_polygraphy.jpg");
+body main .home_page > div:nth-child(2) a > img {
+  width: 285px;
 }
 
-body main .home_page > div:nth-child(3) a > div {
-  background-image: url("../img/home_souvenir.jpg");
+body main .home_page > div:nth-child(2) a > div img {
+  width: 553px;
+  top: 39px;
+  right: -175px;
 }
 
-body main .home_page > div:nth-child(4) a > div {
-  background-image: url("../img/home_leading.jpg");
+body main .home_page > div:nth-child(3) a > div img {
+  width: 236px;
+  top: 18px;
+  right: 55px;
 }
 
-body main .home_page > div:nth-child(5) a > div {
-  background-image: url("../img/home_bouquet.jpg");
+body main .home_page > div:nth-child(4) a > div img {
+  width: 236px;
+  top: 7px;
+  right: 24px;
 }
 
-body main .home_page > div:nth-child(6) a > div {
-  background-image: url("../img/home_portrait.jpg");
+body main .home_page > div:nth-child(5) a > div img {
+  width: 501px;
+  top: -75px;
+  right: -104px;
 }
 
-body main .home_page > div:nth-child(7) a > div {
-  background-image: url("../img/home_consultation.jpg");
+body main .home_page > div:nth-child(6) a > div img {
+  width: 323px;
+  top: 12px;
+  right: -48px;
 }
 
-body main .home_page > div:nth-child(8) a > div {
-  background-image: url("../img/home_business_events.jpg");
-  background-position: bottom right;
+body main .home_page > div:nth-child(7) {
+  background-color: #3c7de5;
+}
+
+body main .home_page > div:nth-child(7) a > div img {
+  width: 528px;
+  top: -53px;
+  left: -27px;
+}
+
+body main .home_page > div:nth-child(8) a > div img {
+  width: 291px;
+  top: -1px;
+  right: 12px;
 }
 
 body main .home_page > div:nth-child(9) div {
@@ -496,18 +535,6 @@ body main .home_page > div div:not(.block_news) {
   background-size: cover;
   -webkit-transition: 1s;
   transition: 1s;
-  width: 100.19%;
-  height: 100.2%;
-}
-
-body main .home_page > div div:not(.block_news):after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: #0000004f;
 }
 
 body main .home_page > div div:not(.block_news):hover {
@@ -537,20 +564,33 @@ body main .home_page > div a {
   cursor: pointer;
 }
 
+body main .home_page > div a > img {
+  position: absolute;
+}
+
 body main .home_page > div a > div {
   height: 100%;
   padding: 24px 24px 24px 30px;
 }
 
-body main .home_page > div a > div div.icon_in_box_home {
+body main .home_page > div a > div > img {
   position: absolute;
   z-index: 3;
+}
+
+body main .home_page > div a > div div.icon_in_box_home {
+  position: absolute;
+  z-index: 4;
   overflow: hidden;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  bottom: 12%;
-  right: 7%;
+  bottom: 30px;
+  right: 32px;
+}
+
+body main .home_page > div a > div div.icon_in_box_home:after {
+  display: none;
 }
 
 body main .home_page > div a > div div.icon_in_box_home img {
@@ -561,7 +601,7 @@ body main .home_page > div a > div div.icon_in_box_home img {
   right: 0;
   bottom: 0;
   margin: auto;
-  z-index: 1;
+  z-index: 2;
 }
 
 body main .home_page > div:nth-child(1) a div div {
@@ -620,9 +660,8 @@ body main .home_page > div:nth-child(8) a div div img {
 body main .home_page > div h3 {
   font-size: 30px;
   line-height: 40px;
-  opacity: 0.8;
   letter-spacing: 0.5px;
-  z-index: 1;
+  z-index: 4;
   position: relative;
   margin-bottom: 15px;
 }
@@ -733,6 +772,12 @@ section.production > .row > div:first-of-type div {
   margin-left: -10px;
 }
 
+@media screen and (max-width: 992px) {
+  section.production > .row > div:first-of-type div {
+    margin-left: 0;
+  }
+}
+
 section.production div div:first-child div form button, section.blog_news div div:first-child div form button {
   border-radius: 40px;
   border: none;
@@ -742,7 +787,7 @@ section.production div div:first-child div form button, section.blog_news div di
   font-size: 21px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: -0.3px;
 }
 
@@ -933,6 +978,12 @@ section.chatter_block .row div:last-child h2 {
   letter-spacing: -0.8px;
 }
 
+@media screen and (max-width: 1200px) {
+  section.chatter_block .row div:last-child h2 {
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   section.chatter_block .row div:last-child h2 {
     font-size: 23px;
@@ -970,8 +1021,10 @@ section.constructor {
   }
 }
 
-section.constructor .row div:last-child {
-  padding: 0 0 0 15px;
+@media screen and (max-width: 1200px) {
+  section.constructor .row div:last-child {
+    padding: 0 15px;
+  }
 }
 
 section.blog_news {
@@ -1015,10 +1068,17 @@ section.blog_news .row > div.blog_news_tab div.list div {
 }
 
 section.blog_news .row > div.blog_news_tab div.list div > p {
-  font-weight: 600;
-  line-height: 30px;
+  font-weight: 500;
+  line-height: 34px;
   font-size: 1.31em;
   letter-spacing: -2.3px;
+}
+
+@media screen and (max-width: 1920px) {
+  section.blog_news .row > div.blog_news_tab div.list div > p {
+    font-size: 19px;
+    letter-spacing: -1px;
+  }
 }
 
 @media screen and (max-width: 1845px) {
@@ -1081,6 +1141,12 @@ footer.template_footer > .row {
   padding-left: 24px;
 }
 
+@media screen and (max-width: 1920px) {
+  footer.template_footer > .row {
+    padding-left: 0;
+  }
+}
+
 footer.template_footer > .row:before {
   display: none;
 }
@@ -1129,6 +1195,13 @@ footer > .row > div:first-of-type p, .template_footer > .row > div:first-of-type
   }
 }
 
+@media screen and (max-width: 1200px) {
+  footer > .row > div:first-of-type p, .template_footer > .row > div:first-of-type p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
 footer > .row > div:first-of-type h2, .template_footer > .row > div:first-of-type h2 {
   margin-bottom: 18px;
 }
@@ -1143,6 +1216,12 @@ footer > .row > div:first-of-type h2 span, .template_footer > .row > div:first-o
   text-shadow: 0px 0px 0px #000000;
 }
 
+@media screen and (max-width: 1200px) {
+  footer > .row > div:first-of-type h2 span, .template_footer > .row > div:first-of-type h2 span {
+    font-size: 30px;
+  }
+}
+
 footer > .row > div:first-of-type > strong, .template_footer > .row > div:first-of-type > strong {
   font-size: 12px;
   text-shadow: 0px 0px 0px #000;
@@ -1151,6 +1230,12 @@ footer > .row > div:first-of-type > strong, .template_footer > .row > div:first-
 footer > .row > div:first-of-type h5, .template_footer > .row > div:first-of-type h5 {
   font-size: 24px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+  footer > .row > div:first-of-type h5, .template_footer > .row > div:first-of-type h5 {
+    font-size: 18px;
+  }
 }
 
 footer .social_icons_email div:last-of-type, .template_footer .social_icons_email div:last-of-type {
@@ -1571,6 +1656,12 @@ form.submit_application_2 {
   right: 54px;
 }
 
+@media screen and (max-width: 1200px) {
+  .hidden_menu_1 {
+    right: 4px;
+  }
+}
+
 .position_menu_button {
   left: -5% !important;
   top: 2% !important;
@@ -1624,8 +1715,22 @@ form.submit_application_2 {
   opacity: 0;
 }
 
-.button_transform {
-  font-size: 11px !important;
+@media screen and (max-width: 2125px) {
+  .button_transform {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .button_transform {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 1712px) {
+  .button_transform {
+    font-size: 10px !important;
+  }
 }
 
 .tel_size_transform {
@@ -1670,12 +1775,18 @@ form.submit_application_2 {
   padding-right: 25px !important;
 }
 
+@media screen and (max-width: 1200px) {
+  .nav_transform {
+    width: 100%;
+  }
+}
+
 .main_transform {
   width: calc( 100% - 357px);
   padding-right: 0;
 }
 
-@media screen and (max-width: 982px) {
+@media screen and (max-width: 1200px) {
   .main_transform {
     width: 100%;
   }
