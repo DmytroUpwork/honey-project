@@ -14,21 +14,21 @@
   text-align: left;
   font-size: 0;
   z-index: 6;
-  margin: 20px 0 20px 0;
+  margin: 48px 0 73px -13px;
   // margin: 50px 0;
   // animation: cdp-in 500ms ease both;
   // animation-timeout: 200ms;
   &_i {
-    font-size: 14px;
+    font-size: 22px;
     background: #e6e6e6;
     text-decoration: none;
     transition: background 250ms;
     display: inline-block;
     text-transform: uppercase;
     text-align: center;
-    // margin: 0 3px 6px;
-    height: 60px;
-    min-width: 60px;
+    margin: 0 3px 6px;
+    height: 64px;
+    min-width: 64px;
     border-radius: 38px;
     border: 2px solid #fff;
     line-height: 56px;
@@ -80,8 +80,8 @@
       &:after {
         content: '...';
         color: #000;
-        font-size: 32px;
-        margin-left: -6px;
+        font-size: 24px;
+        margin-left: -13px;
       }
     }
     // 2 before
@@ -124,8 +124,8 @@
       &:after {
         content: '...';
         color: #000;
-        font-size: 32px;
-        margin-left: -6px;
+        font-size: 24px;
+        margin-left: -13px;
       }
     }
   }

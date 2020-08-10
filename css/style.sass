@@ -40,14 +40,14 @@ h4
   letter-spacing: -0.3px
   font-weight: 300
   font-family: 'Open Sans', sans-serif
-  @media screen and (max-width: 1500px)
-    font-size: 16px
-  @media screen and (max-width: 1200px)
-    font-size: 12px
-  @media screen and (max-width: 1100px)
-    font-size: 10px
-  @media screen and (max-width: 736px) 
-    font-size: 16px
+  // @media screen and (max-width: 1500px)
+  //   font-size: 16px
+  // @media screen and (max-width: 1200px)
+  //   font-size: 12px
+  // @media screen and (max-width: 1100px)
+  //   font-size: 10px
+  // @media screen and (max-width: 736px) 
+  //   font-size: 16px
 p 
   font-size: 1.1rem
   // font-family: 'Open Sans', sans-serif
@@ -144,7 +144,7 @@ body
           @media screen and (max-width: 1500px)
             display: none
   main 
-    padding: 0 30px
+    padding: 0 30px 0 30px
     transition: 0.5s
     display: block
     @media screen and (max-width: 992px)
@@ -422,18 +422,23 @@ body
 
 section 
   >.row 
-    >div:first-of-type 
-      max-width: 31.5%  
-      flex: 0 0 31.5%
-    // >div:last-of-type 
-    //   margin-right: -35px
+    // >div:first-of-type 
+    //   max-width: 31.5%  
+    //   flex: 0 0 31.5%
             
 
 .row_icon
   padding: 0
   
   .row 
-    margin: 0 -38px 0 0
+    margin: 0
+   
+    // @media screen and ( min-width: 1650px )
+    //    margin: 0 -28px 0 0
+    // @media screen and ( max-width: 1650px ) and (min-width: 1140px)
+    //   margin: 0 -22px 0 0
+
+
     div
       padding: 15px
       background-repeat: no-repeat
@@ -486,11 +491,11 @@ section.production, section.blog_news
             border-radius: 40px
             border: none
             background: #e6e6e6
-            padding: 13px 28px
+            padding: 13px 28px 16px
             margin: 0 18px 25px 0
             font-size: 21px
             transition: 0.2s
-            font-weight: 700
+            font-weight: 500
             letter-spacing: -0.3px
             &:hover
               background: #f9da08
@@ -506,6 +511,8 @@ section.production, section.blog_news
             @media screen and (max-width: 1100px)
               font-size: 10px
               padding: 5px 17px
+    
+      
     div.row_icon 
       .row 
         div 
@@ -632,6 +639,8 @@ section.chatter_block
         font-weight: 800
         font-size: 35px
         letter-spacing: -0.8px
+        @media screen and ( max-width: 992px )
+          font-size: 23px
       h5 
         color: #3da100
         font-family: 'Open Sans', sans-serif
@@ -664,7 +673,7 @@ section.blog_news
   .row 
     border-bottom: 1px solid #aaa
     >div:first-child
-      padding-left: 88px
+      padding-left: 77px
       @media screen and ( max-width: 1200px )
         padding-left: 15px
       h4 
@@ -672,12 +681,17 @@ section.blog_news
         line-height: 1.5
         width: 90%
     >div.blog_news_tab
+      padding-left: 22px
       div.list
         div
           padding: 16px 0 40px 0
           border-bottom: 1px solid #aaa
+          margin-bottom: 22px
           >p  
             font-weight: 600
+            line-height: 30px
+            font-size: 1.31em
+            letter-spacing: -2.3px
           @media screen and ( max-width: 1845px )
             padding: 9px 0 40px 0
           @media screen and ( max-width: 1500px )
@@ -686,11 +700,17 @@ section.blog_news
             padding: 75px 0 40px 0
           >strong 
             font-size: 12px
+            font-weight: 800
           >h2 
-            margin: 13px 0 30px 0
-            font-family: Myriad Pro
+            padding: 9px 0 26px 0
+            font-family: 'Open Sans', sans-serif
+            font-weight: 800
+            font-size: 35px
+            letter-spacing: -0.8px
+            @media screen and ( max-width: 992px )
+              font-size: 23px
           img 
-            padding: 0 0 29px 0
+            padding: 7px 0 41px 0
           >div:last-child 
             padding: 40px 0 40px 0
             border-bottom: none
@@ -699,11 +719,12 @@ footer.template_footer
   padding: 0 30px 110px 30px
   @media screen and ( max-width: 1200px )
     padding: 0 30px 30px 30px
-  >.row  
+  >.row 
+    padding-left: 24px 
     &:before 
       display: none
 footer 
-  padding: 65px 30px 110px 47px
+  padding: 65px 30px 110px 36px
   @media screen and (max-width: 992px)
     padding: 70px 15px 27px 15px
   >.row  
@@ -722,7 +743,7 @@ footer
 footer, .template_footer
   >.row 
     >div:first-of-type 
-      padding: 0 55px 0 58px
+      padding: 0 55px 0 67px
       @media screen and (max-width: 992px)
         padding: 0 15px
       p 
@@ -736,7 +757,7 @@ footer, .template_footer
         span
           border-bottom: solid 1px #0000004a
           color: #000
-          font-size: 40.99px
+          font-size: 41px
           font-weight: 500
           letter-spacing: -0.6px
           font-family: 'Noto Sans', sans-serif
@@ -792,7 +813,8 @@ footer, .template_footer
     p 
       padding-top: 70px
       font-family: Myriad Pro
-      font-size: 20px
+      font-size: 21px
+      letter-spacing: -0.5px
       @media screen and (max-width: 1500px)
         font-size: 16px
     iframe 
@@ -859,7 +881,7 @@ form.submit_application_2
     border-radius: 40px
     border: none
     background: #f9da08
-    padding: 13px 28px
+    padding: 13px 28px 16px
     font-size: 21px
     transition: 0.2s
     font-weight: 700
@@ -1076,8 +1098,19 @@ form.submit_application_2
   font-size: 11px!important
 .tel_size_transform 
   font-size: 61px!important
+  @media screen and ( max-width: 1652px ) and (min-width: 1500px)
+    font-size: 58px!important
+  @media screen and (max-width: 1500px) 
+    font-size: 38px!important
+
+
+
 .active_news_padding 
-  padding-left: 0!important
+  // padding-left: 0!important
+
+
+
+
 .active_link
   color: #7f7f7f!important
   border-bottom: 2px solid transparent!important
@@ -1099,4 +1132,9 @@ form.submit_application_2
 .link_transform
   font-size: 17px
   letter-spacing: -1px
-  // font-size: 11px
+  @media screen and ( max-width: 1750px )
+    font-size: 12px
+.col_transform 
+  @media screen and ( max-width: 2100px ) and (min-width: 992px)
+    flex: 0 0 33%!important
+    max-width: 33%!important

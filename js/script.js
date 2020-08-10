@@ -26,6 +26,7 @@ let $navbar_menu_toggler = document.querySelector(".button_menu"),
   $footer_transform_collapse = document.querySelectorAll("footer"),
   $navbar_menu_collapse = document.querySelector(".menu_1"),
   $navbar_menu_mobile_toggler = document.querySelector(".navbar-toggler"),
+  $col_md_3_transform = document.querySelectorAll(".col-md-3"),
   $blog_news_p = document.querySelectorAll(".block_news p"),
   $div_news_padding = document.querySelectorAll(
     "section.blog_news .row > div:first-child"
@@ -50,6 +51,10 @@ $navbar_menu_toggler.addEventListener("click", function (event) {
     el.classList.toggle("button_transform");
   });
 
+  $col_md_3_transform.forEach((el) => {
+    el.classList.toggle("col_transform");
+  });
+
   $div_news_padding.forEach((el) => {
     el.classList.toggle("active_news_padding");
   });
@@ -61,16 +66,9 @@ $navbar_menu_toggler.addEventListener("click", function (event) {
   $blog_news_p.forEach((el) => {
     el.classList.toggle("p_transform");
   });
-
-  // $blog_news_p.classList.toggle("p_transform");
-
   $footer_transform_collapse.forEach((el) => {
     el.classList.toggle("main_transform");
   });
-
-  // $div_news_padding.classList.toggle("active_news_padding");
-
-  // $tel_transform.classList.toggle("tel_size_transform");
   $navbar_menu_collapse.classList.toggle("hidden_menu_1");
   $navbar_menu_toggler.classList.toggle("position_menu_button");
   $navbar_button_line[0].classList.toggle("navbar_line_active_1");
@@ -78,11 +76,6 @@ $navbar_menu_toggler.addEventListener("click", function (event) {
   $navbar_button_line[1].classList.toggle("navbar_line_active_3");
   $main_transform_collapse.classList.toggle("main_transform");
   $nav_transform_collapse.classList.toggle("nav_transform");
-  
-  // $main_transform_collapse.style = "padding-right : 0";
-  // $nav_transform_collapse.style = "padding-right : 25px";
-  
-  // $footer_transform_collapse.classList.toggle("main_transform");
 });
 
 function navbar_button_menu_mobile_line(event) {
@@ -111,10 +104,4 @@ window.onload = function () {
     }
     $(".cdp").attr("actpage", paginationPage);
   });
-
-  // let $navbar_link_menu = document.querySelectorAll("a.link_transform_menu");
-  // for (var i = 0; $navbar_link_menu.length; i++) {
-  //   if (window.location == $navbar_link_menu[i].href)
-  //     $navbar_link_menu[i].classList.add("active_link");
-  // }
 };

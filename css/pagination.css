@@ -29,11 +29,11 @@
   text-align: left;
   font-size: 0;
   z-index: 6;
-  margin: 20px 0 20px 0;
+  margin: 48px 0 73px -13px;
 }
 
 .cdp_i {
-  font-size: 14px;
+  font-size: 22px;
   background: #e6e6e6;
   text-decoration: none;
   -webkit-transition: background 250ms;
@@ -41,8 +41,9 @@
   display: inline-block;
   text-transform: uppercase;
   text-align: center;
-  height: 60px;
-  min-width: 60px;
+  margin: 0 3px 6px;
+  height: 64px;
+  min-width: 64px;
   border-radius: 38px;
   border: 2px solid #fff;
   line-height: 56px;
@@ -87,8 +88,8 @@
 .cdp[actpage="1"] .cdp_i:nth-child(-1):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="1"] .cdp_i:nth-child(0):not(:first-child) {
@@ -132,8 +133,8 @@
 .cdp[actpage="1"] .cdp_i:nth-child(6):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="2"] .cdp_i:nth-child(0):not(:first-child):not(:nth-child(2)) {
@@ -147,8 +148,8 @@
 .cdp[actpage="2"] .cdp_i:nth-child(0):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="2"] .cdp_i:nth-child(1):not(:first-child) {
@@ -192,8 +193,8 @@
 .cdp[actpage="2"] .cdp_i:nth-child(7):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="3"] .cdp_i:nth-child(1):not(:first-child):not(:nth-child(2)) {
@@ -207,8 +208,8 @@
 .cdp[actpage="3"] .cdp_i:nth-child(1):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="3"] .cdp_i:nth-child(2):not(:first-child) {
@@ -252,8 +253,8 @@
 .cdp[actpage="3"] .cdp_i:nth-child(8):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="4"] .cdp_i:nth-child(2):not(:first-child):not(:nth-child(2)) {
@@ -267,8 +268,8 @@
 .cdp[actpage="4"] .cdp_i:nth-child(2):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="4"] .cdp_i:nth-child(3):not(:first-child) {
@@ -312,8 +313,8 @@
 .cdp[actpage="4"] .cdp_i:nth-child(9):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="5"] .cdp_i:nth-child(3):not(:first-child):not(:nth-child(2)) {
@@ -327,8 +328,8 @@
 .cdp[actpage="5"] .cdp_i:nth-child(3):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="5"] .cdp_i:nth-child(4):not(:first-child) {
@@ -372,8 +373,8 @@
 .cdp[actpage="5"] .cdp_i:nth-child(10):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="6"] .cdp_i:nth-child(4):not(:first-child):not(:nth-child(2)) {
@@ -387,8 +388,8 @@
 .cdp[actpage="6"] .cdp_i:nth-child(4):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="6"] .cdp_i:nth-child(5):not(:first-child) {
@@ -432,8 +433,8 @@
 .cdp[actpage="6"] .cdp_i:nth-child(11):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="7"] .cdp_i:nth-child(5):not(:first-child):not(:nth-child(2)) {
@@ -447,8 +448,8 @@
 .cdp[actpage="7"] .cdp_i:nth-child(5):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="7"] .cdp_i:nth-child(6):not(:first-child) {
@@ -492,8 +493,8 @@
 .cdp[actpage="7"] .cdp_i:nth-child(12):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="8"] .cdp_i:nth-child(6):not(:first-child):not(:nth-child(2)) {
@@ -507,8 +508,8 @@
 .cdp[actpage="8"] .cdp_i:nth-child(6):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="8"] .cdp_i:nth-child(7):not(:first-child) {
@@ -552,8 +553,8 @@
 .cdp[actpage="8"] .cdp_i:nth-child(13):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="9"] .cdp_i:nth-child(7):not(:first-child):not(:nth-child(2)) {
@@ -567,8 +568,8 @@
 .cdp[actpage="9"] .cdp_i:nth-child(7):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="9"] .cdp_i:nth-child(8):not(:first-child) {
@@ -612,8 +613,8 @@
 .cdp[actpage="9"] .cdp_i:nth-child(14):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="10"] .cdp_i:nth-child(8):not(:first-child):not(:nth-child(2)) {
@@ -627,8 +628,8 @@
 .cdp[actpage="10"] .cdp_i:nth-child(8):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="10"] .cdp_i:nth-child(9):not(:first-child) {
@@ -672,8 +673,8 @@
 .cdp[actpage="10"] .cdp_i:nth-child(15):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="11"] .cdp_i:nth-child(9):not(:first-child):not(:nth-child(2)) {
@@ -687,8 +688,8 @@
 .cdp[actpage="11"] .cdp_i:nth-child(9):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="11"] .cdp_i:nth-child(10):not(:first-child) {
@@ -732,8 +733,8 @@
 .cdp[actpage="11"] .cdp_i:nth-child(16):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="12"] .cdp_i:nth-child(10):not(:first-child):not(:nth-child(2)) {
@@ -747,8 +748,8 @@
 .cdp[actpage="12"] .cdp_i:nth-child(10):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="12"] .cdp_i:nth-child(11):not(:first-child) {
@@ -792,8 +793,8 @@
 .cdp[actpage="12"] .cdp_i:nth-child(17):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="13"] .cdp_i:nth-child(11):not(:first-child):not(:nth-child(2)) {
@@ -807,8 +808,8 @@
 .cdp[actpage="13"] .cdp_i:nth-child(11):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="13"] .cdp_i:nth-child(12):not(:first-child) {
@@ -852,8 +853,8 @@
 .cdp[actpage="13"] .cdp_i:nth-child(18):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="14"] .cdp_i:nth-child(12):not(:first-child):not(:nth-child(2)) {
@@ -867,8 +868,8 @@
 .cdp[actpage="14"] .cdp_i:nth-child(12):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="14"] .cdp_i:nth-child(13):not(:first-child) {
@@ -912,8 +913,8 @@
 .cdp[actpage="14"] .cdp_i:nth-child(19):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="15"] .cdp_i:nth-child(13):not(:first-child):not(:nth-child(2)) {
@@ -927,8 +928,8 @@
 .cdp[actpage="15"] .cdp_i:nth-child(13):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="15"] .cdp_i:nth-child(14):not(:first-child) {
@@ -972,8 +973,8 @@
 .cdp[actpage="15"] .cdp_i:nth-child(20):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="16"] .cdp_i:nth-child(14):not(:first-child):not(:nth-child(2)) {
@@ -987,8 +988,8 @@
 .cdp[actpage="16"] .cdp_i:nth-child(14):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="16"] .cdp_i:nth-child(15):not(:first-child) {
@@ -1032,8 +1033,8 @@
 .cdp[actpage="16"] .cdp_i:nth-child(21):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="17"] .cdp_i:nth-child(15):not(:first-child):not(:nth-child(2)) {
@@ -1047,8 +1048,8 @@
 .cdp[actpage="17"] .cdp_i:nth-child(15):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="17"] .cdp_i:nth-child(16):not(:first-child) {
@@ -1092,8 +1093,8 @@
 .cdp[actpage="17"] .cdp_i:nth-child(22):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="18"] .cdp_i:nth-child(16):not(:first-child):not(:nth-child(2)) {
@@ -1107,8 +1108,8 @@
 .cdp[actpage="18"] .cdp_i:nth-child(16):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="18"] .cdp_i:nth-child(17):not(:first-child) {
@@ -1152,8 +1153,8 @@
 .cdp[actpage="18"] .cdp_i:nth-child(23):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="19"] .cdp_i:nth-child(17):not(:first-child):not(:nth-child(2)) {
@@ -1167,8 +1168,8 @@
 .cdp[actpage="19"] .cdp_i:nth-child(17):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="19"] .cdp_i:nth-child(18):not(:first-child) {
@@ -1212,8 +1213,8 @@
 .cdp[actpage="19"] .cdp_i:nth-child(24):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="20"] .cdp_i:nth-child(18):not(:first-child):not(:nth-child(2)) {
@@ -1227,8 +1228,8 @@
 .cdp[actpage="20"] .cdp_i:nth-child(18):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="20"] .cdp_i:nth-child(19):not(:first-child) {
@@ -1272,8 +1273,8 @@
 .cdp[actpage="20"] .cdp_i:nth-child(25):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="21"] .cdp_i:nth-child(19):not(:first-child):not(:nth-child(2)) {
@@ -1287,8 +1288,8 @@
 .cdp[actpage="21"] .cdp_i:nth-child(19):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="21"] .cdp_i:nth-child(20):not(:first-child) {
@@ -1332,8 +1333,8 @@
 .cdp[actpage="21"] .cdp_i:nth-child(26):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="22"] .cdp_i:nth-child(20):not(:first-child):not(:nth-child(2)) {
@@ -1347,8 +1348,8 @@
 .cdp[actpage="22"] .cdp_i:nth-child(20):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="22"] .cdp_i:nth-child(21):not(:first-child) {
@@ -1392,8 +1393,8 @@
 .cdp[actpage="22"] .cdp_i:nth-child(27):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="23"] .cdp_i:nth-child(21):not(:first-child):not(:nth-child(2)) {
@@ -1407,8 +1408,8 @@
 .cdp[actpage="23"] .cdp_i:nth-child(21):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="23"] .cdp_i:nth-child(22):not(:first-child) {
@@ -1452,8 +1453,8 @@
 .cdp[actpage="23"] .cdp_i:nth-child(28):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="24"] .cdp_i:nth-child(22):not(:first-child):not(:nth-child(2)) {
@@ -1467,8 +1468,8 @@
 .cdp[actpage="24"] .cdp_i:nth-child(22):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="24"] .cdp_i:nth-child(23):not(:first-child) {
@@ -1512,8 +1513,8 @@
 .cdp[actpage="24"] .cdp_i:nth-child(29):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="25"] .cdp_i:nth-child(23):not(:first-child):not(:nth-child(2)) {
@@ -1527,8 +1528,8 @@
 .cdp[actpage="25"] .cdp_i:nth-child(23):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="25"] .cdp_i:nth-child(24):not(:first-child) {
@@ -1572,8 +1573,8 @@
 .cdp[actpage="25"] .cdp_i:nth-child(30):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="26"] .cdp_i:nth-child(24):not(:first-child):not(:nth-child(2)) {
@@ -1587,8 +1588,8 @@
 .cdp[actpage="26"] .cdp_i:nth-child(24):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="26"] .cdp_i:nth-child(25):not(:first-child) {
@@ -1632,8 +1633,8 @@
 .cdp[actpage="26"] .cdp_i:nth-child(31):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="27"] .cdp_i:nth-child(25):not(:first-child):not(:nth-child(2)) {
@@ -1647,8 +1648,8 @@
 .cdp[actpage="27"] .cdp_i:nth-child(25):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="27"] .cdp_i:nth-child(26):not(:first-child) {
@@ -1692,8 +1693,8 @@
 .cdp[actpage="27"] .cdp_i:nth-child(32):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="28"] .cdp_i:nth-child(26):not(:first-child):not(:nth-child(2)) {
@@ -1707,8 +1708,8 @@
 .cdp[actpage="28"] .cdp_i:nth-child(26):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="28"] .cdp_i:nth-child(27):not(:first-child) {
@@ -1752,8 +1753,8 @@
 .cdp[actpage="28"] .cdp_i:nth-child(33):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="29"] .cdp_i:nth-child(27):not(:first-child):not(:nth-child(2)) {
@@ -1767,8 +1768,8 @@
 .cdp[actpage="29"] .cdp_i:nth-child(27):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="29"] .cdp_i:nth-child(28):not(:first-child) {
@@ -1812,8 +1813,8 @@
 .cdp[actpage="29"] .cdp_i:nth-child(34):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="30"] .cdp_i:nth-child(28):not(:first-child):not(:nth-child(2)) {
@@ -1827,8 +1828,8 @@
 .cdp[actpage="30"] .cdp_i:nth-child(28):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="30"] .cdp_i:nth-child(29):not(:first-child) {
@@ -1872,8 +1873,8 @@
 .cdp[actpage="30"] .cdp_i:nth-child(35):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="31"] .cdp_i:nth-child(29):not(:first-child):not(:nth-child(2)) {
@@ -1887,8 +1888,8 @@
 .cdp[actpage="31"] .cdp_i:nth-child(29):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="31"] .cdp_i:nth-child(30):not(:first-child) {
@@ -1932,8 +1933,8 @@
 .cdp[actpage="31"] .cdp_i:nth-child(36):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="32"] .cdp_i:nth-child(30):not(:first-child):not(:nth-child(2)) {
@@ -1947,8 +1948,8 @@
 .cdp[actpage="32"] .cdp_i:nth-child(30):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="32"] .cdp_i:nth-child(31):not(:first-child) {
@@ -1992,8 +1993,8 @@
 .cdp[actpage="32"] .cdp_i:nth-child(37):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="33"] .cdp_i:nth-child(31):not(:first-child):not(:nth-child(2)) {
@@ -2007,8 +2008,8 @@
 .cdp[actpage="33"] .cdp_i:nth-child(31):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="33"] .cdp_i:nth-child(32):not(:first-child) {
@@ -2052,8 +2053,8 @@
 .cdp[actpage="33"] .cdp_i:nth-child(38):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="34"] .cdp_i:nth-child(32):not(:first-child):not(:nth-child(2)) {
@@ -2067,8 +2068,8 @@
 .cdp[actpage="34"] .cdp_i:nth-child(32):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="34"] .cdp_i:nth-child(33):not(:first-child) {
@@ -2112,8 +2113,8 @@
 .cdp[actpage="34"] .cdp_i:nth-child(39):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="35"] .cdp_i:nth-child(33):not(:first-child):not(:nth-child(2)) {
@@ -2127,8 +2128,8 @@
 .cdp[actpage="35"] .cdp_i:nth-child(33):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="35"] .cdp_i:nth-child(34):not(:first-child) {
@@ -2172,8 +2173,8 @@
 .cdp[actpage="35"] .cdp_i:nth-child(40):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="36"] .cdp_i:nth-child(34):not(:first-child):not(:nth-child(2)) {
@@ -2187,8 +2188,8 @@
 .cdp[actpage="36"] .cdp_i:nth-child(34):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="36"] .cdp_i:nth-child(35):not(:first-child) {
@@ -2232,8 +2233,8 @@
 .cdp[actpage="36"] .cdp_i:nth-child(41):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="37"] .cdp_i:nth-child(35):not(:first-child):not(:nth-child(2)) {
@@ -2247,8 +2248,8 @@
 .cdp[actpage="37"] .cdp_i:nth-child(35):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="37"] .cdp_i:nth-child(36):not(:first-child) {
@@ -2292,8 +2293,8 @@
 .cdp[actpage="37"] .cdp_i:nth-child(42):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="38"] .cdp_i:nth-child(36):not(:first-child):not(:nth-child(2)) {
@@ -2307,8 +2308,8 @@
 .cdp[actpage="38"] .cdp_i:nth-child(36):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="38"] .cdp_i:nth-child(37):not(:first-child) {
@@ -2352,8 +2353,8 @@
 .cdp[actpage="38"] .cdp_i:nth-child(43):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="39"] .cdp_i:nth-child(37):not(:first-child):not(:nth-child(2)) {
@@ -2367,8 +2368,8 @@
 .cdp[actpage="39"] .cdp_i:nth-child(37):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="39"] .cdp_i:nth-child(38):not(:first-child) {
@@ -2412,8 +2413,8 @@
 .cdp[actpage="39"] .cdp_i:nth-child(44):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="40"] .cdp_i:nth-child(38):not(:first-child):not(:nth-child(2)) {
@@ -2427,8 +2428,8 @@
 .cdp[actpage="40"] .cdp_i:nth-child(38):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="40"] .cdp_i:nth-child(39):not(:first-child) {
@@ -2472,8 +2473,8 @@
 .cdp[actpage="40"] .cdp_i:nth-child(45):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="41"] .cdp_i:nth-child(39):not(:first-child):not(:nth-child(2)) {
@@ -2487,8 +2488,8 @@
 .cdp[actpage="41"] .cdp_i:nth-child(39):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="41"] .cdp_i:nth-child(40):not(:first-child) {
@@ -2532,8 +2533,8 @@
 .cdp[actpage="41"] .cdp_i:nth-child(46):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="42"] .cdp_i:nth-child(40):not(:first-child):not(:nth-child(2)) {
@@ -2547,8 +2548,8 @@
 .cdp[actpage="42"] .cdp_i:nth-child(40):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="42"] .cdp_i:nth-child(41):not(:first-child) {
@@ -2592,8 +2593,8 @@
 .cdp[actpage="42"] .cdp_i:nth-child(47):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="43"] .cdp_i:nth-child(41):not(:first-child):not(:nth-child(2)) {
@@ -2607,8 +2608,8 @@
 .cdp[actpage="43"] .cdp_i:nth-child(41):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="43"] .cdp_i:nth-child(42):not(:first-child) {
@@ -2652,8 +2653,8 @@
 .cdp[actpage="43"] .cdp_i:nth-child(48):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="44"] .cdp_i:nth-child(42):not(:first-child):not(:nth-child(2)) {
@@ -2667,8 +2668,8 @@
 .cdp[actpage="44"] .cdp_i:nth-child(42):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="44"] .cdp_i:nth-child(43):not(:first-child) {
@@ -2712,8 +2713,8 @@
 .cdp[actpage="44"] .cdp_i:nth-child(49):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="45"] .cdp_i:nth-child(43):not(:first-child):not(:nth-child(2)) {
@@ -2727,8 +2728,8 @@
 .cdp[actpage="45"] .cdp_i:nth-child(43):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="45"] .cdp_i:nth-child(44):not(:first-child) {
@@ -2772,8 +2773,8 @@
 .cdp[actpage="45"] .cdp_i:nth-child(50):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="46"] .cdp_i:nth-child(44):not(:first-child):not(:nth-child(2)) {
@@ -2787,8 +2788,8 @@
 .cdp[actpage="46"] .cdp_i:nth-child(44):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="46"] .cdp_i:nth-child(45):not(:first-child) {
@@ -2832,8 +2833,8 @@
 .cdp[actpage="46"] .cdp_i:nth-child(51):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="47"] .cdp_i:nth-child(45):not(:first-child):not(:nth-child(2)) {
@@ -2847,8 +2848,8 @@
 .cdp[actpage="47"] .cdp_i:nth-child(45):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="47"] .cdp_i:nth-child(46):not(:first-child) {
@@ -2892,8 +2893,8 @@
 .cdp[actpage="47"] .cdp_i:nth-child(52):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="48"] .cdp_i:nth-child(46):not(:first-child):not(:nth-child(2)) {
@@ -2907,8 +2908,8 @@
 .cdp[actpage="48"] .cdp_i:nth-child(46):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="48"] .cdp_i:nth-child(47):not(:first-child) {
@@ -2952,8 +2953,8 @@
 .cdp[actpage="48"] .cdp_i:nth-child(53):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="49"] .cdp_i:nth-child(47):not(:first-child):not(:nth-child(2)) {
@@ -2967,8 +2968,8 @@
 .cdp[actpage="49"] .cdp_i:nth-child(47):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="49"] .cdp_i:nth-child(48):not(:first-child) {
@@ -3012,8 +3013,8 @@
 .cdp[actpage="49"] .cdp_i:nth-child(54):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="50"] .cdp_i:nth-child(48):not(:first-child):not(:nth-child(2)) {
@@ -3027,8 +3028,8 @@
 .cdp[actpage="50"] .cdp_i:nth-child(48):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="50"] .cdp_i:nth-child(49):not(:first-child) {
@@ -3072,8 +3073,8 @@
 .cdp[actpage="50"] .cdp_i:nth-child(55):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="51"] .cdp_i:nth-child(49):not(:first-child):not(:nth-child(2)) {
@@ -3087,8 +3088,8 @@
 .cdp[actpage="51"] .cdp_i:nth-child(49):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="51"] .cdp_i:nth-child(50):not(:first-child) {
@@ -3132,8 +3133,8 @@
 .cdp[actpage="51"] .cdp_i:nth-child(56):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="52"] .cdp_i:nth-child(50):not(:first-child):not(:nth-child(2)) {
@@ -3147,8 +3148,8 @@
 .cdp[actpage="52"] .cdp_i:nth-child(50):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="52"] .cdp_i:nth-child(51):not(:first-child) {
@@ -3192,8 +3193,8 @@
 .cdp[actpage="52"] .cdp_i:nth-child(57):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="53"] .cdp_i:nth-child(51):not(:first-child):not(:nth-child(2)) {
@@ -3207,8 +3208,8 @@
 .cdp[actpage="53"] .cdp_i:nth-child(51):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="53"] .cdp_i:nth-child(52):not(:first-child) {
@@ -3252,8 +3253,8 @@
 .cdp[actpage="53"] .cdp_i:nth-child(58):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="54"] .cdp_i:nth-child(52):not(:first-child):not(:nth-child(2)) {
@@ -3267,8 +3268,8 @@
 .cdp[actpage="54"] .cdp_i:nth-child(52):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="54"] .cdp_i:nth-child(53):not(:first-child) {
@@ -3312,8 +3313,8 @@
 .cdp[actpage="54"] .cdp_i:nth-child(59):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="55"] .cdp_i:nth-child(53):not(:first-child):not(:nth-child(2)) {
@@ -3327,8 +3328,8 @@
 .cdp[actpage="55"] .cdp_i:nth-child(53):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="55"] .cdp_i:nth-child(54):not(:first-child) {
@@ -3372,8 +3373,8 @@
 .cdp[actpage="55"] .cdp_i:nth-child(60):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="56"] .cdp_i:nth-child(54):not(:first-child):not(:nth-child(2)) {
@@ -3387,8 +3388,8 @@
 .cdp[actpage="56"] .cdp_i:nth-child(54):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="56"] .cdp_i:nth-child(55):not(:first-child) {
@@ -3432,8 +3433,8 @@
 .cdp[actpage="56"] .cdp_i:nth-child(61):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="57"] .cdp_i:nth-child(55):not(:first-child):not(:nth-child(2)) {
@@ -3447,8 +3448,8 @@
 .cdp[actpage="57"] .cdp_i:nth-child(55):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="57"] .cdp_i:nth-child(56):not(:first-child) {
@@ -3492,8 +3493,8 @@
 .cdp[actpage="57"] .cdp_i:nth-child(62):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="58"] .cdp_i:nth-child(56):not(:first-child):not(:nth-child(2)) {
@@ -3507,8 +3508,8 @@
 .cdp[actpage="58"] .cdp_i:nth-child(56):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="58"] .cdp_i:nth-child(57):not(:first-child) {
@@ -3552,8 +3553,8 @@
 .cdp[actpage="58"] .cdp_i:nth-child(63):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="59"] .cdp_i:nth-child(57):not(:first-child):not(:nth-child(2)) {
@@ -3567,8 +3568,8 @@
 .cdp[actpage="59"] .cdp_i:nth-child(57):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="59"] .cdp_i:nth-child(58):not(:first-child) {
@@ -3612,8 +3613,8 @@
 .cdp[actpage="59"] .cdp_i:nth-child(64):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="60"] .cdp_i:nth-child(58):not(:first-child):not(:nth-child(2)) {
@@ -3627,8 +3628,8 @@
 .cdp[actpage="60"] .cdp_i:nth-child(58):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="60"] .cdp_i:nth-child(59):not(:first-child) {
@@ -3672,8 +3673,8 @@
 .cdp[actpage="60"] .cdp_i:nth-child(65):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="61"] .cdp_i:nth-child(59):not(:first-child):not(:nth-child(2)) {
@@ -3687,8 +3688,8 @@
 .cdp[actpage="61"] .cdp_i:nth-child(59):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="61"] .cdp_i:nth-child(60):not(:first-child) {
@@ -3732,8 +3733,8 @@
 .cdp[actpage="61"] .cdp_i:nth-child(66):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="62"] .cdp_i:nth-child(60):not(:first-child):not(:nth-child(2)) {
@@ -3747,8 +3748,8 @@
 .cdp[actpage="62"] .cdp_i:nth-child(60):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="62"] .cdp_i:nth-child(61):not(:first-child) {
@@ -3792,8 +3793,8 @@
 .cdp[actpage="62"] .cdp_i:nth-child(67):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="63"] .cdp_i:nth-child(61):not(:first-child):not(:nth-child(2)) {
@@ -3807,8 +3808,8 @@
 .cdp[actpage="63"] .cdp_i:nth-child(61):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="63"] .cdp_i:nth-child(62):not(:first-child) {
@@ -3852,8 +3853,8 @@
 .cdp[actpage="63"] .cdp_i:nth-child(68):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="64"] .cdp_i:nth-child(62):not(:first-child):not(:nth-child(2)) {
@@ -3867,8 +3868,8 @@
 .cdp[actpage="64"] .cdp_i:nth-child(62):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="64"] .cdp_i:nth-child(63):not(:first-child) {
@@ -3912,8 +3913,8 @@
 .cdp[actpage="64"] .cdp_i:nth-child(69):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="65"] .cdp_i:nth-child(63):not(:first-child):not(:nth-child(2)) {
@@ -3927,8 +3928,8 @@
 .cdp[actpage="65"] .cdp_i:nth-child(63):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="65"] .cdp_i:nth-child(64):not(:first-child) {
@@ -3972,8 +3973,8 @@
 .cdp[actpage="65"] .cdp_i:nth-child(70):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="66"] .cdp_i:nth-child(64):not(:first-child):not(:nth-child(2)) {
@@ -3987,8 +3988,8 @@
 .cdp[actpage="66"] .cdp_i:nth-child(64):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="66"] .cdp_i:nth-child(65):not(:first-child) {
@@ -4032,8 +4033,8 @@
 .cdp[actpage="66"] .cdp_i:nth-child(71):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="67"] .cdp_i:nth-child(65):not(:first-child):not(:nth-child(2)) {
@@ -4047,8 +4048,8 @@
 .cdp[actpage="67"] .cdp_i:nth-child(65):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="67"] .cdp_i:nth-child(66):not(:first-child) {
@@ -4092,8 +4093,8 @@
 .cdp[actpage="67"] .cdp_i:nth-child(72):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="68"] .cdp_i:nth-child(66):not(:first-child):not(:nth-child(2)) {
@@ -4107,8 +4108,8 @@
 .cdp[actpage="68"] .cdp_i:nth-child(66):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="68"] .cdp_i:nth-child(67):not(:first-child) {
@@ -4152,8 +4153,8 @@
 .cdp[actpage="68"] .cdp_i:nth-child(73):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="69"] .cdp_i:nth-child(67):not(:first-child):not(:nth-child(2)) {
@@ -4167,8 +4168,8 @@
 .cdp[actpage="69"] .cdp_i:nth-child(67):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="69"] .cdp_i:nth-child(68):not(:first-child) {
@@ -4212,8 +4213,8 @@
 .cdp[actpage="69"] .cdp_i:nth-child(74):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="70"] .cdp_i:nth-child(68):not(:first-child):not(:nth-child(2)) {
@@ -4227,8 +4228,8 @@
 .cdp[actpage="70"] .cdp_i:nth-child(68):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="70"] .cdp_i:nth-child(69):not(:first-child) {
@@ -4272,8 +4273,8 @@
 .cdp[actpage="70"] .cdp_i:nth-child(75):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="71"] .cdp_i:nth-child(69):not(:first-child):not(:nth-child(2)) {
@@ -4287,8 +4288,8 @@
 .cdp[actpage="71"] .cdp_i:nth-child(69):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="71"] .cdp_i:nth-child(70):not(:first-child) {
@@ -4332,8 +4333,8 @@
 .cdp[actpage="71"] .cdp_i:nth-child(76):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="72"] .cdp_i:nth-child(70):not(:first-child):not(:nth-child(2)) {
@@ -4347,8 +4348,8 @@
 .cdp[actpage="72"] .cdp_i:nth-child(70):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="72"] .cdp_i:nth-child(71):not(:first-child) {
@@ -4392,8 +4393,8 @@
 .cdp[actpage="72"] .cdp_i:nth-child(77):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="73"] .cdp_i:nth-child(71):not(:first-child):not(:nth-child(2)) {
@@ -4407,8 +4408,8 @@
 .cdp[actpage="73"] .cdp_i:nth-child(71):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="73"] .cdp_i:nth-child(72):not(:first-child) {
@@ -4452,8 +4453,8 @@
 .cdp[actpage="73"] .cdp_i:nth-child(78):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="74"] .cdp_i:nth-child(72):not(:first-child):not(:nth-child(2)) {
@@ -4467,8 +4468,8 @@
 .cdp[actpage="74"] .cdp_i:nth-child(72):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="74"] .cdp_i:nth-child(73):not(:first-child) {
@@ -4512,8 +4513,8 @@
 .cdp[actpage="74"] .cdp_i:nth-child(79):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="75"] .cdp_i:nth-child(73):not(:first-child):not(:nth-child(2)) {
@@ -4527,8 +4528,8 @@
 .cdp[actpage="75"] .cdp_i:nth-child(73):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="75"] .cdp_i:nth-child(74):not(:first-child) {
@@ -4572,8 +4573,8 @@
 .cdp[actpage="75"] .cdp_i:nth-child(80):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="76"] .cdp_i:nth-child(74):not(:first-child):not(:nth-child(2)) {
@@ -4587,8 +4588,8 @@
 .cdp[actpage="76"] .cdp_i:nth-child(74):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="76"] .cdp_i:nth-child(75):not(:first-child) {
@@ -4632,8 +4633,8 @@
 .cdp[actpage="76"] .cdp_i:nth-child(81):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="77"] .cdp_i:nth-child(75):not(:first-child):not(:nth-child(2)) {
@@ -4647,8 +4648,8 @@
 .cdp[actpage="77"] .cdp_i:nth-child(75):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="77"] .cdp_i:nth-child(76):not(:first-child) {
@@ -4692,8 +4693,8 @@
 .cdp[actpage="77"] .cdp_i:nth-child(82):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="78"] .cdp_i:nth-child(76):not(:first-child):not(:nth-child(2)) {
@@ -4707,8 +4708,8 @@
 .cdp[actpage="78"] .cdp_i:nth-child(76):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="78"] .cdp_i:nth-child(77):not(:first-child) {
@@ -4752,8 +4753,8 @@
 .cdp[actpage="78"] .cdp_i:nth-child(83):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="79"] .cdp_i:nth-child(77):not(:first-child):not(:nth-child(2)) {
@@ -4767,8 +4768,8 @@
 .cdp[actpage="79"] .cdp_i:nth-child(77):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="79"] .cdp_i:nth-child(78):not(:first-child) {
@@ -4812,8 +4813,8 @@
 .cdp[actpage="79"] .cdp_i:nth-child(84):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="80"] .cdp_i:nth-child(78):not(:first-child):not(:nth-child(2)) {
@@ -4827,8 +4828,8 @@
 .cdp[actpage="80"] .cdp_i:nth-child(78):not(:first-child):not(:nth-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 .cdp[actpage="80"] .cdp_i:nth-child(79):not(:first-child) {
@@ -4872,8 +4873,8 @@
 .cdp[actpage="80"] .cdp_i:nth-child(85):not(:last-child):not(:nth-last-child(2)):after {
   content: '...';
   color: #000;
-  font-size: 32px;
-  margin-left: -6px;
+  font-size: 24px;
+  margin-left: -13px;
 }
 
 @media screen and (max-width: 1500px) {
