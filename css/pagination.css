@@ -63,18 +63,24 @@
   display: inline-block;
 }
 
+.cdp_i:hover {
+  background-color: #f9da08;
+  color: #000;
+}
+
+@media screen and (max-width: 992px) {
+  .cdp {
+    margin: 29px 0 40px 0;
+  }
+}
+
 @media screen and (max-width: 1500px) {
-  .cdp .cdp_i {
+  .cdp_i {
     height: 40px;
     min-width: 40px;
     line-height: 36px;
     font-size: 12px;
   }
-}
-
-.cdp_i:hover {
-  background-color: #f9da08;
-  color: #000;
 }
 
 .cdp[actpage="1"] .cdp_i:nth-child(-1):not(:first-child):not(:nth-child(2)) {

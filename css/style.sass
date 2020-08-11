@@ -42,17 +42,6 @@ h4
   font-family: 'Open Sans', sans-serif
   @media screen and ( max-width: 1920px ) 
     font-size: 20px
-p 
-  font-size: 1.1rem
-  @media screen and (max-width: 1500px)
-    font-size: 13px
-  @media screen and (max-width: 1200px)
-    font-size: 11px
-  @media screen and (max-width: 1100px)
-    font-size: 9px
-  @media screen and (max-width: 736px) 
-    font-size: 12px   
-
 html 
   overflow-x: visible
 body 
@@ -68,7 +57,7 @@ body
         font-size: 14px
         line-height: 1.14
         color: #000000
-        padding-bottom: 9px!important
+        padding-bottom: 9px
         .logo 
           width: 58px
           height: 53px
@@ -138,8 +127,6 @@ body
             display: none
   main 
     padding: 0 24px 0 30px
-    transition: 0.5s
-    display: block
     @media screen and (max-width: 992px)
       padding: 0 15px
     .owl-carousel 
@@ -234,13 +221,12 @@ body
         color: #fff
         height: 277px
         overflow: hidden   
-        position: relative 
-        
+        position: relative        
         &:nth-child(2),
         &:nth-child(3),
-        &:nth-child(6)
-        a    
-             
+        &:nth-child(6),
+        &:nth-child(8)
+        a                 
           >div
             &:after
               content: ''
@@ -256,26 +242,23 @@ body
             >div
               &:after
                 background: #0000006e
-        &:nth-child(6)
+        &:nth-child(6),
+        &:nth-child(8)
           a       
             >div
               &:after
-                background: #00000026
-              
-                  
+                background: #00000026                 
         &:nth-child(1)  
           a  
             >img     
               height: 100%
               width: 101%
-        //блок 2-й ==========
         &:nth-child(2)
           a  
             >img     
               width: 102%
               top: -74px
-              left: -5px
-              
+              left: -5px           
             >div
               img 
                 width: 553px
@@ -285,9 +268,7 @@ body
                   top: 96px
                 @media screen and ( max-width: 1400px )
                   top: 81px
-                  right: -227px
-              
-        //блок 3-й ==========
+                  right: -227px     
         &:nth-child(3)
           a 
             >img 
@@ -303,9 +284,7 @@ body
                   right: 31px
                 @media screen and ( max-width: 1280px )
                   width: 173px
-                  right: 31px
-              
-        //блок 4-й ==========
+                  right: 31px         
         &:nth-child(4)
           a       
             >img     
@@ -317,7 +296,6 @@ body
                 width: 236px
                 top: 7px
                 right: 24px
-        //блок 5-й ==========
         &:nth-child(5)
           a  
             >img 
@@ -334,7 +312,6 @@ body
                   width: 397px
                   top: -31px
                   right: -91px
-        //блок 6-й ==========
         &:nth-child(6)
           a   
             >img 
@@ -344,9 +321,7 @@ body
               @media screen and ( min-width: 1560px )
                 width: 124%   
               @media screen and ( max-width: 992px )
-                width: 124% 
-
-              
+                width: 124%             
             >div
               img 
                 width: 323px
@@ -360,7 +335,6 @@ body
                   width: 195px
                   top: 70px
                   right: -23px
-        //блок 7-й ==========
         &:nth-child(7) 
           background-color:#3c7de5
           a       
@@ -376,8 +350,6 @@ body
                   bottom: 0
                 @media screen and ( max-width: 1440px )
                   width: 459px
-
-        //блок 8-й ==========
         &:nth-child(8) 
           a   
             >img 
@@ -427,7 +399,7 @@ body
           >div:not(.block_news)
             height: 100%
             padding: 24px 24px 24px 30px
-            transition: 1s
+            transition: 0.6s
             &:hover
               transform: scale(1.02) 
             >img 
@@ -512,8 +484,7 @@ body
           width: 63%
           color: #fff 
           @media screen and (max-width: 1600px)
-            width: 56%
-        
+            width: 56%       
 .row_icon
   padding: 0
   .row 
@@ -523,6 +494,8 @@ body
       background-repeat: no-repeat
       background-size: cover
       background-position: center
+      @media screen and ( max-width: 2048px )
+        padding: 11px
       div  
         height: 285px
         border-radius: 10px
@@ -530,7 +503,6 @@ body
         position: relative
         padding: 31px 32px
         cursor: pointer
-        transition: 1s
         &:hover 
           transform: scale(1.02)
         &:after 
@@ -576,7 +548,7 @@ section.production, section.blog_news
             margin: 0 18px 25px 0
             font-size: 21px
             transition: 0.2s
-            font-weight: 900
+            font-weight: 700
             letter-spacing: -0.3px
             &:hover
               background: #f9da08
@@ -584,7 +556,7 @@ section.production, section.blog_news
               font-size: 14px
               padding: 11px 23px
             @media screen and (max-width: 1480px)
-              font-size: 12px
+              font-size: 13px
               padding: 7px 19px
             @media screen and (max-width: 1330px)
               padding: 7px 14px
@@ -595,35 +567,27 @@ section.production, section.blog_news
     div.row_icon 
       .row 
         div 
-          //блок 1-й ==========
           &:nth-child(1)
             div 
               background-image: url('../img/internal_img_1.jpg')
-          //блок 2-й ==========
           &:nth-child(2)
             div 
               background-image: url('../img/internal_img_2.jpg')
-          //блок 3-й ==========
           &:nth-child(3)
             div 
               background-image: url('../img/internal_img_3.jpg')
-          //блок 4-й ==========
           &:nth-child(4)
             div 
               background-image: url('../img/internal_img_4.jpg')
-          //блок 5-й ==========
           &:nth-child(5)
             div 
               background-image: url('../img/internal_img_5.jpg')
-          //блок 6-й ==========
           &:nth-child(6)
             div 
               background-image: url('../img/internal_img_6.jpg')
-          //блок 7-й ==========
           &:nth-child(7) 
             div
               background-image: url('../img/internal_img_7.jpg')
-          //блок 8-й ==========
           &:nth-child(8) 
             div
               background-image: url('../img/internal_img_8.jpg')
@@ -638,11 +602,9 @@ section.shares
     div.row_icon 
       .row 
         div 
-          //блок 1-й ==========
           &:nth-child(1)
             div 
               background-image: url('../img/internal_img_1.jpg')
-          //блок 2-й ==========
           &:nth-child(2)
             div 
               background-image: url('../img/internal_img_2.jpg')
@@ -657,19 +619,15 @@ section.portfolio
     div.row_icon 
       .row 
         div 
-          //блок 1-й ==========
           &:nth-child(1)
             div 
               background-image: url('../img/portfolio_img_case.jpg')
-          //блок 2-й ==========
           &:nth-child(2)
             div 
               background-image: url('../img/portfolio_img_case.jpg')
-          //блок 3-й ==========
           &:nth-child(3)
             div 
               background-image: url('../img/portfolio_img_case.jpg')
-          //блок 4-й ==========
           &:nth-child(4)
             div 
               background-image: url('../img/portfolio_img_case.jpg')
@@ -684,15 +642,12 @@ section.reviews
     div.row_icon 
       .row 
         div 
-          //блок 1-й ==========
           &:nth-child(1)
             div 
               background-image: url('../img/reviews_internal_1.jpg')
-          //блок 2-й ==========
           &:nth-child(2)
             div 
               background-image: url('../img/reviews_internal_2.jpg')
-          //блок 3-й ==========
           &:nth-child(3)
             div 
               background-image: url('../img/reviews_internal_3.jpg')
@@ -744,6 +699,10 @@ section.constructor
     div:last-child 
       @media screen and ( max-width: 1200px )
         padding: 0 15px
+      @media screen and ( max-width: 736px ) and (max-height: 460px)
+        flex: 0 0 100%
+        max-width: 100%
+        
 // секция новости в блоге 
 section.blog_news 
   padding: 124px 0 54px 0
@@ -948,7 +907,6 @@ form.submit_application_2
   margin: 9px 0 0 0
   @media screen and (max-width: 992px)
     margin: 9px 0 55px 0
-
 // полоса прокрутки ============
 ::-webkit-scrollbar 
   width: 2px
@@ -956,7 +914,6 @@ form.submit_application_2
 ::-webkit-scrollbar-thumb 
   border-radius: 2px
   background-color: #D39C74
-
 // стили модального окна ==============
 .modal-backdrop 
   background-color: transparent
@@ -995,13 +952,11 @@ form.submit_application_2
         @media screen and (max-width: 992px)
           font-size: 18px 
           line-height: 25px
-
 // Табы на странице Блог ==========
 #tab_1 
   display: block
 .list 
-  display: none
-              
+  display: none         
 // меню выдвигающееся ===============
 .menu_1 
   width: 300px
@@ -1140,36 +1095,22 @@ form.submit_application_2
   bottom: 0
 .navbar_line_mobile_active_3
   opacity: 0
-
-
-
 .button_transform 
-  // @media screen and ( max-width: 2130px )
-  //   font-size: 20px!important
   @media screen and ( max-width: 2125px )
     font-size: 15px!important
   @media screen and ( max-width: 1900px )
     font-size: 13px!important
   @media screen and ( max-width: 1712px )
     font-size: 10px!important
-
-
-
 .tel_size_transform 
   font-size: 61px!important
   @media screen and ( max-width: 1652px ) and (min-width: 1500px)
-    font-size: 58px!important
-  @media screen and (max-width: 1500px) 
-    font-size: 38px!important
-
-
-
+    font-size: 57px!important
+  @media screen and (max-width: 1585px) 
+    font-size: 37px!important
 .active_news_padding 
-  // padding-left: 0!important
-
-
-
-
+  @media screen and ( min-width: 1200px )
+    padding-left: 0!important
 .active_link
   color: #7f7f7f!important
   border-bottom: 2px solid transparent!important
