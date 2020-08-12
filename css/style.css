@@ -872,6 +872,12 @@ body main .home_page > div h3:not(.news_block_h2_footer) {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .row_icon .row div div {
+    height: 337px;
+  }
+}
+
 section.production {
   padding: 124px 0 50px 57px;
 }
