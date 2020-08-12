@@ -670,6 +670,12 @@ body main .home_page > div:nth-child(9) {
   background-color: #dfdfdf;
 }
 
+@media screen and (max-width: 420px) {
+  body main .home_page > div:nth-child(9) {
+    height: 351px;
+  }
+}
+
 body main .home_page > div:nth-child(9) div {
   color: #000;
   padding: 24px 30px;
