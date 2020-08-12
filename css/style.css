@@ -434,6 +434,12 @@ body main .home_page > div:nth-child(2) a > img {
   left: -5px;
 }
 
+@media screen and (max-width: 460px) {
+  body main .home_page > div:nth-child(2) a > img {
+    top: 0;
+  }
+}
+
 body main .home_page > div:nth-child(2) a > div img {
   width: 553px;
   top: 39px;
@@ -530,6 +536,13 @@ body main .home_page > div:nth-child(6) a > img {
 @media screen and (max-width: 992px) {
   body main .home_page > div:nth-child(6) a > img {
     width: 124%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  body main .home_page > div:nth-child(6) a > img {
+    top: 0;
+    height: 100%;
   }
 }
 
