@@ -672,7 +672,7 @@ body main .home_page > div:nth-child(9) {
 
 @media screen and (max-width: 420px) {
   body main .home_page > div:nth-child(9) {
-    height: 351px;
+    height: 400px;
   }
 }
 
