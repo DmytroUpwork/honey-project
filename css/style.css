@@ -85,13 +85,18 @@ h4 {
 
 html {
   overflow-x: hidden;
+  -moz-overflow-x: hidden;
+  -ms-overflow-x: hidden;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
   background: #fff;
   overflow-x: hidden;
-  position: relative;
+  -moz-overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  -moz-position: relative;
+  -ms-position: relative;
 }
 
 body header nav.navbar {
