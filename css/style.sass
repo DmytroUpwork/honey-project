@@ -221,7 +221,9 @@ body
         color: #fff
         height: 277px
         overflow: hidden   
-        position: relative        
+        position: relative   
+        @media screen and ( max-width: 992px ) and (min-width: 768px)
+          height: 437px
         &:nth-child(2),
         &:nth-child(3),
         &:nth-child(6),
@@ -270,7 +272,12 @@ body
                   top: 96px
                 @media screen and ( max-width: 1400px )
                   top: 81px
-                  right: -227px     
+                  right: -227px  
+                  @media screen and ( max-width: 992px ) and (min-width: 768px)
+                    top: 170px
+                    right: -126px
+                    width: 653px
+                    
         &:nth-child(3)
           a 
             >img 
@@ -286,7 +293,9 @@ body
                   right: 31px
                 @media screen and ( max-width: 1280px )
                   width: 173px
-                  right: 31px         
+                  right: 31px  
+                @media screen and ( max-width: 992px ) and (min-width: 768px)
+                  width: 295px
         &:nth-child(4)
           a       
             >img     
@@ -298,6 +307,10 @@ body
                 width: 236px
                 top: 7px
                 right: 24px
+                @media screen and ( max-width: 992px ) and (min-width: 768px)
+                  bottom: 0
+                  top: auto
+                  width: 336px
         &:nth-child(5)
           a  
             >img 
@@ -314,6 +327,8 @@ body
                   width: 397px
                   top: -31px
                   right: -91px
+                @media screen and ( max-width: 992px ) and (min-width: 768px)
+                  width: 530px
         &:nth-child(6)
           a   
             >img 
@@ -340,6 +355,8 @@ body
                   width: 195px
                   top: 70px
                   right: -23px
+                @media screen and ( max-width: 992px ) and (min-width: 768px)
+                  width: 411px
         &:nth-child(7) 
           background-color:#3c7de5
           a       
@@ -355,6 +372,8 @@ body
                   bottom: 0
                 @media screen and ( max-width: 1440px )
                   width: 459px
+                @media screen and ( max-width: 992px ) and (min-width: 768px)
+                  width: 756px
         &:nth-child(8) 
           a   
             >img 
@@ -371,28 +390,42 @@ body
                   width: 249px
                   top: 25px
                   right: 18px
+                @media screen and ( max-width: 992px ) and (min-width: 768px)
+                  width: 458px
         &:nth-child(9) 
           background-color: #dfdfdf
           div
             color: #000
             padding: 24px 30px
+            @media screen and ( max-width: 992px ) and (min-width: 768px)
+              padding: 56px 53px
             h5 
               font-size: 15px
               @media screen and (max-width: 1200px)
                 font-size: 12px
+              @media screen and ( max-width: 992px ) and (min-width: 768px)
+                font-size: 18px
             >strong 
               font-size: 13px
+              @media screen and ( max-width: 992px ) and (min-width: 768px)
+                font-size: 15px
             p
               margin-top: 14px
               line-height: 24px
               font-size: 15px
               font-family: 'Open Sans', sans-serif
+              @media screen and ( max-width: 992px ) and (min-width: 768px)
+                font-size: 23px
+                margin-top: 43px
+                line-height: 30px
               @media screen and ( max-width: 620px )
                 font-size: 14px      
             .news_block_h2_footer
               font-family: 'Noto Sans', sans-serif
               font-size: 31px
               letter-spacing: -0.1px
+              @media screen and ( max-width: 992px ) and (min-width: 768px)
+                font-size: 38px
         @media screen and (max-width: 1500px)
           padding: 28px
         @media screen and (max-width: 1200px)
@@ -410,6 +443,8 @@ body
             >img 
               position: absolute 
               z-index: 3
+            @media screen and ( max-width: 992px ) and (min-width: 768px)
+              padding: 56px 24px 24px 58px
           div.icon_in_box_home 
             position: absolute
             z-index: 4
@@ -485,6 +520,9 @@ body
             font-size: 26px            
           @media screen and (max-width: 1200px)
             font-size: 23px  
+          @media screen and ( max-width: 992px ) and (min-width: 768px)
+            font-size: 38px 
+            line-height: 56px
         h3:not(.news_block_h2_footer)
           width: 63%
           color: #fff 
