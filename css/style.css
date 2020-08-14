@@ -2039,6 +2039,13 @@ form.submit_application_2 {
 @media screen and (max-width: 1200px) {
   .main_transform {
     width: 100%;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main_transform {
+    padding-right: 15px;
   }
 }
 
