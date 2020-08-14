@@ -97,6 +97,7 @@ body {
   -ms-overflow-x: hidden;
   -moz-position: relative;
   -ms-position: relative;
+  position: relative;
 }
 
 body header nav.navbar {
